@@ -1,6 +1,5 @@
 {% load static %}
 
-
 <!-- Menu Mobile -->
 <div class="menu-mobile">
     <ul class="topbar-mobile">
@@ -14,12 +13,12 @@
 
     <ul class="main-menu-m">
         <li>
-            <a href="">ALL PRODUCTS</a>
+            <a href="{% url 'products' %}">ALL PRODUCTS</a>
             <ul class="sub-menu-m">
-                <li><a href="">By Price</a></li>
-                <li><a href="">By Rating</a></li>
-                <li><a href="">By Category</a></li>
-                <li><a href="">All Products</a></li>
+                <li><a href="{% url 'products' %}?sort=price&direction=asc">By Price</a></li>
+                <li><a href="{% url 'products' %}?sort=rating&direction=desc">By Rating</a></li>
+                <li><a href="{% url 'products' %}?sort=category&direction=asc">By Category</a></li>
+                <li><a href="{% url 'products' %}?category=monitors">All Products</a></li>
             </ul>
             <span class="arrow-main-menu-m">
                 <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -28,13 +27,13 @@
 
 
         <li>
-            <a href="">COMPUTING</a>
+            <a href="{% url 'products' %}">COMPUTING</a>
             <ul class="sub-menu-m">
-                <li><a href="">Pc</a></li>
-                <li><a href="">Components</a></li>
-                <li><a href="">Laptops</a></li>
-                <li><a href="">Monitors</a></li>
-                <li><a href="">All computing</a></li>
+                <li><a href="{% url 'products' %}?category=pc">Pc</a></li>
+                <li><a href="{% url 'products' %}?category=components">Components</a></li>
+                <li><a href="{% url 'products' %}?category=laptops">Laptops</a></li>
+                <li><a href="{% url 'products' %}?category=monitors">Monitors</a></li>
+                <li><a href="{% url 'products' %}?category=pc,components,laptops,monitors">All computing</a></li>
             </ul>
             <span class="arrow-main-menu-m">
                 <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -43,13 +42,12 @@
 
 
         <li>
-            <a href="" class="label1 rs1" data-label1="hot">DEALS</a>
+            <a href="{% url 'products' %}?category=deals" class="label1 rs1" data-label1="hot">DEALS</a>
         </li>
 
 
         <li>
-            <a href="">CLEARANCE</a>
+            <a href="{% url 'products' %}?category=clearance">CLEARANCE</a>
         </li>
     </ul>
-
 </div>
