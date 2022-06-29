@@ -2110,8 +2110,7 @@ button.mfp-close {
 /*//////////////////////////////////////////////////////////////////
   [ Num Product ]*/
 .wrap-num-product {
-    width: 140px;
-    height: 45px;
+    width: 189px;
     border-radius: 3px;
     overflow: hidden;
 }
@@ -2129,6 +2128,7 @@ input.num-product {
     -moz-appearance: textfield;
     appearance: none;
     -webkit-appearance: none;
+    padding-right: 10px;
 }
 
 input.num-product::-webkit-outer-spin-button,
