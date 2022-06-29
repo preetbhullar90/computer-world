@@ -2112,17 +2112,10 @@ button.mfp-close {
 .wrap-num-product {
     width: 140px;
     height: 45px;
-    border: 1px solid #e6e6e6;
     border-radius: 3px;
     overflow: hidden;
 }
 
-.btn-num-product-up,
-.btn-num-product-down {
-    width: 45px;
-    height: 100%;
-    cursor: pointer;
-}
 
 .num-product {
     width: calc(100% - 90px);
