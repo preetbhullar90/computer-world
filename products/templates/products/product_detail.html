@@ -22,31 +22,44 @@
                     <div class="wrap-slick3 flex-sb flex-w">
                         <div class="wrap-slick3-dots"></div>
                         <div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
-                        {% if product.image %}
                         <div class="slick3 gallery-lb">
+                            {% if product.image %}
                             <div class="item-slick3" data-thumb="{{product.image.url }}">
                                 <div class="wrap-pic-w pos-relative">
-
                                     <img src="{{product.image.url }}" target="_blank">
-
                                     <a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
                                         href="{{product.image.url }}">
                                         <i class="fa fa-expand"></i>
                                     </a>
                                 </div>
                             </div>
+                            {% else %}
+                            <a href="">
+                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
+                                    alt="{{ product.name }}">
+                            </a>
+                            {% endif %}
 
+
+                            {% if product.image1 %}
                             <div class="item-slick3" data-thumb="{{product.image1.url }}">
                                 <div class="wrap-pic-w pos-relative">
                                     <img src="{{product.image1.url }}" alt="{{ product.name }}">
-
                                     <a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
                                         href="{{product.image1.url }}" alt="{{ product.name }}">
                                         <i class="fa fa-expand"></i>
                                     </a>
                                 </div>
                             </div>
+                            {% else %}
+                            <a href="">
+                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
+                                    alt="{{ product.name }}">
+                            </a>
+                            {% endif %}
 
+
+                            {% if product.image2 %}
                             <div class="item-slick3" data-thumb="{{product.image2.url }}" alt="{{ product.name }}">
                                 <div class="wrap-pic-w pos-relative">
                                     <img src="{{product.image2.url }}" alt="{{ product.name }}">
@@ -57,13 +70,15 @@
                                     </a>
                                 </div>
                             </div>
+                            {% else %}
+                            <a href="">
+                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
+                                    alt="{{ product.name }}">
+                            </a>
+                            {% endif %}
+
+
                         </div>
-                        {% else %}
-                        <a href="">
-                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
-                                alt="{{ product.name }}">
-                        </a>
-                        {% endif %}
                     </div>
                 </div>
             </div>
@@ -291,9 +306,16 @@
 
                                     <!-- Review -->
                                     <div class="flex-w flex-t p-b-68">
+                                        {% if product.image1 %}
                                         <div class="wrap-pic-s size-109  of-hidden m-r-18 m-t-6">
                                             <img src="{{product.image1.url }}" alt="{{ product.name }}">
                                         </div>
+                                        {% else %}
+                                        <a href="">
+                                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
+                                                alt="{{ product.name }}">
+                                        </a>
+                                        {% endif %}
 
                                         <div class="size-207">
                                             <div class="flex-w flex-sb-m p-b-17">
