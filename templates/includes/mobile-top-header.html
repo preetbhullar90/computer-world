@@ -47,7 +47,11 @@
 
             <div class="text-center">
                 <div><i class="fa fa-user fa-lg"></i></div>
-                <p class="my-0 ">Account</p>
+                {% if request.user.is_authenticated %}
+                <p class="my-0 ">{{request.user}}</p>
+                {% else %}
+                <p class="my-0">Login/Register</p>
+                {% endif %}
             </div>
         </a>
 

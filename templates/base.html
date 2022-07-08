@@ -134,6 +134,10 @@
                             <li>
                                 <a href="{% url 'products' %}?category=clearance">CLEARANCE</a>
                             </li>
+
+                            <li>
+                                <a href="{% url 'aboutus' %}">ABOUT US</a>
+                            </li>
                         </ul>
 
                     </div>
@@ -169,7 +173,11 @@
                                     aria-haspopup="true" aria-expanded="false">
                                     <div class="text-center">
                                         <div><i class="fa fa-user fa-lg"></i></div>
-                                        <p class="my-0">Account</p>
+                                        {% if request.user.is_authenticated %}
+                                        <p class="my-0 ">{{request.user}}</p>
+                                        {% else %}
+                                        <p class="my-0">Login/Register</p>
+                                        {% endif %}
                                     </div>
                                 </a>
                                 <div class="dropdown-menu border-0" aria-labelledby="user-options">
@@ -220,8 +228,19 @@
                 <i class="zmdi zmdi-chevron-up"></i>
             </span>
         </div>
+
+
+        {% block page_header %}
+        {% endblock %}
+
+        {% block content %}
+        {% endblock %}
     </header>
 
+
+    {% block page_footer %}
+
+    {% endblock %}
 
     {% if messages %}
     <div>
@@ -246,17 +265,6 @@
     </div>
     {% endif %}
 
-
-
-
-
-
-
-    {% block page_header %}
-    {% endblock %}
-
-    {% block content %}
-    {% endblock %}
 
 
     {% block postloadjs %}

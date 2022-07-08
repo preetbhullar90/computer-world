@@ -30,7 +30,7 @@ class Product(models.Model):
     image = models.ImageField(null=True, blank=True)
     image1 = models.ImageField(null=True, blank=True)
     image2 = models.ImageField(null=True, blank=True)
-    weight = models.CharField(max_length=254)
+    weight = models.FloatField()
     dimension = models.CharField(max_length=254)
 
     def __str__(self):

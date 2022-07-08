@@ -228,7 +228,7 @@
   [ Top bar ]*/
 .top-bar {
     height: 40px;
-    background-color: #d8980d;
+    background-color: #000;
 }
 
 /*---------------------------------------------*/
@@ -236,7 +236,7 @@
     font-family: Poppins-Regular;
     font-size: 17px;
     line-height: 1.8;
-    color: #f90606;
+    color: #fff;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -858,7 +858,24 @@ a.category-badge>span.badge {
         margin-top: 5rem;
     }
 
+    .subscribe-input {
+        margin-bottom: 20px;
+        padding: 6px 0px 6px 6px;
+    }
 
+    .subscribe-button {
+        text-align: center;
+
+    }
+
+    .subscribe-image {
+        height: 20vh;
+    }
+
+    .subscribe-text {
+        text-align: center;
+        align-items: center;
+    }
 }
 
 /*==================================================================
@@ -971,6 +988,18 @@ a.category-badge>span.badge {
 
     .table-width {
         width: 25%;
+    }
+
+    .subscribe-button {
+        margin-left: 20px;
+    }
+
+    .subscribe-image {
+        height: 50vh;
+    }
+
+    .subscribe-input {
+        width: 100%;
     }
 }
 
@@ -3987,6 +4016,10 @@ input.num-product::-webkit-inner-spin-button {
 
     /*---------------------------------------------*/
     .respon4 {
+        width: 100%;
+    }
+
+    .subscribe-input {
         width: 100%;
     }
 
