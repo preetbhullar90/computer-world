@@ -188,6 +188,7 @@
     .message-container {
         top: 76px;
     }
+
 }
 
 
@@ -699,6 +700,7 @@ a.category-badge>span.badge {
     .message-container {
         top: 76px;
     }
+
 }
 
 @media (max-width: 575px) {
@@ -876,6 +878,7 @@ a.category-badge>span.badge {
         text-align: center;
         align-items: center;
     }
+
 }
 
 /*==================================================================
@@ -4219,19 +4222,14 @@ input.num-product::-webkit-inner-spin-button {
         padding-top: 10px;
     }
 
-
-
-
-    .table thead th {
-        display: none;
-    }
-
-    .py-3>p {
-        display: none;
-    }
-
     .message-container {
         top: 67px;
     }
+
+    .nav-link {
+        padding: .5rem 0rem;
+    }
+
+
 
 }
