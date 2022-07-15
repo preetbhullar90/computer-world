@@ -3944,6 +3944,10 @@ input.num-product::-webkit-inner-spin-button {
     .message-container {
         top: 67px;
     }
+
+    .allauth-form-inner-content {
+        padding-top: 6rem;
+    }
 }
 
 
