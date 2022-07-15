@@ -53,7 +53,6 @@
                         {% include "bag/quantity-form.html" %}
                     </div>
                 </div>
-
                 <div class="row">
                     <div class="col">
                         <hr>
@@ -61,10 +60,8 @@
                 </div>
                 {% endfor %}
 
-
             </div>
-
-            <div class="table-responsive rounded d-none d-mid-block">
+            <div class="table-responsive of-hidden rounded d-none d-md-block">
                 <table class="table table-sm table-borderless">
                     <thead class="text-black">
                         <tr>
@@ -78,16 +75,16 @@
 
                     {% for item in bag_items %}
                     <tr>
-                        <td class="p-3 table-width border-0">
+                        <td class="p-3 w-25 border-0">
                             {% include "bag/product-image.html" %}
                         </td>
                         <td class="py-3 border-0">
                             {% include "bag/product-info.html" %}
                         </td>
                         <td class="py-3 border-0">
-                            <p class="my-0 m-r-50 ">${{ item.product.price }}</p>
+                            <p class="my-0">${{ item.product.price }}</p>
                         </td>
-                        <td class="py-3 border-0">
+                        <td class="py-3 w-25 border-0">
                             {% include "bag/quantity-form.html" %}
                         </td>
                         <td class="py-3 border-0">
@@ -101,7 +98,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="5" class="text-right border-0">
+                        <td colspan="5" class="text-right">
                             {% include "bag/checkout-buttons.html" %}
                         </td>
                     </tr>
@@ -110,18 +107,16 @@
             {% else %}
             <p class="lead mb-5">Your bag is empty.</p>
             <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg keep-shopping-text">
-                <span class="icons ">
-                    <i class="fa fa-chevron-left"></i>
+                <span class="icons">
+                    <i class="fas fa-chevron-left"></i>
                 </span>
-                <span class="text-uppercase ">Keep Shopping</span>
+                <span class="text-uppercase">Keep Shopping</span>
             </a>
             {% endif %}
         </div>
     </div>
 </div>
 {% endblock %}
-
-
 
 {% block postloadjs %}
 {{ block.super }}

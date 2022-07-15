@@ -4230,6 +4230,9 @@ input.num-product::-webkit-inner-spin-button {
         padding: .5rem 0rem;
     }
 
+    .btn-lg {
+        font-size: 0.6rem;
+    }
 
 
 }
