@@ -76,9 +76,21 @@
     margin-right: 10px;
 }
 
+#containers {
+    padding-top: 18rem;
+    text-align: center;
+    margin-bottom: 20rem;
+}
+
 @media (max-width: 1600px) {
     .container {
         max-width: 1200px;
+    }
+
+    #containers {
+        padding-top: 7rem;
+        text-align: center;
+        margin-bottom: 10rem;
     }
 }
 
@@ -4234,6 +4246,12 @@ input.num-product::-webkit-inner-spin-button {
         font-size: 0.6rem;
     }
 
+    #containers {
+        padding-top: 5rem;
+        text-align: center;
+        margin-bottom: 10rem;
+    }
+
 
 }
 
@@ -4255,37 +4273,33 @@ svg {
     width: 500px;
     height: 400px;
     text-align: center;
-    fill: #cda45e;
+    fill: #000;
     margin-bottom: 50px;
 }
 
 path#XMLID_5_ {
 
-    fill: #cda45e;
+    fill: #000;
     filter: url(#blurFilter4);
 }
 
 path#XMLID_11_,
 path#XMLID_2_ {
-    fill: #cda45e;
+    fill: #000;
 }
 
 .circle {
     animation: out 2s infinite ease-out;
-    fill: #cda45e;
+    fill: #000;
 }
 
-#containers {
-    text-align: center;
-    margin-bottom: 10rem;
-}
 
 .message {
     color: #cda45e;
 }
 
 .message {
-    color: #cda45e;
+    color: #000;
     font-size: 42;
     font-weight: 700;
     margin: 0;
@@ -4311,7 +4325,7 @@ path#XMLID_2_ {
 }
 
 .notfound p {
-    color: #cda45e;
+    color: #000;
     font-weight: 400;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -4321,8 +4335,8 @@ path#XMLID_2_ {
 
 .submit-button {
     color: white;
-    background-color: #cda45e;
-    border-color: #cda45e;
+    background-color: #000;
+    border-color: #000;
     text-transform: capitalize;
     cursor: pointer;
     padding: 15px;
@@ -4332,14 +4346,14 @@ path#XMLID_2_ {
 }
 
 .submit-button:hover {
-    background-color: #b5832b;
+    background-color: #4a4848;
     color: #fff;
 }
 
 .message h2:after,
 .message h2:before {
 
-    color: #cda45e;
+    color: #000;
     font-size: 42px;
     -webkit-animation-name: opacity;
     -webkit-animation-duration: 2s;
@@ -4404,7 +4418,7 @@ path#XMLID_2_ {
     }
 }
 
-/* Media query for 404/500 pages */
+/* Media query for 404 page */
 
 @media only screen and (max-width: 480px) {
     svg {
