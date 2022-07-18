@@ -9,4 +9,4 @@ def index(request):
 
 def error_404(request, exception):
     """ 404 error page """
-    return render(request, '404.html', status=404)
+    return render(request, 'error404.html', status=404)
