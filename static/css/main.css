@@ -4236,3 +4236,202 @@ input.num-product::-webkit-inner-spin-button {
 
 
 }
+
+/* 404 & 500 error page https://freefrontend.com/html-css-404-page-templates/ */
+
+.st0 {
+    font-family: 'FootlightMTLight';
+}
+
+.st1 {
+    font-size: 83.0285px;
+}
+
+.st2 {
+    fill: gray;
+}
+
+svg {
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    fill: #cda45e;
+    margin-bottom: 50px;
+}
+
+path#XMLID_5_ {
+
+    fill: #cda45e;
+    filter: url(#blurFilter4);
+}
+
+path#XMLID_11_,
+path#XMLID_2_ {
+    fill: #cda45e;
+}
+
+.circle {
+    animation: out 2s infinite ease-out;
+    fill: #cda45e;
+}
+
+#containers {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.message {
+    color: #cda45e;
+}
+
+.message {
+    color: #cda45e;
+    font-size: 42;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 1.6px;
+}
+
+.message h2:after {
+    content: "]";
+}
+
+.message h2:before {
+    content: "[";
+}
+
+.notfound {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 520px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.notfound p {
+    color: #cda45e;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.submit-button {
+    color: white;
+    background-color: #cda45e;
+    border-color: #cda45e;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+}
+
+.submit-button:hover {
+    background-color: #b5832b;
+    color: #fff;
+}
+
+.message h2:after,
+.message h2:before {
+
+    color: #cda45e;
+    font-size: 42px;
+    -webkit-animation-name: opacity;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: opacity;
+    animation-name: opacity;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    margin: 0 50px;
+}
+
+@-webkit-keyframes opacity {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes opacity {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes out {
+    0% {
+        r: 1;
+        opacity: 0.9;
+    }
+
+    25% {
+        r: 5;
+        opacity: 0.3;
+    }
+
+    50% {
+        r: 10;
+        opacity: 0.2;
+    }
+
+    75% {
+        r: 15;
+        opacity: 0.1;
+    }
+
+    100% {
+        r: 20;
+        opacity: 0;
+    }
+}
+
+/* Media query for 404/500 pages */
+
+@media only screen and (max-width: 480px) {
+    svg {
+        height: 122px;
+        line-height: 122px;
+        width: 300px;
+        margin-bottom: 6rem;
+    }
+
+    .notfound h2 {
+        font-size: 26px;
+    }
+
+    .notfound p {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+
+    .submit-button {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .message h2:after,
+    .message h2:before {
+        margin: 0 20px;
+    }
+
+}
