@@ -3039,6 +3039,20 @@ input.num-product::-webkit-inner-spin-button {
     background-color: #008000;
 }
 
+.add-to-bag-button {
+    width: auto;
+    min-width: 115px;
+    height: 33.6px;
+    line-height: 16.6px;
+}
+
+.more-info-button {
+    width: auto;
+    min-width: 115px;
+    height: 33.6px;
+    line-height: 16.6px;
+}
+
 .bg6 {
     background-color: #f2f2f2;
     justify-content: center;
