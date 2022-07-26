@@ -7,6 +7,7 @@ class TestAboutusViews(TestCase):
     def setUp(self):
         self.client = Client()
         self.aboutus_url = reverse('aboutus')
+        self.sitemap_url = reverse('sitemap')
         self.newsletter_signup_url = reverse('newsletter_signup')
         self.newsletter_unsubscribe_url = reverse('newsletter_unsubscribe')
 
@@ -14,6 +15,11 @@ class TestAboutusViews(TestCase):
         response = self.client.get(self.aboutus_url)
         self.assertEquals(response.status_code, 200)
         self.assertTemplateUsed(response, 'aboutus/aboutus.html')
+
+    def test_sitemap_GET(self):
+        response = self.client.get(self.sitemap_url)
+        self.assertEquals(response.status_code, 200)
+        self.assertTemplateUsed(response, 'aboutus/sitemap.html')
 
     def test_newsletter_signup_page_GET(self):
         response = self.client.get(self.newsletter_signup_url)

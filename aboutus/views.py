@@ -15,6 +15,13 @@ def aboutus(request):
     return render(request, 'aboutus/aboutus.html')
 
 
+def sitemap(request):
+    """ A view to return the index page """
+
+    return render(request, 'aboutus/sitemap.html')
+
+
+
 def newsletter_signup(request):
     form = NewsletterUserSignUpForm(request.POST or None)
 

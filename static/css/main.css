@@ -1923,7 +1923,6 @@ button.mfp-close {
 
 .message-container {
     position: absolute;
-    top: 111px;
     right: 15px;
     z-index: 99999999999;
     margin-left: 10px;

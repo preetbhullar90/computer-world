@@ -43,7 +43,7 @@
 
                             {% if product.image1 %}
                             <div class="item-slick3" data-thumb="{{product.image1.url }}">
-                                <div class="wrap-pic-w wrap-pic-h pos-relative">
+                                <div class="wrap-pic-w pos-relative">
                                     <img class="product-image-style" src="{{product.image1.url }}"
                                         alt="{{ product.name }}">
                                     <a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
@@ -379,6 +379,12 @@
 
                 <ul>
                     <li class="p-b-10">
+                        <a href="{% url 'products' %}" class="stext-107 cl7 hov-cl1 trans-04">
+                            All
+                        </a>
+                    </li>
+
+                    <li class="p-b-10">
                         <a href="{% url 'products' %}?category=pc" class="stext-107 cl7 hov-cl1 trans-04">
                             Pc
                         </a>
@@ -409,6 +415,17 @@
                 </h4>
 
                 <p class="stext-107 cl7 ">
+                    <a class="cl7" href="{% url 'sitemap'%}">Our Sitemap</a>
+                </p>
+                <p class="stext-107 cl7 ">
+                    <a class="cl7" href="{% url 'send_email'%}">Contact Us</a>
+                </p>
+
+                <p class="stext-107 cl7 p-b-10">
+                    <a class="cl7" href="{% url 'aboutus' %}">About Us</a>
+                </p>
+
+                <p class="stext-107 cl7 ">
                     Any questions? Let us know in store at, 245 Brodway Southall, United kingdom, Ub12gh or call
                     us
                     on
@@ -416,15 +433,16 @@
                 </p>
 
                 <div class="p-t-27">
-                    <a href="https://www.facebook.com/peetu.90/" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                    <a href="https://www.facebook.com/peetu.90/" target="_blank"
+                        class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
                         <i class="fa fa-facebook"></i>
                     </a>
 
-                    <a href="https://www.instagram.com" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                    <a href="https://www.instagram.com" target="_blank" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
                         <i class="fa fa-instagram"></i>
                     </a>
 
-                    <a href="https://www.twitter.com" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                    <a href="https://www.twitter.com" target="_blank" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
                         <i class="fa fa-twitter"></i>
                     </a>
                 </div>

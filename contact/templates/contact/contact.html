@@ -5,100 +5,134 @@
 <!-- Title page -->
 <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('{% static 'images/about.jpg' %}');">
     <h2 class="ltext-105 txt-center">
-        About
+        Contact
     </h2>
 </section>
 
 
 <!-- Content page -->
-<section class="bg0 p-t-75 p-b-120 ">
+<section class="bg0 p-t-104 p-b-116">
     <div class="container">
-        <div class="row p-b-148">
-            <div class="col-md-7 col-lg-8">
-                <div class="p-t-7 p-r-85 p-r-15-lg p-r-0-md">
-                    {% for message in messages %}
-                    <div class="alert alert-success" id="msg">
-                        <strong>{{ message }}</strong>
+        <div class="flex-w flex-tr">
+
+            <div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
+
+                <form action="{% url 'send_email' %}" method="POST">
+                    {% csrf_token %}
+                    <h4 class="mtext-105 cl2 txt-center p-b-30">
+                        Send Us A Message
+                    </h4>
+
+                    {% if form.errors %}
+                    {% for field in form %}
+                    {% for error in field.errors %}
+                    <div class="text-danger">
+                        <strong>{{ error }}</strong>
                     </div>
                     {% endfor %}
-                    <h3 class="mtext-111 cl2 p-b-16">
-                        The Company
-                    </h3>
+                    {% endfor %}
+                    {% endif %}
 
-                    <p class="stext-113 cl6 p-b-26">
-                        Computer world one of the best electrical retailers with million people and employee connected.
-                        compuetr world provide multi type of products to the customer like laptops, monitor, graphics
-                        card and so on.
-                        The company's warehouse located in southall, from where over 20,000 weekly orders are delivered
-                        to customers throughout the UK.
+                    <div class="bor8 m-b-20 how-pos4-parent">
+                        <div class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30">
 
-                    </p>
 
-                    <p class="stext-113 cl6 p-b-26">
-                        We provide best quality of products to the customers, and our delivery service increasing day by
-                        day,
-                        because customers know we provide best quality and low price of products to the customers.We
-                        provide pre build
-                        Gaming Pc to customers because some people don't have a time to build the pc so we are trying to
-                        saving their time and hard work.
-                    </p>
 
-                    <p class="stext-113 cl6 p-b-26">
-                        Any questions? Let us know in store at, 245 Brodway Southall, United kingdom, Ub12gh or call
-                        us on (+44) 36 716 58794
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-11 col-md-5 col-lg-4 m-lr-auto">
-                <div class="how-bor1 ">
-                    <div class="hov-img0">
-                        <img class="w-100" src="{% static 'images/company.jpg' %}" alt="IMG">
+                            {{form.name}}
+                        </div>
+                        <img class="how-pos4 pointer-none" src="{% static 'images/icons/user.jpg' %}" alt="ICON">
                     </div>
-                </div>
+
+
+
+                    <div class="bor8 m-b-20 how-pos4-parent ">
+                        <div class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30 ">
+                            {{form.email}}
+                            <img class="how-pos4 pointer-none" src="{% static 'images/icons/icon-email.png' %}"
+                                alt="ICON">
+                        </div>
+                    </div>
+
+
+
+                    <div class="bor8 m-b-30">
+                        <div class="stext-111 cl2 plh3 size-120 p-l-28 p-t-25">
+                            {{form.message}}
+                        </div>
+                    </div>
+
+
+                    <button type="submit"
+                        class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer">
+                        Submit
+                    </button>
+                </form>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="order-md-2 col-md-7 col-lg-8 p-b-30">
-                <div class="p-t-7 p-l-85 p-l-15-lg p-l-0-md">
-                    <h3 class="mtext-111 cl2 p-b-16">
-                        Our Service
-                    </h3>
+            <div class="size-210 bor10 flex-w flex-col-m p-lr-93 p-tb-30 p-lr-15-lg w-full-md">
+                <div class="flex-w w-full p-b-42">
+                    <span class="fs-18 cl5 txt-center size-211">
+                        <span class="lnr lnr-map-marker"></span>
+                    </span>
 
-                    <p class="stext-113 cl6 p-b-26">
-                        Computer world company alwayes focus to helping customers and save time.If customer has any
-                        issue with any product our customer service
-                        number is on the website, they can call anytime in working dayes without any time waste.When
-                        customers buy any product
-                        our company send them confirmation email for purcase product.
-                    </p>
-
-                    <div class="bor16 p-l-29 p-b-9 m-t-22">
-                        <p class="stext-114 cl6 p-r-40 p-b-11">
-                            We are always looking to improve our service to customers and this means listening to what
-                            our customers want. If you have any feedback for us, we look forward to hearing from you.
-                        </p>
-
-                        <span class="stext-111 cl8">
-                            - preet singh
+                    <div class="size-212 p-t-2">
+                        <span class="mtext-110 cl2">
+                            Address
                         </span>
+
+                        <p class="stext-115 cl6 size-213 p-t-18">
+                            Computer World 245 Brodway Southall, United kingdom, UB12GH
+                        </p>
                     </div>
                 </div>
-            </div>
 
-            <div class="order-md-1 col-11 col-md-5 col-lg-4 m-lr-auto p-b-30">
-                <div class="how-bor2">
-                    <div class="hov-img0">
-                        <img class="w-100" src="{% static 'images/customer-service.jpg' %}"
-                            alt="customer service image">
+                <div class="flex-w w-full p-b-42">
+                    <span class="fs-18 cl5 txt-center size-211">
+                        <span class="lnr lnr-phone-handset"></span>
+                    </span>
+
+                    <div class="size-212 p-t-2">
+                        <span class="mtext-110 cl2">
+                            Lets Talk
+                        </span>
+
+                        <p class="stext-115 cl1 size-213 p-t-18">
+                            (+44) 36 716 58794
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex-w w-full">
+                    <span class="fs-18 cl5 txt-center size-211">
+                        <span class="lnr lnr-envelope"></span>
+                    </span>
+
+                    <div class="size-212 p-t-2">
+                        <span class="mtext-110 cl2">
+                            Sale Support
+                        </span>
+
+                        <p class="stext-115 cl1 size-213 p-t-18">
+                            computer_world@gmail.com
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
+<!-- Map -->
+<div class="map">
+    <iframe title="google map" style="border:0; width: 100%; height: 350px;"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.151771362912!2d-0.3782926836720516!3d51.51043151830169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760d54c62777df%3A0x54f96cb1689f6a16!2sSouthall%20Broadway%20(Stop%20N)!5e0!3m2!1sen!2suk!4v1630595593008!5m2!1sen!2suk"
+        allowfullscreen></iframe>
+</div>
+
 {% endblock content %}
+
+
 
 
 {% block page_footer %}
@@ -209,4 +243,6 @@
         </div>
     </div>
 </footer>
+
+
 {% endblock %}
