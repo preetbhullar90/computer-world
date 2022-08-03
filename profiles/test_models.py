@@ -28,4 +28,3 @@ class TestProfilesModels(TestCase):
         profile = len(UserProfile.objects.all())
 
         self.assertEquals(profile, 0)
-

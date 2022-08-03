@@ -1,5 +1,4 @@
 """ All import libraries from django """
-from distutils.log import error
 from django.shortcuts import render
 from django.core.mail import send_mail
 from django.http import HttpResponseRedirect
@@ -43,7 +42,8 @@ def send_email(request):
             )
 
             messages.add_message(
-                request, messages.SUCCESS, f" We received your email and will respond shortly... ")
+                request, messages.SUCCESS, f"{''} We received your email and\
+                                             will respond shortly... ")
 
             return HttpResponseRedirect('/contact/')
 
@@ -51,4 +51,3 @@ def send_email(request):
         form = ContactForm()
 
     return render(request, 'contact/contact.html', {'form': form})
-

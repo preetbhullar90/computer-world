@@ -21,7 +21,6 @@ def sitemap(request):
     return render(request, 'aboutus/sitemap.html')
 
 
-
 def newsletter_signup(request):
     form = NewsletterUserSignUpForm(request.POST or None)
 
@@ -38,7 +37,8 @@ def newsletter_signup(request):
 
             email = request.POST.get('email')
             html_message = render_to_string(
-                'aboutus/confirmation_emails/newsletter_subscribe_confirmation.html',
+                'aboutus/confirmation_emails/'
+                'newsletter_subscribe_confirmation.html',
                 {'name': request.user.first_name})
             plain_message = strip_tags(html_message)
 
@@ -90,4 +90,3 @@ def newsletter_unsubscribe(request):
         'form': form,
     }
     return render(request, 'aboutus/unsubscribe.html')
-

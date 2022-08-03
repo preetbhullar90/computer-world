@@ -6,9 +6,9 @@ class TestReservationsViews(TestCase):
     def setUp(self):
         self.client = Client()
         self.view_bag_url = reverse('view_bag')
-        self.add_to_bag_url = reverse('add_to_bag',args=['1'])
-        self.adjust_bag_url = reverse('adjust_bag',args=['1'])
-        self.remove_from_bag_url = reverse('remove_from_bag',args=['1'])
+        self.add_to_bag_url = reverse('add_to_bag', args=['1'])
+        self.adjust_bag_url = reverse('adjust_bag', args=['1'])
+        self.remove_from_bag_url = reverse('remove_from_bag', args=['1'])
 
     def test_view_bag_GET(self):
         response = self.client.get(self.view_bag_url)

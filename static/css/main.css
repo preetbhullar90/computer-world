@@ -2793,7 +2793,7 @@ input.num-product::-webkit-inner-spin-button {
 /*//////////////////////////////////////////////////////////////////
   [ Size ]*/
 .size-101 {
-    min-width: 161px;
+    min-width: 162px;
     height: 46px;
 }
 
@@ -3097,7 +3097,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .bg-img1>h2 {
-    color: #000;
+    color: #fff;
 }
 
 

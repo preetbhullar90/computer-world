@@ -47,5 +47,3 @@ class TestProdutsModels(TestCase):
         product = len(Product.objects.all())
 
         self.assertEquals(product, 0)
-
-
