@@ -15,7 +15,7 @@
 
 3. [**Database**](#Database)
 
-4. [Design](#Design)
+4. [**Design**](#Design)
 
 5. [Features](#Features)
 
@@ -133,6 +133,8 @@ The about us, checkout, products, and profile apps require databases to store in
 
 These models are following this flow diagram:
 
+![](/assets/readme-file/diagram.PNG)
+
 ### **About us**
 In the about us app, I created one model named ‘Newsletter Users’. This model that provides email to display subscribe and unsubscribe newsletter of the computer world.
 
@@ -153,3 +155,31 @@ Category stores various types of categories like monitors, graphics card, compon
 
 ### **Profiles**
 The Profile app allows users to save their information, so that when they are logged in and they want to purchase any product, they will get a prefilled form to save their time. The `UserProfile` model has a one-to-one field that is linked to the Django All AUTH user account, and upon logging in the model method `create_or_update_user_profile` creates the profile if it isn't already present in the model.
+
+## **Design**
+
+### **Colour Schema**
+
+- I used three colours for the background and content, which are white, black, and blue. I have also used a small amount of green in the add to basket button.
+
+- I used blue from the theme waGon website, Black and white from the code institute project ‘Boutique ado’, and Green I checked add to basket button colour online.
+
+### **Typography**
+
+- I selected the font I used from the Google font website and linked it with my CSS file.
+
+- I used three font styles: Poppins-Regular, Poppins-Light, Poppins-ExtraLight, Poppins-Medium, Poppins-Italic, Poppins-Italic, Poppins-SemiBold, sans-serif.
+
+-  I have used the font Sans-serif as a backup in instances where if the correct link is not provided to the css3 file.If this occurs and the Google font does not work the backup font sans-serif will always work.
+
+### **Imagery**
+
+- The background images used in this website plays a vital role in the user’s experience of the website.
+- The images shown on the website has been selected to convince the customer purchase the products.
+- The Images are downloaded for free from the [Ebuyer](https://www.ebuyer.com/) [razer](https://www.razer.com/gb-en) [corsair](https://www.corsair.com/uk/en/) website.
+
+### **Skeleton**
+
+- I used [Figma](https://www.figma.com/file/xGZ1gadhIzf7MHrQTEKplK/Computer-world?node-id=0%3A1 "Link to Figma homepage") Wireframe for the website.
+
+
