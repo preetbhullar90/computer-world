@@ -188,6 +188,52 @@ To further enhance sales there is also a computer world Facebook page, which wil
 
 ![](/assets/readme-file/facebook-page.PNG)
 
+### 1. **Features**
+### 2. **Header**
+### 3. **Home Page**
+### 4. **Products Page**
+### 5. **Detail Page**
+### 6. **Basket Page**
+### 7. **Checkout Page**
+### 8. **Product Management**
+### 9. **Profile Page**
+### 10. **About Page**
+### 11. **Contact Page**
+### 12. **Error Page**
 
 
+- ### **Header**
 
+In the header the main logo of the website is on the left-hand side, and the navigation links are on the right-hand side on all pages. On medium and small-sized devices such as tablets and mobile, the logo and navigation links hide behind the hamburger logo.
+
+- ### **Home Page**
+The home page has three big hero images in the back. On the images I have added one button, button is linked to the products page. Under the hero images, there are three sections in the first section, there where is a monitor purchase link with an image. In the second section, there is a pc section, there where is a pc purchase link with an image. Last section, there is a components section for purchase all the pc parts. Under these sections, there is a footer, where I added all the page links, sitemap, subscribe, unsubscribe so on.
+
+- ### **Products Page**
+The products page displays all products. On the left side of the page, users can see how many products are on this page and on the right side of the page, I added a filter to sort the products by name, price, category, rating and so on. Under the filter, there are all the products, there are four products in row on desktop, two products in row on tablet and one product in row on mobile devices. All products have an image, name, rating, and description. Under the description users can see the price. Under the price I added two buttons; the first button is to add products to the basket and the second button is to see the product details. There is a footer, where I added all the pages links, sitemap, subscribe, unsubscribe so on.
+
+- ### **Details Page**
+The details page has a banner on the top where users can see “free shipping over £200”. Under this banner,In the middle, users can see a bigger image when they click on the three smaller images, or they can also click the left and right arrows on big image to change image. Users can also download the image by clicking on one the white arrow on the top of the right corner of the big image. On the right side of the big image, users can see the product’s name, price, description so on. Under the description users can change the quantity of the product by clicking the plus or minus buttons. On the right side of the quantity button, there is a green button to add the product to the basket. To the bottom of this button, there is a button if the user wants to do more shopping. Under these buttons, users can see more additional information like product weight, height, reviews so on.
+
+- ### **Basket Page**
+The basket page has an overview of all the items added by the user. The information is displayed in a table that has product name, image, quantity, price, and subtotal. The user can change the quantity of each product and remove it while on this page, and below there are two buttons to proceed to the checkout or to keep shopping.
+
+- ### **Checkout Page**
+On the checkout page, where the user can complete their purchase, is split into two columns, with billing & card details on one side and their basket overview on the other. The forms are simple, with placeholders explaining what each input is for.
+
+
+- ### **Product Management**
+The admin section of this website allows a logged-in superuser to update the product models from the front end. Products can be added using the product management dropdown, where the superuser is taken to a form whereupon submission of the product is added to the model.
+
+- ### **Profile Page**
+On the profile page, users can see their previous order history. Users can only see this page if they are logged in. On the left side is the order history, where users can see or update their delivery information.
+
+- ### **About Page**
+The about page has a background image, which shows quality of the products we supply to the customers. Under the image, there is a company history containing details such as when the company  was established, what kind of products they sell, and the location of the warehouse. On the right side, there is an image of the warehouse. Under this image, there is whole section about the delivery and customer service. On the left side, there is a company customer care staff image.  Under these sections, there is a footer, which contains all the pages links, sitemap, and subscribe/unsubscribe buttons.
+
+
+- ### **Contact Us Page**
+The Contact Us page has a background image, which shows quality of the company. Under this image, there is form on the left side where customers can send any feedback or any problems, via email to the company. On the right side of this form, customers can see the company address, phone number, and email. Under these sections, there is a map showing where company is situated. Under this map, there is a footer, which contains all the pages links, sitemap, and subscribe/unsubscribe buttons.
+
+- ### **Error Page**
+I have added a custom 404 error page using this [template](https://codepen.io/adnenrebai/pen/KNqQJP); this allows the user to easily navigate back to the home page should they experience any errors.

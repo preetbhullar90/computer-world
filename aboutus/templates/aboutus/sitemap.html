@@ -2,18 +2,9 @@
 {% load static %}
 {% block content %}
 
-
-
-
-
-
 <div class="bg0 p-b-160">
-
     <div class="container text-center p-t-240 p-l-40 p-r-40">
         <h1 class="m-b-50">Site Map</h1>
-
-
-
         <div class="row">
             <div class="col" style="border: 1px solid gray;">
                 <h3 class="text-left">A</h3>
@@ -25,10 +16,7 @@
                             products</a></div>
 
                 </div>
-
             </div>
-
-
 
             <div class="col m-l-10 p-b-20" style="border: 1px solid gray;">
                 <h3 class="text-left">P</h3>
@@ -45,13 +33,7 @@
                 </div>
 
             </div>
-
-
         </div>
-
-
-
-
 
         <div class="row ">
             <div class="col m-t-10 p-b-20" style="border: 1px solid gray;">
@@ -74,18 +56,10 @@
                     <div><a href="https://preet-computer-world.herokuapp.com/products/?sort=rating&direction=asc"
                             target="_blank">Rating: Low to High</a></div>
 
-
                 </div>
 
             </div>
-
-
-
         </div>
-
-
-
-
         <div class="row ">
             <div class="col m-t-10 p-b-20" style="border: 1px solid gray;">
                 <h3 class="text-left">C</h3>
@@ -123,12 +97,7 @@
                 </div>
 
             </div>
-
-
-
         </div>
-
-
         <div class="row ">
             <div class="col p-b-20 m-t-10" style="border: 1px solid gray;">
                 <h3 class="text-left">D</h3>
@@ -140,8 +109,6 @@
                 </div>
 
             </div>
-
-
             <div class="col m-t-10 m-l-10 p-b-20" style="border: 1px solid gray;">
                 <h3 class="text-left">U</h3>
                 <div class="col">
@@ -152,14 +119,7 @@
                 </div>
 
             </div>
-
-
-
         </div>
-
-
-
-
         <div class="row ">
             <div class="col p-b-20 m-t-10" style="border: 1px solid gray;">
                 <h3 class="text-left">L</h3>
@@ -185,29 +145,10 @@
 
             </div>
 
-
-
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     </div>
 </div>
-
-
 
 {% endblock content %}
 
@@ -314,10 +255,10 @@
         </div>
         <div class="p-t-40">
             <p class="stext-107 cl6 txt-center">
-                Copyright &copy;
-                <script>
-                    document.write(new Date().getFullYear());
-                </script> All rights reserved
+                Copyright &copy;<span id="year">
+                    <script>
+                        document.getElementById("year").innerHTML = new Date().getFullYear();
+                    </script> All rights reserved
             </p>
         </div>
     </div>
