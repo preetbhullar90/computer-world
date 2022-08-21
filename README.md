@@ -182,4 +182,12 @@ The Profile app allows users to save their information, so that when they are lo
 
 - I used [Figma](https://www.figma.com/file/xGZ1gadhIzf7MHrQTEKplK/Computer-world?node-id=0%3A1 "Link to Figma homepage") Wireframe for the website.
 
+### **Markting**
+
+To further enhance sales there is also a computer world Facebook page, which will display all products that are for sale:
+
+![](/assets/readme-file/facebook-page.PNG)
+
+
+
 
