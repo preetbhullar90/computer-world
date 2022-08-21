@@ -23,23 +23,21 @@
 
 7. [**Other Features**](#Other-Features)
 
-8. [**Features Left to Implement**](#Feature-Left-to-Implement)
+8. [**Technologies Used**](#Technologies-Used)
 
-9. [**Technologies Used**](#Technologies-Used)
+9. [**Frameworks Libraries and Programs Used**](#Frameworks-Libraries-and-Programs-Used)
 
-10. [**Frameworks Libraries and Programs Used**](#Frameworks-Libraries-and-Programs-Used)
-
-11. [**Testing**](#Testing)
+10. [**Testing**](#Testing)
 
     - [**Testings.md**](assets/testing-file/testing.md)
 
-12. [**Deployment**](#Deployment)
+11. [**Deployment**](#Deployment)
 
-13. [**Make a clone**](#Make-a-clone)
+12. [**Make a clone**](#Make-a-clone)
 
-14. [**Credit**](#Credit)
+13. [**Credit**](#Credit)
 
-15. [**Acknowledgements**](#Acknowledgements)
+14. [**Acknowledgements**](#Acknowledgements)
 
 ## **Introduction**
 
@@ -334,3 +332,127 @@ To deploy a Django application, The following options were used:
     - `git add .`: adds all modified files to a staging area
     - `git commit -m "A message explaining your commit"`: commits all changes to a local repository.
     - `git push`: pushes all your committed changes to your Github repository.
+
+### **Make a Clone**
+
+
+1. [Login](https://github.com/)
+
+2.	Click on Your Repository option and select your project
+
+3.	Click on the code dropdown menu.
+
+4.	To clone the repository using HTTPS, click "Clone with HTTPS", and copy the link.
+
+5.	In your local IDE open the Git Bash terminal.
+
+6.	Change the current working directory to the location where you want the cloned directory to be made.
+
+7.	Type git clone, and then paste the URL you copied in Step 3.
+
+           git clone https://github.com/USERNAME/REPOSITORY
+
+8.	Press Enter. Your local clone will be created.
+
+9. After this you need to cretae your own virtual environment, virtual environments are where dependencies are stored, You must activate the virtual environment using the source venv/bin/activate. To create the virtual environment use the following command in the terminal:
+
+             python3 -m venv venv
+             source venv/bin/activate
+
+10. Then you need to intsall the requirements.txt file with the following command:
+
+             pip install -r requirements.txt
+
+11. Create a secret key for the django app. It is easy to create, just type **Django Secret Key Generator** in the browser, then click on create a key copy and paste it in the setting.py.
+
+12. Rename your project.
+
+13. Migrate all your settings, the only migrations that should appear in each of your app’s migrations folders are called ‘__init__.py’. You  can delete any existing migrations and migrate from scratch. For migrations and migrate settings you need to run the following command in the terminal:
+
+         python manage.py makemigrations
+         python manage.py migrate
+
+14. Then you need to create a superuser to login to the admin page. To create the super user you need to run the following command:
+
+        python manage.py createsuperuser
+
+15. Finally, Start the development server and ensure everything is running without errors by useing the following command:
+
+         python manage.py runserver
+
+### **Forking a Repository**
+
+1.	[Login](https://github.com/) into GitHub.
+
+2.	On the top right, click the fork button.
+
+3.	You will get a copy of the repository in your GitHub account.
+
+### **Gmail SMTP**
+
+I have used Gmail SMTP to send confirmation emails and all AllAuth related emails when the deployed version is used. I used the following [documentation](https://kinsta.com/blog/gmail-smtp-server/) to set it up and add these settings to my settings.py file:
+
+![](/assets/readme-file/smpt-image.PNG)
+
+### **Stripe**
+In order to take payments for the online store, I implemented Stripe; you first must create an account with them and then using the [documentation](https://stripe.com/docs) add the relevant HTML, python & JS code suitable for your needs.
+
+### **AWS static and media storage**
+All static and media files are stored in the cloud using Amazon AWS S3; I have created a bucket, user group and user that can access this site and the relevant files. For the files to be correctly served the following settings must be added to your main settings.py file:
+
+
+![](/assets/readme-file/stripe-image.PNG)
+
+### **Heroku**
+This site was deploy via Heroku.
+
+This project was developed using a template provide by code institute however the template was upgraded to improve its functionality, which you can see in the commit.
+
+To deploy this project on Heroku I used followed these steps:
+
+- The following command in the Gitpod CLI will create the relevant files needed for Heroku to install your project dependencies `pip3 freeze --local > requirements.txt`. Please make sure this file should be added to a .gitignore file to prevent the file from being committed. A `Procfile` is also required that specifies the commands that are executed by the app on startup.
+
+1. [Login](https://dashboard.heroku.com/apps) into Heroku.
+
+2. In the main Heroku dashboard select ‘New’in the top right corner.
+
+3. In the drop down, menu select ‘Create New App’.
+
+4. Give a name related your project. I gave mochi-restaurant to my project.
+
+5. Select the region you are working in.
+
+6. When you see green text with your project name then press ‘create app’button.
+
+7. From the dashboard select ‘setting’option.
+
+8. You will need to set your Environment Variables - this is a key step to ensuring your application is deployed properly.
+
+9. In the Settings tab, click on `Reveal Config Vars` and set the following variables:
+    - SECRET_KEY - to be set to your chosen key
+    - CLOUDINARY_URL - to be set to your Cloudinary API environment variable
+
+10. In the resources tab you must install 'Heroku Postgres'
+
+11.	In the buildpacks select python pack, save it then repeat with the nodejs pack.
+
+12.	After this scroll up and select the `Deploy` option.
+
+13. In the ‘deploy’ option select ‘GitHub’ option to select your project which one you want to deploy on Heroku, choose your project and connect to the Heroku.
+
+14. After connecting your project to Heroku scroll down on Automatic Deploys button.
+
+15. This will ensure whenever you change something in the repo and push the changes to GitHub, Heroku will rebuild the app. If you select this manually you can manually deploy options further down. For this project, I did Automatic Deployment to enable me to check changes I made to the app as I developed it.
+
+16. Heroku will now build the app for you. Once it has completed the build process you will see a 'Your App Was Successfully Deployed' message and a link to the app to visit the live site.
+
+*Heroku CLI deployment the app with and used the following commands to push the code to Heroku*:
+1.	Login to Heroku via the CLI using `heroku login -i`
+2.	Enter your email and password
+3.	Connect to the Heroku git remote using the `heroku git:remote -a YOURAPPNAME`
+4.	Push to the Heroku git remote using `git push heroku main`
+
+## **Credit**
+### **Content**
+
+Products images, heading and descriptions were taken from [Ebuyer](https://www.ebuyer.com/), [razer](https://www.razer.com/gb-en) and [corsair](https://www.corsair.com/uk/en/) website.
