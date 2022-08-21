@@ -13,33 +13,33 @@
    - [**Scope**](#Scope)
    - [**Structure**](#Structure)
 
-3. [**Database**](#Database)
+3. [**Databases**](#Databases)
 
 4. [**Design**](#Design)
 
-5. [Features](#Features)
+5. [**Features**](#Features)
 
-6. [Bugs](#Bugs)
+6. [**Bugs**](#Bugs)
 
-7. [Other Features](#Other-Features)
+7. [**Other Features**](#Other-Features)
 
-8. [Features Left to Implement](#Feature-Left-to-Implement)
+8. [**Features Left to Implement**](#Feature-Left-to-Implement)
 
-9. [Technologies Used](#Technologies-Used)
+9. [**Technologies Used**](#Technologies-Used)
 
-10. [Frameworks Libraries and Programs Used](#Frameworks-Libraries-and-Programs-Used)
+10. [**Frameworks Libraries and Programs Used**](#Frameworks-Libraries-and-Programs-Used)
 
-11. [Testing](#Testing)
+11. [**Testing**](#Testing)
 
-    - [Testings.md](assets/testing-file/testing.md)
+    - [**Testings.md**](assets/testing-file/testing.md)
 
-12. [Deployment](#Deployment)
+12. [**Deployment**](#Deployment)
 
-13. [Make a clone](#Make-a-clone)
+13. [**Make a clone**](#Make-a-clone)
 
-14. [Credit](#Credit)
+14. [**Credit**](#Credit)
 
-15. [Acknowledgements](#Acknowledgements)
+15. [**Acknowledgements**](#Acknowledgements)
 
 ## **Introduction**
 
@@ -237,3 +237,76 @@ The Contact Us page has a background image, which shows quality of the company. 
 
 - ### **Error Page**
 I have added a custom 404 error page using this [template](https://codepen.io/adnenrebai/pen/KNqQJP); this allows the user to easily navigate back to the home page should they experience any errors.
+
+## **Other Features**
+
+- The logo is linked to the home page so that when the user clicks on the logo it will take them to the home page.
+- On the form page, the navigation bar and email have a hover option. When the user hovers their mouse over the navigation bar it will highlight to a different colour. This makes it easier for the user to understand that this is a clickable link.
+
+## **Technologies Used**
+
+### **Languages Used**
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+* [Jquery](https://en.wikipedia.org/wiki/JQuery)
+
+### **Frameworks Libraries and Programs Used**
+
+* [Django](https://www.djangoproject.com/)
+  * Django is the framework that has been used to build the over project and its apps.
+
+* [Bootstrap](https://getbootstrap.com/)
+  * Used for creating responsive design.
+
+* [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
+  * Font awesome was used to import all the icons on the website.
+
+* [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
+  * Google fonts was used to import the google style fonts in css for example Lato, Oswald and sans-serif.
+
+* [Git](https://git-scm.com/ "Link to Git homepage")
+  * Gitpod was used to write code in the terminal. It was also used to commit and push the code into GitHub.
+
+* [GitHub](https://github.com/ "Link to GitHub")
+  * GitHub was used to store the data which was pushed by Gitpod.
+
+* [Gitpod](https://www.gitpod.io/)
+    * Used as the development environment.
+
+* [Heroku](https://dashboard.heroku.com/apps)
+    * Used to deploy my application.
+
+* [Pep8](http://pep8online.com/)
+    * Used to test the code for any issues or errors.
+
+* [Figma](https://www.figma.com/ "Link to Figma homepage")
+  * Figma was used to create the wireframe of the project before starting code on the terminal.
+
+* [Cloudinary](https://cloudinary.com/)
+    * Used to store all of my static files and images.
+
+* [Favicon.io](https://favicon.io/)
+    * Used to create favicon's for my website
+
+* [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
+  * Am I Responsive was used to see if project is responsive on different types of devices.
+
+- [W3C Markup Validation Service](https://validator.w3.org/)
+    - Used to validate all HTML code written and used in this webpage.
+
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    * Used to validate all CSS code written and used in this webpage.
+
+* [JSHint](https://jshint.com/)
+    * Used to validate JS code.
+
+* [SQLite](https://www.sqlite.org/index.html)
+    * I have SQLite to run my database tests locally.
+
+* [PostgreSQL](https://www.postgresql.org/)
+    * I have used Heroku's PostgreSQL relational database in deployment to store the data for my models.
+
+* [Aws](https://aws.amazon.com/)
+    * I used Amazon AWS S3 to store all my media files.
