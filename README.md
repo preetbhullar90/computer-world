@@ -310,3 +310,27 @@ I have added a custom 404 error page using this [template](https://codepen.io/ad
 
 * [Aws](https://aws.amazon.com/)
     * I used Amazon AWS S3 to store all my media files.
+
+## **Testing**
+The testing process can be found  [here](assets/testing-file/testing.md)
+
+
+## **Bugs**
+
+One bug present is when users click on the Login/Register button on the nav bar, they must double click to open dropdown menu. I have tried to fix it, but I have been unable to find a solution.
+
+![](/assets/readme-file/bug-image.PNG)
+
+## **Deployment**
+
+To deploy a Django application, The following options were used:
+1.	Click the `Use This Template` button.
+2.	Add a repository name and description.
+3.	Click the `Create Repository from Template` to create your repository.
+4.	To create a Gitpod workspace you then need to click `Gitpod`, this can take a few minutes.
+5.	When you want to open your project you can go into github and click on your repository, then click on gitpod, or you can open with the gitpod workspace as well.
+6.	when you change or write down new things you have to commit your work in github, use the following commands to make your commits:
+
+    - `git add .`: adds all modified files to a staging area
+    - `git commit -m "A message explaining your commit"`: commits all changes to a local repository.
+    - `git push`: pushes all your committed changes to your Github repository.
