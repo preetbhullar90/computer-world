@@ -24,9 +24,9 @@
                         <div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
                         <div class="slick3 gallery-lb">
                             {% if product.image %}
-                            <div class="item-slick3" data-thumb="{{product.image.url }}">
+                            <div class="item-slick3 d-flex justify-content-center" data-thumb="{{product.image.url }}">
                                 <div class="wrap-pic-w pos-relative">
-                                    <img src="{{product.image.url }}" target="_blank">
+                                    <img class="detail-page-image" src="{{product.image.url }}" target="_blank">
                                     <a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
                                         href="{{product.image.url }}">
                                         <i class="fa fa-expand"></i>
@@ -42,10 +42,10 @@
 
 
                             {% if product.image1 %}
-                            <div class="item-slick3" data-thumb="{{product.image1.url }}">
+                            <div class="item-slick3 d-flex justify-content-center" data-thumb="{{product.image1.url }}">
                                 <div class="wrap-pic-w pos-relative">
-                                    <img class="product-image-style" src="{{product.image1.url }}"
-                                        alt="{{ product.name }}">
+                                    <img class="detail-page-image" class="product-image-style"
+                                        src="{{product.image1.url }}" alt="{{ product.name }}">
                                     <a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
                                         href="{{product.image1.url }}" alt="{{ product.name }}">
                                         <i class="fa fa-expand"></i>
@@ -61,9 +61,11 @@
 
 
                             {% if product.image2 %}
-                            <div class="item-slick3" data-thumb="{{product.image2.url }}" alt="{{ product.name }}">
+                            <div class="item-slick3 d-flex justify-content-center" data-thumb="{{product.image2.url }}"
+                                alt="{{ product.name }}">
                                 <div class="wrap-pic-w pos-relative">
-                                    <img src="{{product.image2.url }}" alt="{{ product.name }}">
+                                    <img class="detail-page-image" src="{{product.image2.url }}"
+                                        alt="{{ product.name }}">
 
                                     <a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
                                         href="{{product.image2.url }}" alt="{{ product.name }}">

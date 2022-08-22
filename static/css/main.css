@@ -3676,6 +3676,12 @@ input.num-product::-webkit-inner-spin-button {
     height: 111px;
 }
 
+.detail-page-image {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
 /*---------------------------------------------*/
 .hov-btn1:hover {
     border-color: #222;
