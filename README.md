@@ -105,6 +105,8 @@ Please find all my defined user stories & their acceptance criteria [here](https
 - As a **User** I can **login or logout my account** so that **I can access my personal account information.**
 - As a **user** I can **create a personal account** so that **I can view my profile.**
 
+[Go Top](#Computer-World)
+
 ### **Scope**
 
 To achieve the desired user & business goals, the following features will be included in this website:
@@ -154,6 +156,8 @@ Category stores various types of categories like monitors, graphics card, compon
 ### **Profiles**
 The Profile app allows users to save their information, so that when they are logged in and they want to purchase any product, they will get a prefilled form to save their time. The `UserProfile` model has a one-to-one field that is linked to the Django All AUTH user account, and upon logging in the model method `create_or_update_user_profile` creates the profile if it isn't already present in the model.
 
+[Go Top](#Computer-World)
+
 ## **Design**
 
 ### **Colour Schema**
@@ -199,6 +203,8 @@ To further enhance sales there is also a computer world Facebook page, which wil
 ### 11. **Contact Page**
 ### 12. **Error Page**
 
+[Go Top](#Computer-World)
+
 
 - ### **Header**
 
@@ -225,6 +231,8 @@ The details page has a banner on the top where users can see “free shipping ov
 The basket page has an overview of all the items added by the user. The information is displayed in a table that has product name, image, quantity, price, and subtotal. The user can change the quantity of each product and remove it while on this page, and below there are two buttons to proceed to the checkout or to keep shopping.
 
 ![](/assets/readme-file/bag-page.PNG)
+
+[Go Top](#Computer-World)
 
 - ### **Checkout Page**
 On the checkout page, where the user can complete their purchase, is split into two columns, with billing & card details on one side and their basket overview on the other. The forms are simple, with placeholders explaining what each input is for.
@@ -257,6 +265,8 @@ The Contact Us page has a background image, which shows quality of the company. 
 I have added a custom 404 error page using this [template](https://codepen.io/adnenrebai/pen/KNqQJP); this allows the user to easily navigate back to the home page should they experience any errors.
 
 ![](/assets/readme-file/error-page.PNG)
+
+[Go Top](#Computer-World)
 
 ## **Other Features**
 
@@ -331,6 +341,8 @@ I have added a custom 404 error page using this [template](https://codepen.io/ad
 * [Aws](https://aws.amazon.com/)
     * I used Amazon AWS S3 to store all my media files.
 
+[Go Top](#Computer-World)
+
 ## **Testing**
 The testing process can be found  [here](assets/testing-file/testing.md)
 
@@ -401,6 +413,8 @@ To deploy a Django application, The following options were used:
 15. Finally, Start the development server and ensure everything is running without errors by useing the following command:
 
          python manage.py runserver
+
+[Go Top](#Computer-World)
 
 ### **Forking a Repository**
 
@@ -476,6 +490,8 @@ To deploy this project on Heroku I used followed these steps:
 
 ![](/assets/readme-file/heroku-image.PNG)
 
+[Go Top](#Computer-World)
+
 ## **Credit**
 ### **Content**
 
@@ -501,3 +517,5 @@ Products images, heading and descriptions were taken from [Ebuyer](https://www.e
 ## **Acknowledgements**
 * I would especially like to thank my wife, who helped me by giving me some ideas regarding my website. She motivated me to finish this project to the best of my ability.
 * Lastly I would like to thank my mentor Precious ljege, who helped during the whole process of the project.
+
+[Go Top](#Computer-World)
