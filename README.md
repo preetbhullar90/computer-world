@@ -1,10 +1,10 @@
-# Computer World
+# **Computer World**
 
-![Computer World Images](assets/testing-file/am-i-responsive.PNG)
+![**Computer World Images**](assets/testing-file/am-i-responsive.PNG)
 
-[View the live project here](https://preet-computer-world.herokuapp.com/)
+[**View the live project here**](https://preet-computer-world.herokuapp.com/)
 
-## Contents
+## **Contents**
 1. [**Introduction**](#Introduction)
 
 2. [**User Experience**](#User-Experience)
@@ -70,40 +70,40 @@ Please find all my defined user stories & their acceptance criteria [here](https
 
 ### **1. Sort and Searching products:**
 
-- As a **shopper** I can sort the list of all the products so that I can easily find the best price, high rate and sorted by product category.
-- As a **shopper** I can sort product by specific categories so that I can sort product by specific category and find best price and best rates.
-- As a **shopper** I can search a product by name or description so that I can easily find a specific product by name which I’d like to purchase.
-- As a **shopper** I can see what I’ve searched for and the number of results so that I can easily decide whether the product I want is available.
+- As a **shopper** I can **sort the list of all the products** so that I can **easily find the best price, high rate and sorted by product category.**
+- As a **shopper** I can **sort product by specific categories** so that **I can sort product by specific category and find best price and best rates.**
+- As a **shopper** I can **search a product by name or description** so that **I can easily find a specific product by name which I’d like to purchase.**
+- As a **shopper** I can **see what I’ve searched for and the number of results** so that **I can easily decide whether the product I want is available.**
 
 ### **2. Viewing and Navigation Functionality:**
 
-- As a shopper I can view all the products so that I can select some products to purchase.
-- As a shopper I can see individual product details so that I can see product description, price, image, and sizes.
-- As a shopper I can identify deals and special offers so that I can take advantage of special savings some money on a product.
-- As a shopper I can see grand total of money and all product which I selected so that I can save lot of time.
+- As a **shopper** I can **view all the products** so that **I can select some products to purchase.**
+- As a **shopper** I can **see individual product details** so that **I can see product description, price, image, and sizes.**
+- As a **shopper** I can **identify deals and special offers** so that ** I can take advantage of special savings some money on a product.**
+- As a **shopper** I can **see grand total of money and all product which I selected** so that **I can save lot of time.**
 
 ### **3. Purchase and checkout products:**
 
-- As a shopper I can easily select a size and quantity of product so that I can select right size and quantity of a product when I buy it.
-- As a shopper I can easily view items in my bag so that I can identify the total cost of purchase.
-- As a shopper I can adjust the quantity of my bag so that I can make any changes before buy.
-- As a shopper I can add my personal payment information safe and secure so that I can confidently provide the information to make a purchase.
-- As a shopper I can view my order confirmation after checkout so that I can easily see that I didn't make any mistake.
-- As a shopper I can receive confirmation email after checkout so that I can keep that email as a proof what I have brought from store.
+- As a **shopper** I can **easily select a size and quantity of product** so that **I can select right size and quantity of a product when I buy it.**
+- As a **shopper** I can **easily view items in my bag** so that **I can identify the total cost of purchase.**
+- As a **shopper** I can **adjust the quantity of my bag** so that **I can make any changes before buy.**
+- As a **shopper** I can **add my personal payment information safe and secure** so that **I can confidently provide the information to make a purchase.**
+- As a **shopper** I can **view my order confirmation after checkout** so that **I can easily see that I didn't make any mistake.**
+- As a **shopper** I can **receive confirmation email after checkout** so that **I can keep that email as a proof what I have brought from store.**
 
 ### **4. Admin and Store management:**
 
-- As a shop owner I want to add new products so that I can add new items to my store.
-- As a shop owner I want to easily Edit and Update a product so that I can update images prices and other criteria.
-- As a shop owner I want to easily delete a discontinued product so that I can remove items from store site.
+- As a **shop owner** I can **add new product** so that **I can add new items to my store.**
+- As a **shop owner** I can **easily Edit and Update a product** so that **I can update images prices and other criteria.**
+- As a **shop owner** I can **easily delete a discontinued product** so that **I can Remove items from store site.**
 
 ### **5. User Authentication:**
 
-- As a user I want to create a personal user profile so that I can view my personal order and save my payment information.
-- As a user I want to receive a confirmation email after registering an account so that I can verify that my account registration was successful.
-- As a user I want to recover my password in case I forget it so that I can recover access to my account.
-- As a user I want to login or logout of my account so that I can access my personal account information.
-- As a user, I want to create a personal account so that I can view my profile.
+- As a **user** I can **create a personal user profile** so that **I can view my personal order and save my payment information.**
+- As a **user** I can **receive a confirmation email after registering an account** so that **I can verify that my account registration was successfully.**
+- As a **user** I can **recover my password in case I forget it** so that **I can recover access to my account.**
+- As a **User** I can **login or logout my account** so that **I can access my personal account information.**
+- As a **user** I can **create a personal account** so that **I can view my profile.**
 
 ### **Scope**
 
@@ -208,40 +208,49 @@ In the header the main logo of the website is on the left-hand side, and the nav
 
 - ### **Home Page**
 The home page has three big hero images in the back. On the images I have added one button, button is linked to the products page. Under the hero images, there are three sections in the first section, there where is a monitor purchase link with an image. In the second section, there is a pc section, there where is a pc purchase link with an image. Last section, there is a components section for purchase all the pc parts. Under these sections, there is a footer, where I added all the page links, sitemap, subscribe, unsubscribe so on.
+
 ![](/assets/readme-file/home-page.PNG)
 
 - ### **Products Page**
 The products page displays all products. On the left side of the page, users can see how many products are on this page and on the right side of the page, I added a filter to sort the products by name, price, category, rating and so on. Under the filter, there are all the products, there are four products in row on desktop, two products in row on tablet and one product in row on mobile devices. All products have an image, name, rating, and description. Under the description users can see the price. Under the price I added two buttons; the first button is to add products to the basket and the second button is to see the product details. There is a footer, where I added all the pages links, sitemap, subscribe, unsubscribe so on.
+
 ![](/assets/readme-file/product-page.PNG)
 
 - ### **Details Page**
 The details page has a banner on the top where users can see “free shipping over £200”. Under this banner,In the middle, users can see a bigger image when they click on the three smaller images, or they can also click the left and right arrows on big image to change image. Users can also download the image by clicking on one the white arrow on the top of the right corner of the big image. On the right side of the big image, users can see the product’s name, price, description so on. Under the description users can change the quantity of the product by clicking the plus or minus buttons. On the right side of the quantity button, there is a green button to add the product to the basket. To the bottom of this button, there is a button if the user wants to do more shopping. Under these buttons, users can see more additional information like product weight, height, reviews so on.
+
 ![](/assets/readme-file/detail-page.PNG)
 
 - ### **Basket Page**
 The basket page has an overview of all the items added by the user. The information is displayed in a table that has product name, image, quantity, price, and subtotal. The user can change the quantity of each product and remove it while on this page, and below there are two buttons to proceed to the checkout or to keep shopping.
+
 ![](/assets/readme-file/bag-page.PNG)
 
 - ### **Checkout Page**
 On the checkout page, where the user can complete their purchase, is split into two columns, with billing & card details on one side and their basket overview on the other. The forms are simple, with placeholders explaining what each input is for.
+
 ![](/assets/readme-file/checkout-page.PNG)
 
 
 - ### **Product Management**
 The admin section of this website allows a logged-in superuser to update the product models from the front end. Products can be added using the product management dropdown, where the superuser is taken to a form whereupon submission of the product is added to the model.
+
 ![](/assets/readme-file/add-product-page.PNG)
 
 - ### **Profile Page**
 On the profile page, users can see their previous order history. Users can only see this page if they are logged in. On the left side is the order history, where users can see or update their delivery information.
+
 ![](/assets/readme-file/profile-page.PNG)
 
 - ### **About Page**
 The about page has a background image, which shows quality of the products we supply to the customers. Under the image, there is a company history containing details such as when the company  was established, what kind of products they sell, and the location of the warehouse. On the right side, there is an image of the warehouse. Under this image, there is whole section about the delivery and customer service. On the left side, there is a company customer care staff image.  Under these sections, there is a footer, which contains all the pages links, sitemap, and subscribe/unsubscribe buttons.
+
 ![](/assets/readme-file/about-page.PNG)
 
 
 - ### **Contact Us Page**
 The Contact Us page has a background image, which shows quality of the company. Under this image, there is form on the left side where customers can send any feedback or any problems, via email to the company. On the right side of this form, customers can see the company address, phone number, and email. Under these sections, there is a map showing where company is situated. Under this map, there is a footer, which contains all the pages links, sitemap, and subscribe/unsubscribe buttons.
+
 ![](/assets/readme-file/contact-page.PNG)
 
 - ### **Error Page**
