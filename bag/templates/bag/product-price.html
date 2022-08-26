@@ -1,0 +1,5 @@
+{% if item.product.discount %}
+<p class="my-0">${{ item.product.discount }}</p>
+{% else %}
+<p class="my-0">${{ item.product.price }}</p>
+{% endif %}

@@ -93,9 +93,25 @@
                     </h4>
 
 
-                    <span class="mtext-106 cl2 price-text">
-                        £{{ product.price }}
+                    {% if product.discount|default_if_none:'' %}
+                    <span class="text-muted mtext-106 cl2 price-text">
+                        <del>£{{product.price }}</del>
                     </span>
+                    {% else %}
+                    <span class="mtext-106 cl2 price-text">
+                        £{{product.price }}
+                    </span>
+                    {% endif %}
+
+                    {% if product.discount|default_if_none:'' %}
+                    <span class="mtext-106 cl2 price-text">
+                        £{{ product.discount|default_if_none:'' }}
+                    </span>
+                    {% else %}
+                    <span class="mtext-106 cl2 price-text">
+                        {{ product.discount|default_if_none:'' }}
+                    </span>
+                    {% endif %}
 
 
                     <p class="stext-102 cl3 p-t-23">

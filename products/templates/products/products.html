@@ -224,9 +224,25 @@
                     </ul>
 
 
-                    <span class="stext-105 cl3 price-text w-100 d-block text-center p-t-20 p-b-20 font-weight-bold ">
+                    {% if product.discount|default_if_none:'' %}
+                    <span class="text-muted stext-105 cl3 price-text w-100 d-block text-center p-t-20 font-weight-bold">
+                        <del>£{{product.price }}</del>
+                    </span>
+                    {% else %}
+                    <span class=" stext-105 cl3 price-text w-100 d-block text-center p-t-20 p-b-20 font-weight-bold">
                         £{{product.price }}
                     </span>
+                    {% endif %}
+
+                    {% if product.discount|default_if_none:'' %}
+                    <span class=" stext-105 cl3 price-text w-100 d-block text-center p-b-20 font-weight-bold">
+                        £{{ product.discount|default_if_none:'' }}
+                    </span>
+                    {% else %}
+                    <span class=" stext-105 cl3 price-text w-100 d-block text-center p-t-20 p-b-20 font-weight-bold">
+                        {{ product.discount|default_if_none:'' }}
+                    </span>
+                    {% endif %}
 
 
                     <div class="w-100 text-center">
