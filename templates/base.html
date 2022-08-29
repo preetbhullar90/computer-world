@@ -155,10 +155,6 @@
                         </form>
 
                         <ul class="list-inline list-unstyled text-center text-lg-right my-0 main-menu">
-
-
-
-
                             <li class="list-inline-item dropdown">
                                 <a class="text-black nav-link" href="#" id="user-option" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">
@@ -184,6 +180,9 @@
                                     {% endif %}
                                 </div>
                             </li>
+                        </ul>
+
+                        <ul class="list-inline list-unstyled text-center text-lg-right my-0 main-menu">
                             <li class="list-inline-item">
                                 <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
                                     href="{% url 'view_bag' %}">
@@ -268,7 +267,7 @@
 
 
     {% block postloadjs %}
-    <script type="text/javascript">
+    <script>
         $('.toast').toast('show');
     </script>
     {% endblock %}
