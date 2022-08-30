@@ -17,27 +17,25 @@
 
 4. [**Design**](#Design)
 
-5. [**Features**](#Features)
+5. [**Bugs**](#Bugs)
 
-6. [**Bugs**](#Bugs)
+6. [**Other Features**](#Other-Features)
 
-7. [**Other Features**](#Other-Features)
+7. [**Technologies Used**](#Technologies-Used)
 
-8. [**Technologies Used**](#Technologies-Used)
+8. [**Frameworks Libraries and Programs Used**](#Frameworks-Libraries-and-Programs-Used)
 
-9. [**Frameworks Libraries and Programs Used**](#Frameworks-Libraries-and-Programs-Used)
-
-10. [**Testing**](#Testing)
+9. [**Testing**](#Testing)
 
     - [**Testings.md**](assets/testing-file/testing.md)
 
-11. [**Deployment**](#Deployment)
+10. [**Deployment**](#Deployment)
 
-12. [**Make a clone**](#Make-a-clone)
+11. [**Make a clone**](#Make-a-clone)
 
-13. [**Credit**](#Credit)
+12. [**Credit**](#Credit)
 
-14. [**Acknowledgements**](#Acknowledgements)
+13. [**Acknowledgements**](#Acknowledgements)
 
 ## **Introduction**
 
@@ -268,6 +266,13 @@ I have added a custom 404 error page using this [template](https://codepen.io/ad
 
 [Go Top](#Computer-World)
 
+## **Bugs**
+
+One bug present is when users click on the Login/Register button on the nav bar, they must double click to open dropdown menu. I have tried to fix it, but I have been unable to find a solution.
+
+![](/assets/readme-file/bug-image.PNG)
+
+
 ## **Other Features**
 
 - The logo is linked to the home page so that when the user clicks on the logo it will take them to the home page.
@@ -346,12 +351,6 @@ I have added a custom 404 error page using this [template](https://codepen.io/ad
 ## **Testing**
 The testing process can be found  [here](assets/testing-file/testing.md)
 
-
-## **Bugs**
-
-One bug present is when users click on the Login/Register button on the nav bar, they must double click to open dropdown menu. I have tried to fix it, but I have been unable to find a solution.
-
-![](/assets/readme-file/bug-image.PNG)
 
 ## **Deployment**
 

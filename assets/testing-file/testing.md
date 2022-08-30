@@ -141,12 +141,13 @@ From here, if the user clicks `product management`, they are taken to the produc
 ![](/assets/testing-file/login-image.PNG)
 ![](/assets/testing-file/logout-image.PNG)
 
+[Go Top](#Table-of-contents)
+
 5. As a **user** I can **create a personal account** so that **I can view my profile.**
 - Users can buy anything as a guest, but if they create a personal account, they can see their personal details and their order history. They can also update their profile at any time.
 
 ![](/assets/testing-file/my-profile-image.PNG)
 
-[Go Top](#Table-of-contents)
 
 ## **Manual File Test**
 
@@ -175,6 +176,8 @@ From here, if the user clicks `product management`, they are taken to the produc
 * The Deals page responsive on all the devices.
 
 ![](/assets/testing-file/deal-responsive-page.gif)
+
+[Go Top](#Table-of-contents)
 
 ### **Bag-Page-Responsive**
 * The Bag page responsive on all the devices.
@@ -206,9 +209,56 @@ From here, if the user clicks `product management`, they are taken to the produc
 
 ![](/assets/testing-file/contact-responsive-page.gif)
 
+[Go Top](#Table-of-contents)
 
+## **Automated Testing**
 
+### **Code Validation**
+The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the `HTML` code used.
 
+**Results:**
+
+### **HTML File**
+![](/assets/testing-file/html-validate.PNG)
+
+The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) service was used to validate the `CSS` coded used.
+
+### **Css Result**
+
+![](/assets/testing-file/css-validate.PNG)
+
+The [PEP8 Validator](http://pep8online.com/) service was used to validate the `Django` coded used.
+
+### **Django files check**
+
+![](/assets/testing-file/pep-8.PNG)
+
+### **Browser Validation**
+- Chrome - [test image](/assets/testing-file/browser-test/chrome.PNG)
+- Edge - [test image](/assets/testing-file/browser-test/edge.PNG)
+- Opera - [test image](/assets/testing-file/browser-test/opera.PNG)
+- Firefox - [test image](/assets/testing-file/browser-test/firefox.PNG)
+
+## **Lighthouse**
+
+* Website performance checked in lighthouse developer-tool,with the following result :
+
+![](/assets/testing-file/lighthouse.PNG)
+
+## **Test Coverage**
+* The code tested with coverage tool, with the following result:
+I have used the Coverage library throughout testing to keep track of how much of my Python code was covered by the tests I had written. From running the coverage report my website has 89% of my code tested, with the following result:
+
+To generate your own coverage report from the command line:
+
+1. Install the package using `pip3 install coverage`
+2. Run `coverage run manage.py test`
+3. Then `coverage html` to generate the report
+4. You can view the report in a browser by using the command `python3 -m http.server` and opening the `index.html` file from inside the `htmlcov` folder.
+
+![](/assets/testing-file/coverage-project-5.PNG)
+
+[Go Top](#Table-of-contents)
 
 
 
