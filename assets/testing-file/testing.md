@@ -147,3 +147,68 @@ From here, if the user clicks `product management`, they are taken to the produc
 ![](/assets/testing-file/my-profile-image.PNG)
 
 [Go Top](#Table-of-contents)
+
+## **Manual File Test**
+
+### **Home-Page-Responsive**
+* The Home page responsive on all the devices.
+
+![](/assets/testing-file/computer-world-home-page.gif)
+
+### **Products-Page-Responsive**
+* The All products page responsive on all the devices.
+
+![](/assets/testing-file/product-responsive-page.gif)
+
+### **Products-Page**
+* Full Products page.
+
+![](/assets/testing-file/product-full-page.gif)
+
+
+### **Detail-Page-Responsive**
+* The Detail page responsive on all the devices.
+
+![](/assets/testing-file/detail-responsive-page.gif)
+
+### **Deals-Page-Responsive**
+* The Deals page responsive on all the devices.
+
+![](/assets/testing-file/deal-responsive-page.gif)
+
+### **Bag-Page-Responsive**
+* The Bag page responsive on all the devices.
+
+![](/assets/testing-file/bag-responsive-page.gif)
+
+### **Checkout-Page-Responsive**
+* The Checkout page responsive on all the devices.
+
+![](/assets/testing-file/checkout-responsive-page.gif)
+
+### **Profile-Page-Responsive**
+* The Profile page responsive on all the devices.
+
+![](/assets/testing-file/profile-responsive-page.gif)
+
+### **Products-Management-Page-Responsive**
+* The Product Management page responsive on all the devices.
+
+![](/assets/testing-file/add-product-responsive-page.gif)
+
+### **About-Page-Responsive**
+* The About page responsive on all the devices.
+
+![](/assets/testing-file/about-responsive-page.gif)
+
+### **Contact-Page-Responsive**
+* The Contact page responsive on all the devices.
+
+![](/assets/testing-file/contact-responsive-page.gif)
+
+
+
+
+
+
+
