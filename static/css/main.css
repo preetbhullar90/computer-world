@@ -186,6 +186,10 @@
     background-color: #008000;
 }
 
+.detail-button {
+    background-color: #008000;
+}
+
 .basket-button:hover {
     background-color: #056805;
 }
@@ -4234,6 +4238,11 @@ input.num-product::-webkit-inner-spin-button {
 
     .bg-img1 {
         padding-top: 140px;
+    }
+
+    .detail-button {
+        margin-top: 11px;
+        margin-right: 10px;
     }
 
 

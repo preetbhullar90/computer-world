@@ -122,10 +122,7 @@
                     <p class="stext-102 cl3 p-t-23">
                     </p>
 
-
                     <div class="p-t-33">
-
-
                         <div class="flex-w flex-r-m p-b-10">
                             <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                                 {% with product.has_sizes as s %}
@@ -169,7 +166,7 @@
                                         </div>
                                     </div>
                                     <input type="submit"
-                                        class="basket-button flex-c-m stext-101 cl0 size-101  rounded p-lr-15 trans-04"
+                                        class="detail-button flex-c-m stext-101 cl0 size-101  rounded p-lr-15 trans-04"
                                         value="Add to Bag">
                                     <div>
                                         <a href="{% url 'products' %}"
