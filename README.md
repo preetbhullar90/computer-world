@@ -64,7 +64,7 @@ These users will be looking for:
 
 ### **User Stories**
 
-Please find all my defined user stories & their acceptance criteria [here](https://github.com/preetbhullar90/computer-world/issues)
+Please find all my defined user stories & their acceptance criteria [here](https://github.com/preetbhullar90/computer-world/issues?q=is%3Aissue+is%3Aclosed)
 
 ### **1. Sort and Searching products:**
 
