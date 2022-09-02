@@ -17,25 +17,27 @@
 
 4. [**Design**](#Design)
 
-5. [**Bugs**](#Bugs)
+5. [**Markting**](#Markting)
 
-6. [**Other Features**](#Other-Features)
+6. [**Bugs**](#Bugs)
 
-7. [**Technologies Used**](#Technologies-Used)
+7. [**Other Features**](#Other-Features)
 
-8. [**Frameworks Libraries and Programs Used**](#Frameworks-Libraries-and-Programs-Used)
+8. [**Technologies Used**](#Technologies-Used)
 
-9. [**Testing**](#Testing)
+9. [**Frameworks Libraries and Programs Used**](#Frameworks-Libraries-and-Programs-Used)
+
+10. [**Testing**](#Testing)
 
     - [**Testings.md**](assets/testing-file/testing.md)
 
-10. [**Deployment**](#Deployment)
+11. [**Deployment**](#Deployment)
 
-11. [**Make a clone**](#Make-a-clone)
+12. [**Make a clone**](#Make-a-clone)
 
-12. [**Credit**](#Credit)
+13. [**Credit**](#Credit)
 
-13. [**Acknowledgements**](#Acknowledgements)
+14. [**Acknowledgements**](#Acknowledgements)
 
 ## **Introduction**
 
@@ -182,7 +184,13 @@ The Profile app allows users to save their information, so that when they are lo
 
 - I used [Figma](https://www.figma.com/file/xGZ1gadhIzf7MHrQTEKplK/Computer-world?node-id=0%3A1 "Link to Figma homepage") Wireframe for the website.
 
-### **Markting**
+## **Markting**
+
+### **Plan**
+
+Computer-World website is a business to consumer e-commerce platform, built and designed to sell products and services directly between a business and consumers. Before beginning this project I wrote a marketing plan which can be found here:
+
+[Marketing plan](/assets/documents/Computer-World-Business-Models.pdf)
 
 To further enhance sales there is also a computer world Facebook page, which will display all products that are for sale:
 
