@@ -2471,7 +2471,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .cl4 {
-    color: #999;
+    color: #666666;
 }
 
 .cl5 {
@@ -2479,7 +2479,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .cl6 {
-    color: #888;
+    color: #b2b2b2;
 }
 
 .cl7 {
@@ -2508,6 +2508,18 @@ input.num-product::-webkit-inner-spin-button {
 
 .price-text {
     color: #ff0000;
+}
+
+.about-us-text {
+    color: #555555;
+}
+
+.contact-page-text {
+    color: #555555;
+}
+
+.product-detail-sku {
+    color: #555555;
 }
 
 /*//////////////////////////////////////////////////////////////////
