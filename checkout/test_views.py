@@ -14,7 +14,7 @@ class TestCheckoutViews(TestCase):
 
         self.order = Order.objects.create(
             order_number='45353er',
-            full_name=['full_nmae'],
+            full_name=['full_name'],
             email='test123@gmail.com',
             phone_number=64647547677,
             country='england',
