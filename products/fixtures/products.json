@@ -231,5 +231,276 @@
          "weight": 4.6,
          "dimension": 60.77
       }
+   },
+
+   {
+      "pk": 14,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5001340545",
+         "name": "Medion Crawler E25 Gaming Laptop,AMD Ryzen 5-5600H 3.3GHz",
+         "description": "AMD Ryzen 5-5600H 3.3GHz 8GB RAM, 512GB SSD 15.' Full HD Display",
+         "price": 744.99,
+         "category": 6,
+         "rating": 4.4,
+         "image_url": "https://www.google.com/search?q=Medion+Crawler+E25+Gaming+Laptop,&client=firefox-b-d&sxsrf=ALiCzsYK2kYggKEihksmMoJ6q2g_qmlBVw:1662371189166&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjkxNuhr_35AhVlmVwKHdHZCegQ_AUoAnoECAIQBA&biw=2560&bih=1315&dpr=1",
+         "image": "laptop2.jpg",
+         "image1": "laptop2-1.jpg",
+         "image2": "laptop2-2.jpg",
+         "weight": 6.6,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 15,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5001340156",
+         "name": "ASUS ZenBook UX325EA, Intel Core i5-1135G7 2.4GHz, 13.3' Full HD OLED",
+         "description": "Intel Core i5-1135G7 2.4GHz 8GB DDR4, 512GB NVMe + 32GB Optane 13.3",
+         "price": 589.99,
+         "category": 6,
+         "rating": 4.5,
+         "image_url": "https://www.google.com/search?q=ASUS+ZenBook+UX325EA&tbm=isch&ved=2ahUKEwjslfGkr_35AhWKyYUKHW60Dv8Q2-cCegQIABAA&oq=ASUS+ZenBook+UX325EA&gs_lcp=CgNpbWcQAzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgYIABAeEAUyBggAEB4QCDIGCAAQHhAIMgYIABAeEAg6BAgAEBhQ7ghY7ghg6QxoAHAAeACAAXeIAbcBkgEDMS4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=e8UVY6zsMIqTlwTu6Lr4Dw&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "laptop3.jpg",
+         "image1": "laptop3-1.jpg",
+         "image2": "laptop3-2.jpg",
+         "weight": 7.6,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 16,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5001340157",
+         "name": "ASUS X515EA Intel Core i3-1115G4 up to 4.1GHz 15.6' Full HD",
+         "description": "Intel Core i3-1115G4 up to 4.1GHz 8GB DDR4 256GB NVMe M.2 SSD,UHD Graphics",
+         "price": 399.99,
+         "category": 6,
+         "rating": 4.7,
+         "image_url": "https://www.google.com/search?q=ASUS+X515EA+Intel+Core+i3-1115G4+up+&tbm=isch&ved=2ahUKEwii4JaCsf35AhUXw4UKHc34AZMQ2-cCegQIABAA&oq=ASUS+X515EA+Intel+Core+i3-1115G4+up+&gs_lcp=CgNpbWcQAzoECCMQJzoFCAAQgAQ6BggAEB4QBToGCAAQHhAIUN4XWN4XYOweaABwAHgAgAFTiAGUAZIBATKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=S8cVY-KONpeGlwTN8YeYCQ&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "laptop4.jpg",
+         "image1": "laptop4-1.jpg",
+         "image2": "laptop4-2.jpg",
+         "weight": 8.1,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 17,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5001340158",
+         "name": "Acer TravelMate P2 Core i3 8GB 128GB SSD 14' Win10 Home",
+         "description": "Intel Core i3 1115G4 3GHz 8GB RAM + 128GB SSD Intel UHD Graphics",
+         "price": 269.99,
+         "category": 6,
+         "rating": 4.3,
+         "image_url": "https://www.google.com/search?q=Acer+TravelMate+P2+Core+i3+8GB+128GB+SSD+14%22+Win10+Home&tbm=isch&ved=2ahUKEwit8pWBsv35AhWlgc4BHaVNDKsQ2-cCegQIABAA&oq=Acer+TravelMate+P2+Core+i3+8GB+128GB+SSD+14%22+Win10+Home&gs_lcp=CgNpbWcQA1AAWABghQhoAHAAeACAAUeIAUeSAQExmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=VsgVY63vDKWDur4PpZux2Ao&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "laptop5.jpg",
+         "image1": "laptop5-1.jpg",
+         "image2": "laptop5-2.jpg",
+         "weight": 7.9,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 18,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5001340159",
+         "name": "ASUS VivoBook M513UA, AMD Ryzen 7 5700U 15.6' OLED, Full HD ",
+         "description": "AMD Ryzen 7 5700U 16GB RAM, 512GB SSD Intel UHD Graphics, Windows 11 Home",
+         "price": 669.99,
+         "category": 6,
+         "rating": 4.4,
+         "image_url": "https://www.google.com/search?q=ASUS+VivoBook+M513UA&tbm=isch&ved=2ahUKEwi_0tHAsv35AhUHaRoKHS2fBIcQ2-cCegQIABAA&oq=ASUS+VivoBook+M513UA&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQHhAIMgYIABAeEAgyBAgAEB4yBggAEB4QBTIECAAQGDIECAAQGDIECAAQGFCXCViXCWDbDWgAcAB4AIABYIgBnQGSAQEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=28gVY__4EofSaa2-krgI&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "laptop6.jpg",
+         "image1": "laptop6-1.jpg",
+         "image2": "laptop6-2.jpg",
+         "weight": 9.9,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 19,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401510",
+         "name": "Razer Blade Pro 17 Gaming Laptop, Intel Core i7-10875H 2.3GHz",
+         "description": "Intel Core i3 1115G4 3GHz 8GB RAM + 128GB SSD Intel UHD Graphics",
+         "price": 1299.99,
+         "category": 6,
+         "rating": 4.9,
+         "image_url": "https://www.google.com/search?q=Razer+Blade+Pro+17+Gaming+Laptop%2C+Intel+Core+i7-10875H+2.3GHz&tbm=isch&ved=2ahUKEwiI1dectP35AhUMNxoKHc8hDEkQ2-cCegQIABAA&oq=Razer+Blade+Pro+17+Gaming+Laptop%2C+Intel+Core+i7-10875H+2.3GHz&gs_lcp=CgNpbWcQAzoECCMQJzoFCAAQgAQ6BggAEB4QCDoECAAQHjoGCAAQHhAFOgQIABAYUKQLWKQLYKURaABwAHgAgAFqiAGqAZIBAzEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=qMoVY4jhL4zuaM_DsMgE&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "laptop7.jpg",
+         "image1": "laptop7-1.jpg",
+         "image2": "laptop7-2.jpg",
+         "weight": 8.9,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 20,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401511",
+         "name": "MSI Katana GF76 12UD-026UK Gaming Laptop, Intel Core i7-12700H up to 4.7GHz",
+         "description": "Intel Core i7-12700H up to 4.7GHz, GeForce RTX 3050 Ti 4GB",
+         "price": 999.99,
+         "category": 6,
+         "rating": 4.5,
+         "image_url": "https://www.google.com/search?q=MSI+Katana+GF76+12UD-026UK+Gaming+Laptop%2C+Intel+Core+i7-12700H+up+to+4.7GHz&tbm=isch&ved=2ahUKEwiu3JDktP35AhURnRoKHR6xAE8Q2-cCegQIABAA&oq=MSI+Katana+GF76+12UD-026UK+Gaming+Laptop%2C+Intel+Core+i7-12700H+up+to+4.7GHz&gs_lcp=CgNpbWcQAzoECCMQJ1C3Cli3CmC0D2gAcAB4AIABf4gBuwGSAQMxLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=PssVY67FJZG6ap7igvgE&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "laptop8.jpg",
+         "image1": "laptop8-1.jpg",
+         "image2": "laptop8-2.jpg",
+         "weight": 7.9,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 21,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401512",
+         "name": "AlphaSync 4000X RTX 3070Ti Intel Core i9 11900KF 16GB RAM 1TB Desktop PC",
+         "description": "Intel Core i9 11900KF 3.5GHz 16GB RAM, 1TB HDD, 500GB SSD",
+         "price": 1799.99,
+         "category": 5,
+         "rating": 3.5,
+         "image_url": "https://www.google.com/search?q=AlphaSync+4000X+RTX+3070Ti+Intel+Core+i9+11900KF+16GB+RAM+1TB+HDD+500GB+SSD+Desktop+PC&tbm=isch&ved=2ahUKEwiYju_Otf35AhUaShoKHXKHBEwQ2-cCegQIABAA&oq=AlphaSync+4000X+RTX+3070Ti+Intel+Core+i9+11900KF+16GB+RAM+1TB+HDD+500GB+SSD+Desktop+PC&gs_lcp=CgNpbWcQAzIECCMQJ1DSDFjSDGC6EGgAcAB4AIABW4gBlwGSAQEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=HswVY5iHHJqUafKOkuAE&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "pc1-image.jpg",
+         "image1": "pc1-image1.jpg",
+         "image2": "pc1-image2.jpg",
+         "weight": 20,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 22,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401513",
+         "name": "AlphaSync Obsidian RTX 3070Ti AMD Ryzen 7 32GB RAM 4TB Gaming Desktop PC",
+         "description": "AMD Ryzen 7 5800X 3.8 GHz 32GB RAM, 1TB SSD WiFi & Windows",
+         "price": 2199.99,
+         "category": 5,
+         "rating": 4.5,
+         "image_url": "https://www.google.com/search?q=AlphaSync+Obsidian+RTX+3070Ti+AMD+Ryzen+7+32GB+RAM+4TB+HDD+1TB+SSD+Gaming+Desktop+PC&tbm=isch&ved=2ahUKEwith72Ft_35AhUJ4BoKHSMTBRwQ2-cCegQIABAA&oq=AlphaSync+Obsidian+RTX+3070Ti+AMD+Ryzen+7+32GB+RAM+4TB+HDD+1TB+SSD+Gaming+Desktop+PC&gs_lcp=CgNpbWcQAzoECCMQJ1CdHlidHmCnImgAcAB4AIABYogBnQGSAQEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=nc0VY-3EGYnAa6OmlOAB&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "pc2-image.jpg",
+         "image1": "pc2-image1.jpg",
+         "image2": "pc2-image2.jpg",
+         "weight": 22,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 23,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401514",
+         "name": "AlphaSync Pure Base 500 Gaming Desktop PC Intel Core i5 12400 16GB RAM",
+         "description": "Intel Core i5 12400 2.5GHz 16GB RAM,NVIDIA GeForce 3070",
+         "price": 1199.99,
+         "category": 5,
+         "rating": 3.4,
+         "image_url": "https://www.google.com/search?q=AlphaSync+Pure+Base+500+Gaming+Desktop+PC+Intel+Core+i5+12400+16GB+RAM&tbm=isch&ved=2ahUKEwinmeu2uP35AhVS2xoKHUvyByEQ2-cCegQIABAA&oq=AlphaSync+Pure+Base+500+Gaming+Desktop+PC+Intel+Core+i5+12400+16GB+RAM&gs_lcp=CgNpbWcQAzoECCMQJ1DEDFjEDGCmEWgAcAB4AIABPogBeZIBATKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=Ec8VY-fMFtK2a8vkn4gC&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "pc3-image.jpg",
+         "image1": "pc3-image1.jpg",
+         "image2": "pc3-image2.jpg",
+         "weight": 19,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 24,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401515",
+         "name": "AlphaSync Diamond RX 6600 XT Intel Core i5 480GB SSD Gaming Desktop PC",
+         "description": "Intel Core i5 11400F 2.6GHz 16GB RAM, 1TB HDD, 480GB SSD AMD Radeon",
+         "price": 899.99,
+         "category": 5,
+         "rating": 3.6,
+         "image_url": "https://www.google.com/search?q=AlphaSync+Diamond+RX+6600+XT+Intel+Core+i5+16GB+RAM+1TB+HDD+480GB+SSD+Gaming+Desktop+PC&tbm=isch&ved=2ahUKEwigvO6Suf35AhVPxYUKHXkOBQ8Q2-cCegQIABAA&oq=AlphaSync+Diamond+RX+6600+XT+Intel+Core+i5+16GB+RAM+1TB+HDD+480GB+SSD+Gaming+Desktop+PC&gs_lcp=CgNpbWcQAzoECCMQJ1CSD1iSD2D7E2gAcAB4AIABY4gBnAGSAQEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=0s8VY6CLFs-KlwT5nJR4&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "pc4-image.jpg",
+         "image1": "pc4-image1.jpg",
+         "image2": "pc4-image2.jpg",
+         "weight": 20,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 25,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401516",
+         "name": "AlphaSync 7000X RTX 3090 Intel Core i9 12th Gen 64GB Gaming Desktop PC",
+         "description": "Intel Core i9 12900KS 3.4GHz 64GB DDR5 RAM, 1TB SSD, 1TB SSD",
+         "price": 3999.99,
+         "category": 5,
+         "rating": 4.8,
+         "image_url": "https://www.google.com/search?q=AlphaSync+7000X+RTX+3090+Intel+Core+i9+12th+Gen+64GB+2TB+SSD+Windows+11+Home+Gaming+Desktop+PC&tbm=isch&ved=2ahUKEwjarePkuf35AhWIgc4BHZFvBTEQ2-cCegQIABAA&oq=AlphaSync+7000X+RTX+3090+Intel+Core+i9+12th+Gen+64GB+2TB+SSD+Windows+11+Home+Gaming+Desktop+PC&gs_lcp=CgNpbWcQAzoECCMQJ1CJD1iJD2DCFmgAcAB4AIABW4gBmQGSAQEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=ftAVY9r2CIiDur4Pkd-ViAM&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "pc5-image.jpg",
+         "image1": "pc5-image1.jpg",
+         "image2": "pc5-image2.jpg",
+         "weight": 25,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 26,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401517",
+         "name": "Xenta MT AMD Ryzen 7 16GB RAM 500GB SSD WiFi No OS Desktop PC",
+         "description": "AMD Ryzen 7 PRO 5750G 3.8GHz, 500GB SSD AMD Radeon Graphics WiFi, No Operating System",
+         "price": 499.99,
+         "category": 5,
+         "rating": 2.5,
+         "image_url": "https://www.google.com/search?q=Xenta+MT+AMD+Ryzen+7+16GB+RAM+500GB+SSD+WiFi+No+OS+Desktop+PC&tbm=isch&ved=2ahUKEwjJ-4_Juv35AhVCexoKHatMAFIQ2-cCegQIABAA&oq=Xenta+MT+AMD+Ryzen+7+16GB+RAM+500GB+SSD+WiFi+No+OS+Desktop+PC&gs_lcp=CgNpbWcQAzoECCMQJ1DsCljsCmCoD2gAcAB4AIABbIgBqAGSAQMxLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=UNEVY8mTJML2aauZgZAF&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "pc6-image.jpg",
+         "image1": "pc6-image1.jpg",
+         "image2": "pc6-image2.jpg",
+         "weight": 14,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 27,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401518",
+         "name": "Tomahawk ATX RTX 3070Ti Intel Core i9 11900KF 16GB RAM 2TB Desktop PC",
+         "description": "Intel Core i9 11900KF 3.5GHz 16GB RAM, 1TB HDD, 500GB SSD",
+         "price": 2999.99,
+         "category": 5,
+         "rating": 4.8,
+         "image_url": "https://www.google.com/search?q=razer+pc&tbm=isch&ved=2ahUKEwiJ_YPdu_35AhUHlBoKHdLJA3YQ2-cCegQIABAA&oq=razer+pc&gs_lcp=CgNpbWcQAzIECCMQJzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOggIABCxAxCDAToLCAAQgAQQsQMQgwE6CAgAEIAEELEDOgQIABBDOgcIABCxAxBDOgcIIxDqAhAnUPcSWIFBYOJCaAJwAHgAgAFiiAGzBpIBAjEzmAEAoAEBqgELZ3dzLXdpei1pbWewAQrAAQE&sclient=img&ei=htIVY4miL4eoatKTj7AH&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "razer-pc.jpg",
+         "image1": "razer-pc1.jpg",
+         "image2": "razer-pc2.jpg",
+         "weight": 21,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 28,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401519",
+         "name": "Linksys EA7300 MAX-STREAM AC1750 MU-MIMO Gigabit Wi-Fi Router",
+         "description": "Up to 1.7 Gbps Wi-Fi speeds Seamless Roaming Easy setup MU-MIMO",
+         "price": 42.99,
+         "category": 3,
+         "rating": 4.8,
+         "image_url": "https://www.google.com/search?q=Linksys+EA7300+MAX-STREAM+AC1750+MU-MIMO+Gigabit+Wi-Fi+Router&tbm=isch&ved=2ahUKEwjLpbLfvP35AhXhhM4BHQrPBFwQ2-cCegQIABAA&oq=Linksys+EA7300+MAX-STREAM+AC1750+MU-MIMO+Gigabit+Wi-Fi+Router&gs_lcp=CgNpbWcQAzIECAAQGDoECCMQJzoFCAAQgAQ6BAgAEENQvQlYvQlg5g5oAHAAeACAAW6IAaIBkgEDMS4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=mNMVY8v5CeGJur4Pip6T4AU&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "clearance2.jpg",
+         "image1": "clearance2-1.jpg",
+         "image2": "clearance2-2.jpg",
+         "weight": 21,
+         "dimension": "N/A"
+      }
    }
 ]
