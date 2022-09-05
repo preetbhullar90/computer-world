@@ -33,7 +33,7 @@
 
 11. [**User Feedback**](#User-Feedback)
 
-12. [**Search Engine Optimisation (SEO)**](#Search-Engine-Optimisation-(SEO))
+12. [**Search Engine Optimisation**](#Search-Engine-Optimisation)
 
 13. [**Deployment**](#Deployment)
 
@@ -381,7 +381,7 @@ My project was shared amongst a few Code Institute peers :
 
 All feedback received was implemented throughout the project.
 
-## **Search Engine Optimisation (SEO)**
+## **Search Engine Optimisation**
 
 To find the most relevant keywords for Computer World, I made the following searches on [Google](https://www.google.com/) and [Word](https://www.wordtracker.com/) Tracker:
 - Gaming PCs

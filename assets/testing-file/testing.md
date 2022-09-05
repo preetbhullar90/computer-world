@@ -236,13 +236,14 @@ The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) service was used t
 
 The [PEP8 Validator](http://pep8online.com/) service was used to validate the `Django` coded used.
 
+### **Django files check**
+
+![](/assets/testing-file/pep-8.PNG)
+
 The [Color Contrast Accessibility Validator](https://color.a11y.com/) was used to ensure that accessibility rules were met. There is one error as the checker does not recognise that the background of the "Shop Now" button changes when hovered.
 
 ![](/assets/testing-file/contrast-detector-test.PNG)
 
-### **Django files check**
-
-![](/assets/testing-file/pep-8.PNG)
 
 ### **Browser Validation**
 - Chrome - [test image](/assets/testing-file/browser-test/chrome.PNG)
