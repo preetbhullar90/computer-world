@@ -17,7 +17,7 @@
 
 4. [**Design**](#Design)
 
-5. [**Markting**](#Markting)
+5. [**Marketing**](#Marketing)
 
 6. [**Bugs**](#Bugs)
 
@@ -31,13 +31,17 @@
 
     - [**Testings.md**](assets/testing-file/testing.md)
 
-11. [**Deployment**](#Deployment)
+11. [**User Feedback**](#User-Feedback)
 
-12. [**Make a clone**](#Make-a-clone)
+12. [**Search Engine Optimisation (SEO)**](#Search-Engine-Optimisation-(SEO))
 
-13. [**Credit**](#Credit)
+13. [**Deployment**](#Deployment)
 
-14. [**Acknowledgements**](#Acknowledgements)
+14. [**Make a clone**](#Make-a-clone)
+
+15. [**Credit**](#Credit)
+
+16. [**Acknowledgements**](#Acknowledgements)
 
 ## **Introduction**
 
@@ -79,7 +83,7 @@ Please find all my defined user stories & their acceptance criteria [here](https
 
 - As a **shopper** I can **view all the products** so that **I can select some products to purchase.**
 - As a **shopper** I can **see individual product details** so that **I can see product description, price, image, and sizes.**
-- As a **shopper** I can **identify deals and special offers** so that ** I can take advantage of special savings some money on a product.**
+- As a **shopper** I can **identify deals and special offers** so that **I can take advantage of special savings some money on a product.**
 - As a **shopper** I can **see grand total of money and all product which I selected** so that **I can save lot of time.**
 
 ### **3. Purchase and checkout products:**
@@ -184,7 +188,7 @@ The Profile app allows users to save their information, so that when they are lo
 
 - I used [Figma](https://www.figma.com/file/xGZ1gadhIzf7MHrQTEKplK/Computer-world?node-id=0%3A1 "Link to Figma homepage") Wireframe for the website.
 
-## **Markting**
+## **Marketing**
 
 ### **Plan**
 
@@ -195,6 +199,8 @@ Computer-World website is a business to consumer e-commerce platform, built and 
 To further enhance sales there is also a computer world Facebook page, which will display all products that are for sale:
 
 ![](/assets/readme-file/facebook-page.PNG)
+
+
 
 ### 1. **Features**
 ### 2. **Header**
@@ -358,6 +364,37 @@ One bug present is when users click on the Login/Register button on the nav bar,
 
 ## **Testing**
 The testing process can be found  [here](assets/testing-file/testing.md)
+
+## **User Feedback**
+
+- Have the username of the account appear on the front page to show that the user has logged in
+- Include the business helpdesk’s opening times under the “About Us” page
+- On the Products page on the mobile website, the "Add to Basket" text was not center-aligned in the button.
+
+### **Peer Code Review Feedback**
+
+My project was shared amongst a few Code Institute peers :
+
+- Make sure that there is sufficient data validation when entering purchase details, mainly the phone number.
+- Improve the contrast between the footer background colour and text.
+- Add left side padding to the product description as it was being cut-off the page
+
+All feedback received was implemented throughout the project.
+
+## **Search Engine Optimisation (SEO)**
+
+To find the most relevant keywords for Computer World, I made the following searches on [Google](https://www.google.com/) and [Word](https://www.wordtracker.com/) Tracker:
+- Gaming PCs
+- PC Components
+- Computer Peripherals
+- Gaming Monitors
+- Consoles
+- Laptops
+
+Out of the above searches, many of the keywords were already the highest volume in terms of searches. Therefore they have been included in the metadata of the website.
+
+Also, I included ‘All things computing for the IT professional, and all things gaming for the gamer!’ within the homepage message.
+
 
 
 ## **Deployment**

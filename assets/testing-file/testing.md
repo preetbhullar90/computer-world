@@ -113,6 +113,12 @@ From here, if the user clicks `product management`, they are taken to the produc
 
 ![](/assets/testing-file/edit-product-image.PNG)
 
+- Products can also be managed via the Django Administration page. This can be accessed using a specified superuser account. An admin user can access the /admin URL and login, where they will then be taken to the 'Django Administration' page:
+
+![](/assets/testing-file/django-admin-page.PNG)
+
+
+
 [Go Top](#Table-of-contents)
 
 ### **5. User Authentication:**
@@ -134,6 +140,7 @@ From here, if the user clicks `product management`, they are taken to the produc
 - If users forget their password, there is a password forgot button found on the login page. By clicking this button, users will be taken to the email form where they can enter their correct email to recover the password. After entering the correct email and pressing the “reset my password” button, the user will get an email. In this email they will get a link that will redirect the user to the new password page where they can reset the password.
 
 ![](/assets/testing-file/forget-password-image.PNG)
+
 
 4. As a **user** I can **login or logout my account** so that **I can access my personal account information.**
 - Once users are registered on the website, they can logout at any time. They can also login at any time, when they want to access their personal account information.
@@ -228,6 +235,10 @@ The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) service was used t
 ![](/assets/testing-file/css-validate.PNG)
 
 The [PEP8 Validator](http://pep8online.com/) service was used to validate the `Django` coded used.
+
+The [Color Contrast Accessibility Validator](https://color.a11y.com/) was used to ensure that accessibility rules were met. There is one error as the checker does not recognise that the background of the "Shop Now" button changes when hovered.
+
+![](/assets/testing-file/contrast-detector-test.PNG)
 
 ### **Django files check**
 

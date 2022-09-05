@@ -92,6 +92,8 @@
         text-align: center;
         margin-bottom: 10rem;
     }
+
+
 }
 
 /*------------------------------------------------------------------
@@ -2522,6 +2524,26 @@ input.num-product::-webkit-inner-spin-button {
     color: #555555;
 }
 
+.signout-page {
+    padding-bottom: 50rem;
+}
+
+.signup-page {
+    padding-bottom: 30rem;
+}
+
+.sign-in-page {
+    padding-bottom: 30rem;
+}
+
+.password-page {
+    padding-bottom: 50rem;
+}
+
+.shopping-bag-page {
+    padding-bottom: 40rem;
+}
+
 /*//////////////////////////////////////////////////////////////////
   [ S-Text 0 - 15 ]*/
 .stext-101 {
@@ -3958,6 +3980,28 @@ input.num-product::-webkit-inner-spin-button {
     .allauth-form-inner-content {
         padding-top: 6rem;
     }
+
+    .signout-page {
+        padding-bottom: 15rem;
+    }
+
+
+    .signup-page {
+        padding-bottom: 15rem;
+    }
+
+    .sign-in-page {
+        padding-bottom: 15rem;
+    }
+
+    .shopping-bag-page {
+        padding-bottom: 15rem;
+    }
+
+    .password-page {
+        padding-bottom: 15rem;
+    }
+
 }
 
 
