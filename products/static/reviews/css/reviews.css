@@ -21,7 +21,7 @@
 /* ------------------------------------ Delete Product Page */
 #delete {
     margin: 50px;
-    padding-top: 10rem;
+    padding-top: 15rem;
     margin-bottom: 30rem;
 }
 
@@ -51,14 +51,14 @@
 }
 
 .review-section {
-    margin-right: 8.333333%;
+    padding-bottom: 20px;
 }
 
 /* ------------------------------------ Edit Review */
 .edit-review {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
-    padding-bottom: 10rem;
+    padding-bottom: 20rem;
 }
 
 .edit-container {
@@ -138,10 +138,22 @@ ul.thumb li img {
 }
 
 .review-box {
+
     width: 83%;
 }
 
-@media screen and (max-width: 767px) {
+.buttons-style {
+    border: 1px solid #000;
+    color: #000;
+}
+
+.buttons-style:hover {
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+
+@media screen and (max-width: 850px) {
 
     /* ------------------------------------ Product Details Page */
 
@@ -157,8 +169,12 @@ ul.thumb li img {
     }
 
     #delete {
+        padding-top: 10rem;
         margin-bottom: 10rem;
     }
+
+
+
 
 }
 
@@ -179,5 +195,14 @@ ul.thumb li img {
     .btn-cancel {
         font-size: small;
         padding: 5px;
+    }
+
+    .edit-review {
+        padding-bottom: 5rem;
+        width: 100%;
+    }
+
+    .edit-container {
+        padding-top: 10rem;
     }
 }

@@ -848,6 +848,7 @@ a.category-badge>span.badge {
         font-size: 18px;
     }
 
+
 }
 
 /*==================================================================
@@ -2526,6 +2527,17 @@ input.num-product::-webkit-inner-spin-button {
 
 .signout-page {
     padding-bottom: 50rem;
+}
+
+.signout-button {
+    border: 1px solid #000;
+    color: #000;
+}
+
+.signout-button:hover {
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
 }
 
 .signup-page {
