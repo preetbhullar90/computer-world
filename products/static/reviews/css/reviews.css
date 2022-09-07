@@ -1,3 +1,45 @@
+/* ------------------------------------ Review add Page */
+.add-product-form {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.add-product:hover {
+    color: #D9895B;
+}
+
+.cancel {
+    color: #730C02;
+    border: 1px solid #730C02;
+}
+
+.cancel:hover {
+    background-color: #730C02;
+    color: white;
+}
+
+/* ------------------------------------ Delete Product Page */
+#delete {
+    margin: 50px;
+    padding-top: 10rem;
+    margin-bottom: 30rem;
+}
+
+#delete-confirm {
+    background-color: #beb5b1a6;
+    margin: 0 auto;
+    padding: 40px;
+    width: 50%;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.btn-del,
+.btn-cancel {
+    margin: 5px;
+}
+
+
 /* ------------------------------------ Reviews icon and colours */
 
 .rating {
@@ -16,6 +58,12 @@
 .edit-review {
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 10rem;
+}
+
+.edit-container {
+    padding-top: 15rem;
+
 }
 
 /* ------------------------------------ Product Details - Customer Reviews */
@@ -91,4 +139,45 @@ ul.thumb li img {
 
 .review-box {
     width: 83%;
+}
+
+@media screen and (max-width: 767px) {
+
+    /* ------------------------------------ Product Details Page */
+
+
+    .customer-reviews {
+        margin-top: 2rem !important;
+    }
+
+    /* Confirm Delete Page */
+
+    #delete-confirm {
+        width: 90% !important;
+    }
+
+    #delete {
+        margin-bottom: 10rem;
+    }
+
+}
+
+@media screen and (max-width: 397px) {
+    #delete {
+        margin: 30px;
+    }
+
+    #delete-confirm {
+        padding: 20px;
+    }
+
+    .delete-msg {
+        font-size: small;
+    }
+
+    .btn-del,
+    .btn-cancel {
+        font-size: small;
+        padding: 5px;
+    }
 }

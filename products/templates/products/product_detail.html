@@ -197,9 +197,8 @@
                     <div class="flex-m bor9 p-r-10 m-r-11">
                         <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">
                             <p>
-                                {% if product.rating %}
-                                <span><i class="fa fa-star cl11 pr-2"></i>{{ product.rating }} /
-                                    5</span>
+                                {% if total_reviews %}
+                                <span><i class="fa fa-star cl11 pr-2"></i>Reviews : {{ total_reviews }}</span>
                                 {% else %}
                                 <small>No Rating</small>
                                 {% endif %}
@@ -258,7 +257,7 @@
 
                         <li class="nav-item p-b-10">
 
-                            <a class="nav-link" data-toggle="tab" href="#reviews" role="tab">Reviews
+                            <a class="nav-link" href="#" data-toggle="modal" data-target=".bd-example-modal-lg">Reviews
                                 ({{total_reviews}})</a>
                         </li>
                     </ul>
@@ -333,115 +332,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- - -->
-
-                        <div class="tab-pane fade" id="reviews" role="tabpanel">
-                            <div class="row">
-                                <div class="col-sm-10 col-md-8 col-lg-6 m-lr-auto">
-                                    <div class="p-b-30 m-lr-15-sm">
-                                        <!-- Add review -->
-                                        {% if user.is_authenticated %}
-                                        <form action="{% url 'submit_review' product.id %}" method="POST"
-                                            class="w-full">
-                                            {% csrf_token %}
-                                            <h5 class="mtext-108 cl2 p-b-7">
-                                                Add a review
-                                            </h5>
-                                            <div class="flex-w flex-m p-t-50 p-b-23">
-                                                <span class="stext-102 cl3 m-r-16">
-                                                    Your Rating
-                                                </span>
-                                                <span class="wrap-rating fs-18 cl11 pointer">
-                                                    <i class="item-rating pointer zmdi zmdi-star-outline {% if review.rating == 0.5 %}-half-o{% elif review.rating < 1 %}-o {% endif %}"
-                                                        aria-hidden="true" required checked="checked"></i>
-                                                    <i class="item-rating pointer zmdi zmdi-star-outline{% if review.rating == 1.5 %}-half-o{% elif review.rating < 2 %}-o {% endif %}"
-                                                        aria-hidden="true" required checked="checked"></i>
-                                                    <i class="item-rating pointer zmdi zmdi-star-outline{% if review.rating == 2.5 %}-half-o{% elif review.rating < 3 %}-o {% endif %}"
-                                                        aria-hidden="true" required checked="checked"></i>
-                                                    <i class="item-rating pointer zmdi zmdi-star-outline{% if review.rating == 3.5 %}-half-o{% elif review.rating < 4 %}-o {% endif %}"
-                                                        aria-hidden="true" required checked="checked"></i>
-                                                    <i class="item-rating pointer zmdi zmdi-star-outline{% if review.rating == 4.5 %}-half-o{% elif review.rating < 5 %}-o {% endif %}"
-                                                        aria-hidden="true" required checked="checked"></i>
-                                                    <input class="dis-none" type="number" name="rating">
-                                                </span>
-                                            </div>
-
-                                            <div class="row p-b-25">
-                                                <div class="col-12 p-b-5">
-                                                    <label class="stext-102 cl3" for="review">Your review</label>
-                                                    <textarea class="size-110 bor8 stext-102 cl2 p-lr-20 p-tb-10"
-                                                        id="review" name="review"></textarea>
-                                                </div>
-                                            </div>
-                                            <button
-                                                class="flex-c-m stext-101 cl0 size-112 bg7 bor11 hov-btn3 p-lr-15 trans-04 m-b-40">
-                                                Submit
-                                            </button>
-                                            {% else %}
-                                            <div class="font-italic p-b-50">
-                                                You must be logged in to post a review.
-                                                <a href="{% url 'account_login' %}"
-                                                    class="ico keep-shopping-text p-t-10 p-b-10 p-l-10 p-r-10 bg-info">Login
-                                                    Here.</a>
-                                            </div>
-                                        </form>
-                                        {% endif %}
-                                        <!-- Review -->
-                                        <div class="flex-w flex-t p-b-68">
-                                            <div class="bg-light">
-                                                {% for review in reviews %}
-
-                                                {% if request.user == review.user or request.user.is_superuser %}
-                                                <div class="col text-right del-product p-t-15">
-                                                    <a class="text-info p-r-10"
-                                                        href="{% url 'edit_review' review.id %}">
-                                                        <i class="fas fa-edit"></i>
-                                                    </a>
-                                                    <a class="text-danger" href="{% url 'delete_review' review.id %}">
-                                                        <i class="fa fa-remove"></i>
-                                                    </a>
-                                                </div>
-                                                {% endif %}
-                                                <div>
-                                                    <div class="flex-w  p-b-1 p-l-20">
-                                                        <span class="mtext-107 cl2 p-r-20">
-                                                            {{ review.user }}
-                                                        </span>
-
-                                                        <span class="fs-18 cl11">
-                                                            <i class="item-rating pointer zmdi zmdi-star{% if review.rating == 0.5 %}-half-o{% elif review.rating < 1 %}-o zmdi zmdi-star-outline{% endif %}"
-                                                                aria-hidden="true"></i>
-                                                            <i class="item-rating pointer zmdi zmdi-star{% if review.rating == 1.5 %}-half-o{% elif review.rating < 2 %}-o zmdi zmdi-star-outline{% endif %}"
-                                                                aria-hidden="true"></i>
-                                                            <i class="item-rating pointer zmdi zmdi-star{% if review.rating == 2.5 %}-half-o{% elif review.rating < 3 %}-o zmdi zmdi-star-outline{% endif %}"
-                                                                aria-hidden="true"></i>
-                                                            <i class="item-rating pointer zmdi zmdi-star{% if review.rating == 3.5 %}-half-o{% elif review.rating < 4 %}-o zmdi zmdi-star-outline{% endif %}"
-                                                                aria-hidden="true"></i>
-                                                            <i class="item-rating pointer zmdi zmdi-star{% if review.rating == 4.5 %}-half-o{% elif review.rating < 5 %}-o zmdi zmdi-star-outline{% endif %}"
-                                                                aria-hidden="true"></i>
-                                                        </span>
-                                                    </div>
-
-                                                    <p class="stext-102 cl6 p-b-30 p-lr-20">
-                                                        {{review.review}}
-                                                    </p>
-                                                    <p style="border-bottom: 35px solid #fff;"></p>
-                                                    {% empty %}
-
-                                                </div>
-                                                <div class="font-italic mt-2">
-                                                    There are currently no reviews to display for this product.
-                                                </div>
-                                                {% endfor %}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
                     </div>
                 </div>
             </div>
@@ -519,7 +409,7 @@
 
                 <!-- Review -->
                 <div class="flex-w flex-t p-b-68">
-                    <div class="bg-light">
+                    <div class="bg-light w-100">
                         {% for review in reviews %}
                         {% if request.user == review.user or request.user.is_superuser %}
                         <div class="col text-right del-product p-t-15">
