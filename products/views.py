@@ -141,19 +141,14 @@ def delete_product(request, product_id):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
-
-    # product = get_object_or_404(Product, pk=product_id)
-    # product.delete()
-    # messages.success(request, 'Product deleted!')
-    # return redirect(reverse('products'))
     review = get_object_or_404(Product, pk=product_id)
+
     if request.method == 'POST':
         review.delete()
-        messages.success(request, 'Your review has been deleted!')
-        return redirect(reverse_lazy('product_detail', args=[product.id]))
+        messages.success(request, 'Your Product has been deleted!')
+        return redirect(reverse('products'))
 
     return render(request, 'products/delete_product.html')
-
 
 
 def submit_review(request, product_id):

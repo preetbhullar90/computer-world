@@ -132,12 +132,6 @@
 
 
 <script type="text/javascript">
-    // Update quantity on click
-    $('.update-link').click(function (e) {
-        var form = $(this).prev('.update-form');
-        form.submit();
-    })
-
     // Remove item and reload on click
     $('.remove-item').click(function (e) {
         var csrfToken = "{{ csrf_token }}";
@@ -154,5 +148,26 @@
                 location.reload();
             });
     })
+
+
+
+    // decrease button
+    $(".update-links").on('click', function (event) {
+        // get data id of button clicked and spit at _ to get the product pk
+        var pk = product[0];
+        // get value of the product quantity box using the pk
+        var value = parseInt(document.getElementById(id_qty_).value, 10);
+        value = isNaN(value) ? 0 : value;
+        // If value is not 0 then reduce by 1
+        if (value != 0) {
+            value--;
+        } else {
+            // if value is 0 then alert user they cannot reduce
+            alert("Number must be bigger than zero.");
+            value = value;
+        }
+        // set the quantity box by the new value
+        document.getElementById(id_qty_).value = value;
+    });
 </script>
 {% endblock %}
