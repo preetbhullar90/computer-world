@@ -4295,7 +4295,8 @@ input.num-product::-webkit-inner-spin-button {
     }
 
     .btn-lg {
-        font-size: 0.6rem;
+        font-size: 1rem;
+        font-weight: bold;
     }
 
     #containers {
@@ -4314,6 +4315,13 @@ input.num-product::-webkit-inner-spin-button {
     }
 
 
+}
+
+@media (max-width: 400px) {
+    .btn-lg {
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
 }
 
 /* 404 & 500 error page https://freefrontend.com/html-css-404-page-templates/ */
