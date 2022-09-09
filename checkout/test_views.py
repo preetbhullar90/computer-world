@@ -35,7 +35,6 @@ class TestCheckoutViews(TestCase):
             description='this is description',
             has_sizes=True,
             price=34.5,
-            rating=34.5,
             image_url=tempfile.NamedTemporaryFile(suffix=".jpg").name,
             image=tempfile.NamedTemporaryFile(suffix=".jpg").name,
             image1=tempfile.NamedTemporaryFile(suffix=".jpg").name,

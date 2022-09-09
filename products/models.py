@@ -39,8 +39,8 @@ class Product(models.Model):
 
 class Review(models.Model):
     """Rating and Review Model"""
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, null=True, blank=True, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, null=True, blank=True, on_delete=models.CASCADE)
     rating = models.DecimalField(
         max_digits=5, decimal_places=2, null=True, blank=False)
     review = models.TextField(max_length=500, blank=True)

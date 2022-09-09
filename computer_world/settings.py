@@ -124,12 +124,10 @@ WSGI_APPLICATION = 'computer_world.wsgi.application'
 
 
 if 'DATABASE_URL' in os.environ:
-    print("Postgres")
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
 else:
-    print("SQLite")
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',

@@ -30,7 +30,6 @@ class TestNewslettersModels(TestCase):
             description='this is description',
             has_sizes=True,
             price=34.5,
-            rating=34.5,
             weight=34.5,
             dimension='34',
         )
@@ -72,7 +71,6 @@ class TestNewslettersModels(TestCase):
         self.assertEquals(self.product.description, 'this is description')
         self.assertEquals(self.product.has_sizes, True)
         self.assertEquals(self.product.price, 34.5)
-        self.assertEquals(self.product.rating, 34.5)
         self.assertEquals(self.product.weight, 34.5)
         self.assertEquals(self.product.dimension, '34')
 
