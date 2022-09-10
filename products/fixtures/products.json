@@ -5,15 +5,15 @@
          "sku": "pp5001340155",
          "name": "BenQ EL2870UE 28' 1ms HDR 4K Gaming Monitor ",
          "description": "3840 x 2160 4K UHD   HDMI & DisplayPort   60Hz / 1ms Response Time    Panel type: TN    AMD FreeSync",
-         "price": 199.99,
+         "price": 259.99,
+         "discount": null,
          "category": 1,
-         "rating": 4.6,
          "image_url": "https://www.google.com/search?sa=G&hl=en_GB&tbs=simg:CAQSowIJAZ2QRlDxulwalwILELCMpwgaOQo3CAQSFKk0ugvAP_1Q32z-tK54o2B62GfgJGhnsvJDe7Oh2uwL4KKPQsF3Sg7n3jaYi7OYeIAUwBAwLEI6u_1ggaCgoICAESBJS2zt8MCxCd7cEJGrgBCiQKEWVsZWN0cm9uaWNzIGJyYW5k2qWI9gMLCgkvai83NDZ0YmIKIwoRcGVyc29uYWwgY29tcHV0ZXLapYj2AwoKCC9tLzA2NDN0CiIKDnRlbGV2aXNpb24gc2V02qWI9gMMCgovbS8wYnhfeTN3CiIKDmxjZCB0ZWxldmlzaW9u2qWI9gMMCgovbS8wOWR4MWY4CiMKEWNvbXB1dGVyIGhhcmR3YXJl2qWI9gMKCggvbS8wMW1magw&sxsrf=ALiCzsY30zwG07cB__Oc6PghkLyMGlDSJw:1654961645335&q=ps5+monitor+gaming+4k&tbm=isch&ved=2ahUKEwjCu_LH3KX4AhUHbcAKHWmTCzUQwg4oAHoECAEQMw&biw=2560&bih=1315&dpr=1",
          "image": "benq-monitor.jpg",
-         "image1": "benq-monitor.jpg",
-         "image2": "benq-monitor.jpg",
-         "weight": 4.6,
-         "dimension": 60.77
+         "image1": "benq-monitor1.jpg",
+         "image2": "benq-monitor2.jpg",
+         "weight": 6,
+         "dimension": "61.4 cm x 19.6 cm x 46.14 cm"
       }
    },
    {
@@ -24,14 +24,14 @@
          "name": "Acer K243Ybmix 23.8' Full HD ZeroFrame FreeSync IPS LED 75Hz ",
          "description": "1920 x 1080 Full HD  VGA & HDMI   75hz / 1ms Response Time   Panel Type: IPS   VESA Mount 100 x 100",
          "price": 129.99,
+         "discount": null,
          "category": 1,
-         "rating": 4.5,
          "image_url": "https://www.google.com/search?sa=G&hl=en_GB&tbs=simg:CAQSkAIJpdj-2GsMR6UahAILELCMpwgaOgo4CAQSFMA_1qTS6C_1Q32z_14CeUmnijYHqIIGhroGAe5bHyY0brAPW0xoFgWEoC-HcCO236q7yAFMAQMCxCOrv4IGgoKCAgBEgSqApV8DAsQne3BCRqkAQokChFlbGVjdHJvbmljcyBicmFuZNqliPYDCwoJL2ovNzQ2dGJiChsKCHZlcnRpY2Fs2qWI9gMLCgkvYS80aGgzcDAKHQoKaG9yaXpvbnRhbNqliPYDCwoJL2EvMm1xdnpjChsKCHBvcnRhYmxl2qWI9gMLCgkvYS83bW5feTcKIwoRY29tcHV0ZXIgaGFyZHdhcmXapYj2AwoKCC9tLzAxbWZqDA&sxsrf=ALiCzsb_auCrOZyOKia25fpqBlDYQVc2HA:1654961942364&q=acer+k243y+24+monitor+full+hd+1920x1080+ips+75hz+1ms+250nit+hdmi&tbm=isch&ved=2ahUKEwjP08PV3aX4AhV1QkEAHckWAd0Qwg4oAHoECAEQMw&biw=2560&bih=1315&dpr=1",
          "image": "acer-monitor.jpg",
-         "image1": "benq-monitor.jpg",
-         "image2": "benq-monitor.jpg",
-         "weight": 4.6,
-         "dimension": 60.77
+         "image1": "acer-monitor1.jpg",
+         "image2": "acer-monitor2.jpg",
+         "weight": 4.97,
+         "dimension": "61.4 cm x 36.7 cm x 6.6 cm"
       }
    },
    {
@@ -41,15 +41,15 @@
          "sku": "pp5001340155",
          "name": "ASUS ROG Strix XG27WQ 27' WQHD HDR 165Hz 1ms Gaming Monitor ",
          "description": "2560 x 1440 WQHD  DisplayPort & HDMI   165Hz / 1ms Response Time   Panel Type: VA",
-         "price": 299.99,
+         "price": 649.99,
+         "discount": null,
          "category": 1,
-         "rating": 4.8,
          "image_url": "https://www.google.com/search?sa=G&hl=en_GB&tbs=simg:CAQSrwIJXoUfFAne6xcaowILEKjU2AQaAghCDAsQsIynCBo6CjgIBBIUqTTAP7oL9DeAGeAdtgKeKPgJ5SYaGvjPl6-hGAV-Do1mrwqLagUjKS_19OM9XSayjIAUwBAwLEI6u_1ggaCgoICAESBCJKk5wMCxCd7cEJGrgBCiQKEWVsZWN0cm9uaWNzIGJyYW5k2qWI9gMLCgkvai83NDZ0YmIKIwoRcGVyc29uYWwgY29tcHV0ZXLapYj2AwoKCC9tLzA2NDN0CiIKDnRlbGV2aXNpb24gc2V02qWI9gMMCgovbS8wYnhfeTN3CiIKDmxjZCB0ZWxldmlzaW9u2qWI9gMMCgovbS8wOWR4MWY4CiMKEWNvbXB1dGVyIGhhcmR3YXJl2qWI9gMKCggvbS8wMW1magw&sxsrf=ALiCzsaU8FK5-qTQid_uWpfhqCZNw_DR5A:1654962376151&q=asus+rog+strix+xg27wq&tbm=isch&ved=2ahUKEwiD-K-k36X4AhWZFMAKHVuUBO8Qwg4oAHoECAEQMw&biw=2560&bih=1315&dpr=1",
          "image": "asus-monitor.jpg",
-         "image1": "benq-monitor.jpg",
-         "image2": "benq-monitor.jpg",
-         "weight": 4.6,
-         "dimension": 60.77
+         "image1": "asus-monitor1.jpg",
+         "image2": "asus-monitor2.jpg",
+         "weight": 4.8,
+         "dimension": "67.4 cm x 38.7 cm x 7.6 cm"
       }
    },
    {
@@ -57,17 +57,17 @@
       "model": "products.product",
       "fields": {
          "sku": "pp5001340155",
-         "name": "Dell P2722H 27' Full HD IPS Monitor ",
+         "name": "Dell P2722H 27' Full HD IPS Monitor 1 Year Warranty",
          "description": "1920 x 1080 Full HD   DisplayPort, VGA & HDMI   60hz / 5ms Response Time   Panel Type: IPS   Height Adjustable",
-         "price": 219.99,
+         "price": 234.99,
+         "discount": null,
          "category": 1,
-         "rating": 4.4,
          "image_url": "https://www.google.com/search?sa=G&hl=en_GB&tbs=simg:CAQSkAIJltN8YIZc2WoahAILELCMpwgaOgo4CAQSFKk02z_1YHroLwD_10N54o-AnCIK0rGhojo6Y6a-ESDwBwClWVCgHaHvvBykVixCWghyAFMAQMCxCOrv4IGgoKCAgBEgRVPXeHDAsQne3BCRqkAQokChFlbGVjdHJvbmljcyBicmFuZNqliPYDCwoJL2ovNzQ2dGJiCh0KCmhvcml6b250YWzapYj2AwsKCS9hLzJtcXZ6YwobCgh2ZXJ0aWNhbNqliPYDCwoJL2EvNGhoM3AwChsKCHBvcnRhYmxl2qWI9gMLCgkvYS83bW5feTcKIwoRY29tcHV0ZXIgaGFyZHdhcmXapYj2AwoKCC9tLzAxbWZqDA&sxsrf=ALiCzsYfXrz2mMOmPv_HMWsbrk3J_VnO1A:1654962591677&q=dell+27+fhd+p2722h&tbm=isch&ved=2ahUKEwiIxpKL4KX4AhUFWcAKHeT1C1UQwg4oAHoECAEQMw&biw=2560&bih=1315&dpr=1",
          "image": "dell-monitor.jpg",
-         "image1": "benq-monitor.jpg",
-         "image2": "benq-monitor.jpg",
-         "weight": 4.6,
-         "dimension": 60.77
+         "image1": "dell-monitor1.jpg",
+         "image2": "dell-monitor2.jpg",
+         "weight": 4.77,
+         "dimension": "60.99 cm x 19.01 cm x 53.41 cm"
       }
    },
    {
@@ -77,15 +77,15 @@
          "sku": "pp5001340155",
          "name": "LG 22MK400H 22' Full HD 5ms LED Monitor ",
          "description": "1920 x 1080 Full HD   DisplayPort, VGA & HDMI   60hz / 5ms Response Time   Panel Type: IPS   Height Adjustable",
-         "price": 99.99,
+         "price": 154.99,
+         "discount": null,
          "category": 1,
-         "rating": 4.1,
          "image_url": "https://www.google.com/search?sa=G&hl=en_GB&tbs=simg:CAQSjgIJ90d2gJ1zhMwaggILELCMpwgaOgo4CAQSFKk0wD-6C_1Q35SbbP9ge-AmeKK0rGhr40z7jU9cJ6VImAZV1izG0QQWBy45Exy421yAFMAQMCxCOrv4IGgoKCAgBEgToGBCiDAsQne3BCRqiAQokChFlbGVjdHJvbmljcyBicmFuZNqliPYDCwoJL2ovNzQ2dGJiCiAKDXBpY3R1cmUgZnJhbWXapYj2AwsKCS9tLzA2ejM3XwocCglncmFzc2xhbmTapYj2AwsKCS9tLzAxYzdjcQodCgpob3Jpem9udGFs2qWI9gMLCgkvYS8ybXF2emMKGwoIcG9ydGFibGXapYj2AwsKCS9hLzdtbl95Nww&sxsrf=ALiCzsYTQN5GFfM0K0B1DKJTOxTiJW-_vA:1654962719139&q=lg+22mk400h+b&tbm=isch&ved=2ahUKEwj0ofbH4KX4AhXJN8AKHXF_C4UQwg4oAHoECAEQMw&biw=2560&bih=1315&dpr=1",
          "image": "lg-monitor.jpg",
-         "image1": "benq-monitor.jpg",
-         "image2": "benq-monitor.jpg",
+         "image1": "lg-monitor1.jpg",
+         "image2": "lg-monitor2.jpg",
          "weight": 4.6,
-         "dimension": 60.77
+         "dimension": "62.56 cm x 20.41 cm x 46.87 cm"
       }
    },
    {
@@ -94,16 +94,16 @@
       "fields": {
          "sku": "pp5001340155",
          "name": "MSI Optix MAG301RF 29.5' Rapid IPS 200Hz 1ms eSports gaming Monitor",
-         "description": "2560 x 1080 Full HD HDMI & DisplayPort  200Hz / 1ms Response Time Panel Type: IPS NVIDIA G-Sync Compatible",
-         "price": 199.99,
+         "description": "2560 x 1080 Full HD HDMI & DisplayPort  200Hz / 1ms Response Time Panel Type: IPS NVIDIA",
+         "price": 219.99,
+         "discount": null,
          "category": 1,
-         "rating": 5.0,
          "image_url": "https://www.google.com/search?sa=G&hl=en_GB&tbs=simg:CAQSngIJU45IiAlLfgAakgILELCMpwgaOgo4CAQSFKk0wD-6C_1Q3gBnbP60rnij4CeUmGhr6UzV3dUxnOds8ItAqZ5mQnx3WTwpxF_16g7CAFMAQMCxCOrv4IGgoKCAgBEgQAR-nRDAsQne3BCRqyAQokChFlbGVjdHJvbmljcyBicmFuZNqliPYDCwoJL2ovNzQ2dGJiCh0KCmhvcml6b250YWzapYj2AwsKCS9hLzJtcXZ6YwoiCg50ZWxldmlzaW9uIHNldNqliPYDDAoKL20vMGJ4X3kzdwojChFwZXJzb25hbCBjb21wdXRlctqliPYDCgoIL20vMDY0M3QKIgoObGNkIHRlbGV2aXNpb27apYj2AwwKCi9tLzA5ZHgxZjgM&sxsrf=ALiCzsbqQGRJazg9_mSMitzlqmobJpxZFA:1654962777292&q=monitor+gaming+msi+optix+mag301rf&tbm=isch&ved=2ahUKEwjFz9Pj4KX4AhXmQEEAHTlpCaMQwg4oAHoECAEQMw&biw=2560&bih=1315&dpr=1",
          "image": "msi-monitor.jpg",
-         "image1": "benq-monitor.jpg",
-         "image2": "benq-monitor.jpg",
-         "weight": 4.6,
-         "dimension": 60.77
+         "image1": "msi-monitor1.jpg",
+         "image2": "msi-monitor2.jpg",
+         "weight": 4.98,
+         "dimension": "60.99 cm x 19.01 cm x 53.41 cm"
       }
    },
    {
@@ -113,15 +113,15 @@
          "sku": "pp5001340155",
          "name": "Samsung 34' Odyssey G5 WQHD Gaming Monitor with 1000R curved ",
          "description": "3440 x 1440 Ultrawide DisplayPort & HDMI 165Hz / 1ms Response Time Panel Type: VA Curved Design",
-         "price": 449.99,
+         "price": 549.99,
+         "discount": null,
          "category": 1,
-         "rating": 4.8,
          "image_url": "https://www.google.com/search?sa=G&hl=en_GB&tbs=simg:CAQSngIJU45IiAlLfgAakgILELCMpwgaOgo4CAQSFKk0wD-6C_1Q3gBnbP60rnij4CeUmGhr6UzV3dUxnOds8ItAqZ5mQnx3WTwpxF_16g7CAFMAQMCxCOrv4IGgoKCAgBEgQAR-nRDAsQne3BCRqyAQokChFlbGVjdHJvbmljcyBicmFuZNqliPYDCwoJL2ovNzQ2dGJiCh0KCmhvcml6b250YWzapYj2AwsKCS9hLzJtcXZ6YwoiCg50ZWxldmlzaW9uIHNldNqliPYDDAoKL20vMGJ4X3kzdwojChFwZXJzb25hbCBjb21wdXRlctqliPYDCgoIL20vMDY0M3QKIgoObGNkIHRlbGV2aXNpb27apYj2AwwKCi9tLzA5ZHgxZjgM&sxsrf=ALiCzsYoEMb4BrPqrfcf43IKlEsfqhpd2A:1654962934666&q=monitor+gaming+msi+optix+mag301rf&tbm=isch&ved=2ahUKEwiS-9iu4aX4AhX3QUEAHamyBZwQwg4oAHoECAEQMw&biw=2560&bih=1315&dpr=1",
          "image": "samsung-monitor.jpg",
-         "image1": "benq-monitor.jpg",
-         "image2": "benq-monitor.jpg",
-         "weight": 4.6,
-         "dimension": 60.77
+         "image1": "samsung-monitor1.jpg",
+         "image2": "samsung-monitor2.jpg",
+         "weight": 7.5,
+         "dimension": "61.46 cm x 30.59 cm x 57.6 cm "
       }
    },
    {
@@ -131,15 +131,15 @@
          "sku": "pp5001340155",
          "name": "Xenta F22X20F 22' Full HD VA Monitor with UltraSlim Bezel ",
          "description": "1920 x 1080 Full HD VGA, HDMI 60Hz / 7ms Response Time Panel Type VA VESA Mountable",
-         "price": 109.99,
+         "price": 129.99,
+         "discount": null,
          "category": 1,
-         "rating": 3.8,
          "image_url": "https://www.google.com/search?sa=G&hl=en_GB&tbs=simg:CAQSlgIJckcMPXCBKykaigILELCMpwgaOgo4CAQSFNs_1qTTAP_1gJ5SaiCLoLnij3CNgeGhrqbFTcHmPlCRjMYL9osSiouQQVMaEmN_1P5XCAFMAQMCxCOrv4IGgoKCAgBEgQhubiWDAsQne3BCRqqAQokChFlbGVjdHJvbmljcyBicmFuZNqliPYDCwoJL2ovNzQ2dGJiChsKCHZlcnRpY2Fs2qWI9gMLCgkvYS80aGgzcDAKHQoKaG9yaXpvbnRhbNqliPYDCwoJL2EvMm1xdnpjCiIKDnRlbGV2aXNpb24gc2V02qWI9gMMCgovbS8wYnhfeTN3CiIKDmxjZCB0ZWxldmlzaW9u2qWI9gMMCgovbS8wOWR4MWY4DA&sxsrf=ALiCzsZBbo2ZGlRfXPXzRwILPlQLGO_9Lw:1654963086211&q=desktop+beach+wallpaper+4k&tbm=isch&ved=2ahUKEwiKx_r24aX4AhUUhlwKHbiFDaAQwg4oAHoECAEQMw&biw=2560&bih=1315&dpr=1",
          "image": "xenta-monitor.jpg",
-         "image1": "benq-monitor.jpg",
-         "image2": "benq-monitor.jpg",
-         "weight": 4.6,
-         "dimension": 60.77
+         "image1": "xenta-monitor1.jpg",
+         "image2": "xenta-monitor2.jpg",
+         "weight": 4.3,
+         "dimension": "62.56 cm x 20.41 cm x 46.87 cm"
       }
    },
    {
@@ -148,16 +148,16 @@
       "fields": {
          "sku": "pp5001340155",
          "name": "AlphaSync Diamond RTX 3060Ti AMD Ryzen 5 3.6GHz 16GB 2TB HDD 1TB ",
-         "description": "AMD Ryzen 5 5600X 3.7GHz 16GB, 2TB HDD, 1TB SSD NVIDIA GeForce RTX 3060Ti Windows 11 Home 3 Year Warranty (1yr parts 3yr labour)",
+         "description": "AMD Ryzen 5 5600X 3.7GHz 16GB, 2TB HDD, 1TB SSD NVIDIA GeForce RTX 3060Ti",
          "price": 1199.99,
+         "discount": null,
          "category": 5,
-         "rating": 4.9,
          "image_url": "https://www.google.com/search?sa=G&hl=en_GB&tbs=simg:CAQSkgIJw2hrbx9s2fUahgILELCMpwgaOgo4CAQSFOAdtgKyLYcgyimmOaYN5jPuCIsJGhrIwgVpew1SXAaY5XyAwCSTzGmGRzW6vE0TBiAFMAQMCxCOrv4IGgoKCAgBEgRhaD4_1DAsQne3BCRqmAQobCgh2ZXJ0aWNhbNqliPYDCwoJL2EvNGhoM3AwCh8KDGNvbXB1dGVyIGZhbtqliPYDCwoJL20vMGJmN3hyCiYKFGxpZ2h0LWVtaXR0aW5nIGRpb2Rl2qWI9gMKCggvbS8wNG15bgojChFjb21wdXRlciBoYXJkd2FyZdqliPYDCgoIL20vMDFtZmoKGQoHbWFjaGluZdqliPYDCgoIL20vMGRrdzUM&sxsrf=ALiCzsYFMPUh3x5xDP31lwA357dPeZAZSw:1654963819326&q=alphasync+rtx+3070+amd+ryzen+7+16gb+ram+1tb+hdd+500gb+ssd+gaming+desktop+pc&tbm=isch&ved=2ahUKEwiXqMTU5KX4AhWHR8AKHWiIBU4Qwg4oAHoECAEQMw&biw=2560&bih=1315&dpr=1",
          "image": "alpha-sync-pc.jpg",
-         "image1": "benq-monitor.jpg",
-         "image2": "benq-monitor.jpg",
-         "weight": 4.6,
-         "dimension": 60.77
+         "image1": "alpha-sync-pc1.jpg",
+         "image2": "alpha-sync-pc2.jpg",
+         "weight": 22,
+         "dimension": "N/A"
       }
    },
    {
@@ -165,17 +165,17 @@
       "model": "products.product",
       "fields": {
          "sku": "pp5001340155",
-         "name": "Asus C403 Celeron N3350 4GB 32GB eMMC 14' HD Chromebook - 3 Year Warranty ",
+         "name": "Asus C403 Celeron N3350 4GB 32GB eMMC 14' HD Chromebook",
          "description": "Intel Celeron N3350 2.4GHz 4GB RAM + 32GB eMMC 14' HD Display 3 Year Warranty Chrome OS",
-         "price": 189.99,
+         "price": 399.99,
+         "discount": 349.99,
          "category": 3,
-         "rating": 5.0,
          "image_url": "https://www.google.com/search?sa=G&hl=en_GB&tbs=simg:CAQSgAIJRYPbx-bA-Sga9AELELCMpwgaOgo4CAQSFIA7sDeIJ9sgwzvJCqYouByAB_1QaGhrNIChELK8Wqyt8sOknS5UKywiYMGj9I-j-8yAFMAQMCxCOrv4IGgoKCAgBEgQQIZe5DAsQne3BCRqUAQocCglzcGFjZSBiYXLapYj2AwsKCS9tLzAzcmI4NQoYCgVzb2xpZNqliPYDCwoJL2EvM21nMWNtChsKCHBvcnRhYmxl2qWI9gMLCgkvYS83bW5feTcKJAoRZWxlY3Ryb25pY3MgYnJhbmTapYj2AwsKCS9qLzc0NnRiYgoXCgRzbGlt2qWI9gMLCgkvYS83MzEwNXoM&sxsrf=ALiCzsbrnhgew7sJS-_MDcHF5xLkNeEFHw:1654964087262&q=asus+chromebook+c403&tbm=isch&ved=2ahUKEwiZ6KXU5aX4AhX_QkEAHSsjDr8Qwg4oAHoECAEQMw&biw=2560&bih=1315&dpr=1",
          "image": "clearance-laptop.jpg",
-         "image1": "benq-monitor.jpg",
-         "image2": "benq-monitor.jpg",
-         "weight": 4.6,
-         "dimension": 60.77
+         "image1": "clearance-laptop1.jpg",
+         "image2": "clearance-laptop2.jpg",
+         "weight": 5.2,
+         "dimension": "N/A"
       }
    },
    {
@@ -183,17 +183,17 @@
       "model": "products.product",
       "fields": {
          "sku": "pp5001340155",
-         "name": "AlphaSync Custom PC Bundle - Intel Core i5-10600K CPU MSI MAG Z490 Tomahawk Motherboard 16GB 3200MHz ",
-         "description": "Bundle Contains: Intel Core i5-10600K MSI MAG Z490 Tomahawk Motherboard 16GB 3200MHz Corsair Vengeance RAM MasterLiquid ML120L V2 RGB",
+         "name": "AlphaSync Custom PC Bundle - Intel Core i5-10600K CPU MSI MAG Z490 Tomahawk Motherboard",
+         "description": "Bundle Contains: Intel Core i5-10600K MSI MAG Z490 Tomahawk Motherboard ",
          "price": 599.99,
+         "discount": 499.99,
          "category": 4,
-         "rating": 4.0,
          "image_url": "https://www.google.com/search?sa=G&hl=en_GB&tbs=simg:CAQSnwIJnZ-y9CElQqEakwILELCMpwgaOgo4CAQSFLYC4B2yLY8Jki-LCbAt3yqAGec2Ghpw3iST6zuKJfwsojDpf8w2uJ0sAsHBNMkyJCAFMAQMCxCOrv4IGgoKCAgBEgQT1wPPDAsQne3BCRqzAQoiCg9vcHRpY2FsIHN0b3JhZ2XapYj2AwsKCS9tLzA3NTUyYwofCgxjb21wdXRlciBmYW7apYj2AwsKCS9tLzBiZjd4cgomChBhdXhpbGlhcnkgbWVtb3J52qWI9gMOCgwvZy8xcTZreW41dnkKHgoMb3B0aWNhbCBkaXNj2qWI9gMKCggvbS8wYmN0cgokChFlbGVjdHJvbmljcyBicmFuZNqliPYDCwoJL2ovNzQ2dGJiDA&sxsrf=ALiCzsYoWlqzpRpo0l4aYnbCJ0bWkMlipA:1654964418922&q=optical+storage&tbm=isch&ved=2ahUKEwiu4bjy5qX4AhVKQkEAHb2qAeYQwg4oAHoECAIQMw&biw=2560&bih=1315&dpr=1",
          "image": "deal-motherboard.jpg",
-         "image1": "benq-monitor.jpg",
-         "image2": "benq-monitor.jpg",
-         "weight": 4.6,
-         "dimension": 60.77
+         "image1": "deal-motherboard1.jpg",
+         "image2": "deal-motherboard2.jpg",
+         "weight": 2.6,
+         "dimension": "N/A"
       }
    },
    {
@@ -201,17 +201,17 @@
       "model": "products.product",
       "fields": {
          "sku": "pp5001340155",
-         "name": "Lenovo V14 G2 Core i5 8GB 256GB SSD 14' FHD Win11 Pro Laptop - 82KA00NFUK ",
-         "description": "Intel Core i5 1135G7 2.4GHz 8GB RAM + 256GB SSD 14' FHD Display 1920 x 1080 Intel Iris Xe Graphics Windows 11 Pro",
+         "name": "Lenovo V14 G2 Core i5 8GB 256GB SSD 14' FHD Win11 Pro Laptop",
+         "description": "Intel Core i5 1135G7 2.4GHz 8GB RAM + 256GB SSD 14' FHD Display 1920 x 1080 Intel Iris Xe Graphics",
          "price": 349.99,
+         "discount": 299.99,
          "category": 6,
-         "rating": 4.6,
          "image_url": "https://www.google.com/search?sa=G&hl=en_GB&tbs=simg:CAQSjAIJ17yQM8zlDFQagAILELCMpwgaOQo3CAQSE6YoyQqiIrA3iCelFDjbIL4iuBwaGs3y2RS35YRfpTj_1DAwpUkXBTwQn-J0-KKrmIAUwBAwLEI6u_1ggaCgoICAESBMrBz3UMCxCd7cEJGqEBChwKCXNwYWNlIGJhctqliPYDCwoJL20vMDNyYjg1CiQKEG9mZmljZSBlcXVpcG1lbnTapYj2AwwKCi9tLzAzcXRnamsKGAoFc29saWTapYj2AwsKCS9hLzNtZzFjbQobCghwb3J0YWJsZdqliPYDCwoJL2EvN21uX3k3CiQKEWVsZWN0cm9uaWNzIGJyYW5k2qWI9gMLCgkvai83NDZ0YmIM&sxsrf=ALiCzsZbQxUnojtaPD0GDFTnIvzz0pnQtg:1654964681813&q=lenovo+v14+itl+g2&tbm=isch&ved=2ahUKEwipl-bv56X4AhXRRcAKHeqFAIIQwg4oAHoECAEQMw&biw=2560&bih=1315&dpr=1",
          "image": "lenovo-laptop.jpg",
-         "image1": "benq-monitor.jpg",
-         "image2": "benq-monitor.jpg",
-         "weight": 4.6,
-         "dimension": 60.77
+         "image1": "lenovo-laptop1.jpg",
+         "image2": "lenovo-laptop2.jpg",
+         "weight": 6.4,
+         "dimension": "N/A"
       }
    },
    {
@@ -220,16 +220,16 @@
       "fields": {
          "sku": "pp5001340155",
          "name": "MSI GeForce RTX 3060 12GB VENTUS 2X Ampere Graphics Card ",
-         "description": "GeForce RTX 3060 12GB GDDR6 Boost Clock: 1777MHz HDMI x 1 DP x 3",
+         "description": "GeForce RTX 3060 12GB GDDR6 Boost Clock: 1777MHz HDMI x 1 DP x 3, 1 Year Warranty",
          "price": 389.99,
+         "discount": null,
          "category": 2,
-         "rating": 4.5,
          "image_url": "https://www.google.com/search?sa=G&hl=en_GB&tbs=simg:CAQSogIJBBhtmQ-8Q_1AalgILELCMpwgaOgo4CAQSFOc2nR2SL7YCgBnWJLAtlC2yLfkSGhqtyCvC7VaJaXE4tMm8-x20IbHDEnL_1or4A8CAFMAQMCxCOrv4IGgoKCAgBEgTeaqHYDAsQne3BCRq2AQojCg92ZW50aWxhdGlvbiBmYW7apYj2AwwKCi9tLzBoOG44bTIKHwoMY29tcHV0ZXIgZmFu2qWI9gMLCgkvbS8wYmY3eHIKJAoRZWxlY3Ryb25pY3MgYnJhbmTapYj2AwsKCS9qLzc0NnRiYgojCg9jZW50cmlmdWdhbCBmYW7apYj2AwwKCi9tLzAycWYxaDUKIwoRY29tcHV0ZXIgaGFyZHdhcmXapYj2AwoKCC9tLzAxbWZqDA&sxsrf=ALiCzsbqF0Qa4hIF694l7IwWlxcfi3smGA:1654964738626&q=msi+geforce+3060+ventus+2x&tbm=isch&ved=2ahUKEwjM_PGK6KX4AhVOUMAKHaQ0AIkQwg4oAHoECAEQMw&biw=2560&bih=1315&dpr=1",
          "image": "componenet-msi-graphic.jpg",
-         "image1": "benq-monitor.jpg",
-         "image2": "benq-monitor.jpg",
-         "weight": 4.6,
-         "dimension": 60.77
+         "image1": "componenet-msi-graphic1.jpg",
+         "image2": "componenet-msi-graphic2.jpg",
+         "weight": 1.9,
+         "dimension": "N/A"
       }
    },
 
@@ -239,10 +239,10 @@
       "fields": {
          "sku": "pp5001340545",
          "name": "Medion Crawler E25 Gaming Laptop,AMD Ryzen 5-5600H 3.3GHz",
-         "description": "AMD Ryzen 5-5600H 3.3GHz 8GB RAM, 512GB SSD 15.' Full HD Display",
+         "description": "AMD Ryzen 5-5600H 3.3GHz 8GB RAM, 512GB SSD 15.' Full HD Display, 1 Year Warranty",
          "price": 744.99,
+         "discount": null,
          "category": 6,
-         "rating": 4.4,
          "image_url": "https://www.google.com/search?q=Medion+Crawler+E25+Gaming+Laptop,&client=firefox-b-d&sxsrf=ALiCzsYK2kYggKEihksmMoJ6q2g_qmlBVw:1662371189166&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjkxNuhr_35AhVlmVwKHdHZCegQ_AUoAnoECAIQBA&biw=2560&bih=1315&dpr=1",
          "image": "laptop2.jpg",
          "image1": "laptop2-1.jpg",
@@ -257,10 +257,10 @@
       "fields": {
          "sku": "pp5001340156",
          "name": "ASUS ZenBook UX325EA, Intel Core i5-1135G7 2.4GHz, 13.3' Full HD OLED",
-         "description": "Intel Core i5-1135G7 2.4GHz 8GB DDR4, 512GB NVMe + 32GB Optane 13.3",
+         "description": "Intel Core i5-1135G7 2.4GHz 8GB DDR4, 512GB NVMe + 32GB Optane 13.3, 1 Year Warranty",
          "price": 589.99,
+         "discount": null,
          "category": 6,
-         "rating": 4.5,
          "image_url": "https://www.google.com/search?q=ASUS+ZenBook+UX325EA&tbm=isch&ved=2ahUKEwjslfGkr_35AhWKyYUKHW60Dv8Q2-cCegQIABAA&oq=ASUS+ZenBook+UX325EA&gs_lcp=CgNpbWcQAzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgYIABAeEAUyBggAEB4QCDIGCAAQHhAIMgYIABAeEAg6BAgAEBhQ7ghY7ghg6QxoAHAAeACAAXeIAbcBkgEDMS4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=e8UVY6zsMIqTlwTu6Lr4Dw&bih=1315&biw=2560&client=firefox-b-d",
          "image": "laptop3.jpg",
          "image1": "laptop3-1.jpg",
@@ -274,11 +274,11 @@
       "model": "products.product",
       "fields": {
          "sku": "pp5001340157",
-         "name": "ASUS X515EA Intel Core i3-1115G4 up to 4.1GHz 15.6' Full HD",
+         "name": "ASUS X515EA Intel Core i3-1115G4 up to 4.1GHz 15.6' Full HD OLED",
          "description": "Intel Core i3-1115G4 up to 4.1GHz 8GB DDR4 256GB NVMe M.2 SSD,UHD Graphics",
          "price": 399.99,
+         "discount": null,
          "category": 6,
-         "rating": 4.7,
          "image_url": "https://www.google.com/search?q=ASUS+X515EA+Intel+Core+i3-1115G4+up+&tbm=isch&ved=2ahUKEwii4JaCsf35AhUXw4UKHc34AZMQ2-cCegQIABAA&oq=ASUS+X515EA+Intel+Core+i3-1115G4+up+&gs_lcp=CgNpbWcQAzoECCMQJzoFCAAQgAQ6BggAEB4QBToGCAAQHhAIUN4XWN4XYOweaABwAHgAgAFTiAGUAZIBATKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=S8cVY-KONpeGlwTN8YeYCQ&bih=1315&biw=2560&client=firefox-b-d",
          "image": "laptop4.jpg",
          "image1": "laptop4-1.jpg",
@@ -293,10 +293,10 @@
       "fields": {
          "sku": "pp5001340158",
          "name": "Acer TravelMate P2 Core i3 8GB 128GB SSD 14' Win10 Home",
-         "description": "Intel Core i3 1115G4 3GHz 8GB RAM + 128GB SSD Intel UHD Graphics",
+         "description": "Intel Core i3 1115G4 3GHz 8GB RAM + 128GB SSD Intel UHD Graphics 1 Year Warranty",
          "price": 269.99,
+         "discount": null,
          "category": 6,
-         "rating": 4.3,
          "image_url": "https://www.google.com/search?q=Acer+TravelMate+P2+Core+i3+8GB+128GB+SSD+14%22+Win10+Home&tbm=isch&ved=2ahUKEwit8pWBsv35AhWlgc4BHaVNDKsQ2-cCegQIABAA&oq=Acer+TravelMate+P2+Core+i3+8GB+128GB+SSD+14%22+Win10+Home&gs_lcp=CgNpbWcQA1AAWABghQhoAHAAeACAAUeIAUeSAQExmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=VsgVY63vDKWDur4PpZux2Ao&bih=1315&biw=2560&client=firefox-b-d",
          "image": "laptop5.jpg",
          "image1": "laptop5-1.jpg",
@@ -313,8 +313,8 @@
          "name": "ASUS VivoBook M513UA, AMD Ryzen 7 5700U 15.6' OLED, Full HD ",
          "description": "AMD Ryzen 7 5700U 16GB RAM, 512GB SSD Intel UHD Graphics, Windows 11 Home",
          "price": 669.99,
+         "discount": null,
          "category": 6,
-         "rating": 4.4,
          "image_url": "https://www.google.com/search?q=ASUS+VivoBook+M513UA&tbm=isch&ved=2ahUKEwi_0tHAsv35AhUHaRoKHS2fBIcQ2-cCegQIABAA&oq=ASUS+VivoBook+M513UA&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQHhAIMgYIABAeEAgyBAgAEB4yBggAEB4QBTIECAAQGDIECAAQGDIECAAQGFCXCViXCWDbDWgAcAB4AIABYIgBnQGSAQEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=28gVY__4EofSaa2-krgI&bih=1315&biw=2560&client=firefox-b-d",
          "image": "laptop6.jpg",
          "image1": "laptop6-1.jpg",
@@ -329,10 +329,10 @@
       "fields": {
          "sku": "pp50013401510",
          "name": "Razer Blade Pro 17 Gaming Laptop, Intel Core i7-10875H 2.3GHz",
-         "description": "Intel Core i3 1115G4 3GHz 8GB RAM + 128GB SSD Intel UHD Graphics",
+         "description": "Intel Core i3 1115G4 3GHz 8GB RAM + 128GB SSD Intel UHD Graphics, 1 Year Warranty",
          "price": 1299.99,
+         "discount": null,
          "category": 6,
-         "rating": 4.9,
          "image_url": "https://www.google.com/search?q=Razer+Blade+Pro+17+Gaming+Laptop%2C+Intel+Core+i7-10875H+2.3GHz&tbm=isch&ved=2ahUKEwiI1dectP35AhUMNxoKHc8hDEkQ2-cCegQIABAA&oq=Razer+Blade+Pro+17+Gaming+Laptop%2C+Intel+Core+i7-10875H+2.3GHz&gs_lcp=CgNpbWcQAzoECCMQJzoFCAAQgAQ6BggAEB4QCDoECAAQHjoGCAAQHhAFOgQIABAYUKQLWKQLYKURaABwAHgAgAFqiAGqAZIBAzEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=qMoVY4jhL4zuaM_DsMgE&bih=1315&biw=2560&client=firefox-b-d",
          "image": "laptop7.jpg",
          "image1": "laptop7-1.jpg",
@@ -349,8 +349,8 @@
          "name": "MSI Katana GF76 12UD-026UK Gaming Laptop, Intel Core i7-12700H up to 4.7GHz",
          "description": "Intel Core i7-12700H up to 4.7GHz, GeForce RTX 3050 Ti 4GB",
          "price": 999.99,
+         "discount": null,
          "category": 6,
-         "rating": 4.5,
          "image_url": "https://www.google.com/search?q=MSI+Katana+GF76+12UD-026UK+Gaming+Laptop%2C+Intel+Core+i7-12700H+up+to+4.7GHz&tbm=isch&ved=2ahUKEwiu3JDktP35AhURnRoKHR6xAE8Q2-cCegQIABAA&oq=MSI+Katana+GF76+12UD-026UK+Gaming+Laptop%2C+Intel+Core+i7-12700H+up+to+4.7GHz&gs_lcp=CgNpbWcQAzoECCMQJ1C3Cli3CmC0D2gAcAB4AIABf4gBuwGSAQMxLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=PssVY67FJZG6ap7igvgE&bih=1315&biw=2560&client=firefox-b-d",
          "image": "laptop8.jpg",
          "image1": "laptop8-1.jpg",
@@ -364,11 +364,11 @@
       "model": "products.product",
       "fields": {
          "sku": "pp50013401512",
-         "name": "AlphaSync 4000X RTX 3070Ti Intel Core i9 11900KF 16GB RAM 1TB Desktop PC",
+         "name": "AlphaSync 4000X RTX 3070Ti Intel Core i9 11900KF 16GB RAM 1TB Desktop PC 1 Year Warranty",
          "description": "Intel Core i9 11900KF 3.5GHz 16GB RAM, 1TB HDD, 500GB SSD",
          "price": 1799.99,
+         "discount": null,
          "category": 5,
-         "rating": 3.5,
          "image_url": "https://www.google.com/search?q=AlphaSync+4000X+RTX+3070Ti+Intel+Core+i9+11900KF+16GB+RAM+1TB+HDD+500GB+SSD+Desktop+PC&tbm=isch&ved=2ahUKEwiYju_Otf35AhUaShoKHXKHBEwQ2-cCegQIABAA&oq=AlphaSync+4000X+RTX+3070Ti+Intel+Core+i9+11900KF+16GB+RAM+1TB+HDD+500GB+SSD+Desktop+PC&gs_lcp=CgNpbWcQAzIECCMQJ1DSDFjSDGC6EGgAcAB4AIABW4gBlwGSAQEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=HswVY5iHHJqUafKOkuAE&bih=1315&biw=2560&client=firefox-b-d",
          "image": "pc1-image.jpg",
          "image1": "pc1-image1.jpg",
@@ -385,8 +385,8 @@
          "name": "AlphaSync Obsidian RTX 3070Ti AMD Ryzen 7 32GB RAM 4TB Gaming Desktop PC",
          "description": "AMD Ryzen 7 5800X 3.8 GHz 32GB RAM, 1TB SSD WiFi & Windows",
          "price": 2199.99,
+         "discount": null,
          "category": 5,
-         "rating": 4.5,
          "image_url": "https://www.google.com/search?q=AlphaSync+Obsidian+RTX+3070Ti+AMD+Ryzen+7+32GB+RAM+4TB+HDD+1TB+SSD+Gaming+Desktop+PC&tbm=isch&ved=2ahUKEwith72Ft_35AhUJ4BoKHSMTBRwQ2-cCegQIABAA&oq=AlphaSync+Obsidian+RTX+3070Ti+AMD+Ryzen+7+32GB+RAM+4TB+HDD+1TB+SSD+Gaming+Desktop+PC&gs_lcp=CgNpbWcQAzoECCMQJ1CdHlidHmCnImgAcAB4AIABYogBnQGSAQEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=nc0VY-3EGYnAa6OmlOAB&bih=1315&biw=2560&client=firefox-b-d",
          "image": "pc2-image.jpg",
          "image1": "pc2-image1.jpg",
@@ -400,11 +400,11 @@
       "model": "products.product",
       "fields": {
          "sku": "pp50013401514",
-         "name": "AlphaSync Pure Base 500 Gaming Desktop PC Intel Core i5 12400 16GB RAM",
+         "name": "AlphaSync Pure Base 500 Gaming Desktop PC Intel Core i5 12400 16GB RAM 1 Year Warranty",
          "description": "Intel Core i5 12400 2.5GHz 16GB RAM,NVIDIA GeForce 3070",
          "price": 1199.99,
+         "discount": null,
          "category": 5,
-         "rating": 3.4,
          "image_url": "https://www.google.com/search?q=AlphaSync+Pure+Base+500+Gaming+Desktop+PC+Intel+Core+i5+12400+16GB+RAM&tbm=isch&ved=2ahUKEwinmeu2uP35AhVS2xoKHUvyByEQ2-cCegQIABAA&oq=AlphaSync+Pure+Base+500+Gaming+Desktop+PC+Intel+Core+i5+12400+16GB+RAM&gs_lcp=CgNpbWcQAzoECCMQJ1DEDFjEDGCmEWgAcAB4AIABPogBeZIBATKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=Ec8VY-fMFtK2a8vkn4gC&bih=1315&biw=2560&client=firefox-b-d",
          "image": "pc3-image.jpg",
          "image1": "pc3-image1.jpg",
@@ -418,11 +418,11 @@
       "model": "products.product",
       "fields": {
          "sku": "pp50013401515",
-         "name": "AlphaSync Diamond RX 6600 XT Intel Core i5 480GB SSD Gaming Desktop PC",
-         "description": "Intel Core i5 11400F 2.6GHz 16GB RAM, 1TB HDD, 480GB SSD AMD Radeon",
+         "name": "AlphaSync Diamond RX 6600 XT Intel Core i5 480GB SSD Gaming Desktop PC 1 Year Warranty",
+         "description": "Intel Core i5 11400F 2.6GHz 16GB RAM, 1TB HDD, 480GB SSD",
          "price": 899.99,
+         "discount": null,
          "category": 5,
-         "rating": 3.6,
          "image_url": "https://www.google.com/search?q=AlphaSync+Diamond+RX+6600+XT+Intel+Core+i5+16GB+RAM+1TB+HDD+480GB+SSD+Gaming+Desktop+PC&tbm=isch&ved=2ahUKEwigvO6Suf35AhVPxYUKHXkOBQ8Q2-cCegQIABAA&oq=AlphaSync+Diamond+RX+6600+XT+Intel+Core+i5+16GB+RAM+1TB+HDD+480GB+SSD+Gaming+Desktop+PC&gs_lcp=CgNpbWcQAzoECCMQJ1CSD1iSD2D7E2gAcAB4AIABY4gBnAGSAQEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=0s8VY6CLFs-KlwT5nJR4&bih=1315&biw=2560&client=firefox-b-d",
          "image": "pc4-image.jpg",
          "image1": "pc4-image1.jpg",
@@ -436,11 +436,11 @@
       "model": "products.product",
       "fields": {
          "sku": "pp50013401516",
-         "name": "AlphaSync 7000X RTX 3090 Intel Core i9 12th Gen 64GB Gaming Desktop PC",
+         "name": "AlphaSync 7000X RTX 3090 Intel Core i9 12th Gen 64GB Gaming Desktop PC 1 Year Warranty",
          "description": "Intel Core i9 12900KS 3.4GHz 64GB DDR5 RAM, 1TB SSD, 1TB SSD",
          "price": 3999.99,
+         "discount": null,
          "category": 5,
-         "rating": 4.8,
          "image_url": "https://www.google.com/search?q=AlphaSync+7000X+RTX+3090+Intel+Core+i9+12th+Gen+64GB+2TB+SSD+Windows+11+Home+Gaming+Desktop+PC&tbm=isch&ved=2ahUKEwjarePkuf35AhWIgc4BHZFvBTEQ2-cCegQIABAA&oq=AlphaSync+7000X+RTX+3090+Intel+Core+i9+12th+Gen+64GB+2TB+SSD+Windows+11+Home+Gaming+Desktop+PC&gs_lcp=CgNpbWcQAzoECCMQJ1CJD1iJD2DCFmgAcAB4AIABW4gBmQGSAQEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=ftAVY9r2CIiDur4Pkd-ViAM&bih=1315&biw=2560&client=firefox-b-d",
          "image": "pc5-image.jpg",
          "image1": "pc5-image1.jpg",
@@ -457,12 +457,12 @@
          "name": "Xenta MT AMD Ryzen 7 16GB RAM 500GB SSD WiFi No OS Desktop PC",
          "description": "AMD Ryzen 7 PRO 5750G 3.8GHz, 500GB SSD AMD Radeon Graphics WiFi, No Operating System",
          "price": 499.99,
+         "discount": null,
          "category": 5,
-         "rating": 2.5,
          "image_url": "https://www.google.com/search?q=Xenta+MT+AMD+Ryzen+7+16GB+RAM+500GB+SSD+WiFi+No+OS+Desktop+PC&tbm=isch&ved=2ahUKEwjJ-4_Juv35AhVCexoKHatMAFIQ2-cCegQIABAA&oq=Xenta+MT+AMD+Ryzen+7+16GB+RAM+500GB+SSD+WiFi+No+OS+Desktop+PC&gs_lcp=CgNpbWcQAzoECCMQJ1DsCljsCmCoD2gAcAB4AIABbIgBqAGSAQMxLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=UNEVY8mTJML2aauZgZAF&bih=1315&biw=2560&client=firefox-b-d",
-         "image": "pc6-image.jpg",
-         "image1": "pc6-image1.jpg",
-         "image2": "pc6-image2.jpg",
+         "image": "xenta-pc.jpg",
+         "image1": "xenta-pc1.jpg",
+         "image2": "xenta-pc2.jpg",
          "weight": 14,
          "dimension": "N/A"
       }
@@ -473,10 +473,10 @@
       "fields": {
          "sku": "pp50013401518",
          "name": "Tomahawk ATX RTX 3070Ti Intel Core i9 11900KF 16GB RAM 2TB Desktop PC",
-         "description": "Intel Core i9 11900KF 3.5GHz 16GB RAM, 1TB HDD, 500GB SSD",
+         "description": "Intel Core i9 11900KF 3.5GHz 16GB RAM, 1TB HDD, 500GB SSD, 1 Year Warranty",
          "price": 2999.99,
+         "discount": null,
          "category": 5,
-         "rating": 4.8,
          "image_url": "https://www.google.com/search?q=razer+pc&tbm=isch&ved=2ahUKEwiJ_YPdu_35AhUHlBoKHdLJA3YQ2-cCegQIABAA&oq=razer+pc&gs_lcp=CgNpbWcQAzIECCMQJzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOggIABCxAxCDAToLCAAQgAQQsQMQgwE6CAgAEIAEELEDOgQIABBDOgcIABCxAxBDOgcIIxDqAhAnUPcSWIFBYOJCaAJwAHgAgAFiiAGzBpIBAjEzmAEAoAEBqgELZ3dzLXdpei1pbWewAQrAAQE&sclient=img&ei=htIVY4miL4eoatKTj7AH&bih=1315&biw=2560&client=firefox-b-d",
          "image": "razer-pc.jpg",
          "image1": "razer-pc1.jpg",
@@ -491,15 +491,360 @@
       "fields": {
          "sku": "pp50013401519",
          "name": "Linksys EA7300 MAX-STREAM AC1750 MU-MIMO Gigabit Wi-Fi Router",
-         "description": "Up to 1.7 Gbps Wi-Fi speeds Seamless Roaming Easy setup MU-MIMO",
-         "price": 42.99,
+         "description": "Up to 1.7 Gbps Wi-Fi speeds Seamless Roaming Easy setup MU-MIMO 1 Year Warranty",
+         "price": 52.99,
+         "discount": 42.99,
          "category": 3,
-         "rating": 4.8,
          "image_url": "https://www.google.com/search?q=Linksys+EA7300+MAX-STREAM+AC1750+MU-MIMO+Gigabit+Wi-Fi+Router&tbm=isch&ved=2ahUKEwjLpbLfvP35AhXhhM4BHQrPBFwQ2-cCegQIABAA&oq=Linksys+EA7300+MAX-STREAM+AC1750+MU-MIMO+Gigabit+Wi-Fi+Router&gs_lcp=CgNpbWcQAzIECAAQGDoECCMQJzoFCAAQgAQ6BAgAEENQvQlYvQlg5g5oAHAAeACAAW6IAaIBkgEDMS4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=mNMVY8v5CeGJur4Pip6T4AU&bih=1315&biw=2560&client=firefox-b-d",
          "image": "clearance2.jpg",
          "image1": "clearance2-1.jpg",
-         "image2": "clearance2-2.jpg",
+         "image2": "clearance2.jpg",
          "weight": 21,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 29,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401520",
+         "name": "ASUS ROG SWIFT PG259QNR 24.5'Full HD IPS Gaming Monitor",
+         "description": "1920 x 1080 Full HD DisplayPort & HDMI 360hz / 1ms Response Time Panel Type: IPS",
+         "price": 739.99,
+         "discount": 549.99,
+         "category": 3,
+         "image_url": "https://www.google.com/search?q=ASUS+ROG+SWIFT+PG259QNR+24.5&tbm=isch&ved=2ahUKEwiXi8Ov_Yj6AhX6hc4BHVy-AQ0Q2-cCegQIABAA&oq=ASUS+ROG+SWIFT+PG259QNR+24.5&gs_lcp=CgNpbWcQAzIECCMQJzIECAAQHjIECAAQGDIECAAQGDoGCAAQHhAIUJ0JWJ0JYOsNaABwAHgAgAGSAYgBxwGSAQMxLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=wdsbY9emDPqLur4P3PyGaA&bih=1315&biw=2560&hl=en_GB",
+         "image": "clearance3.jpg",
+         "image1": "clearance3-1.jpg",
+         "image2": "clearance3-2.jpg",
+         "weight": 7.1,
+         "dimension": "55.7 cm x 24.7 cm x 37.9 cm"
+      }
+   },
+   {
+      "pk": 30,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401521",
+         "name": "WD Gold 16TB Enterprise Class Internal Hard Drive - 7200 RPM Class, SATA 6 Gb/s, 512 MB Cache, 3.5",
+         "description": "Capacity: 2TB Spin Speed: 7200RPM Cache: 128MB Form Factor: 3.5'",
+         "price": 139.99,
+         "discount": 119.99,
+         "category": 3,
+         "image_url": "https://www.google.com/search?q=wd+gold&tbm=isch&ved=2ahUKEwir7YSqhon6AhUXgM4BHUCKBIQQ2-cCegQIABAA&oq=wd+gold&gs_lcp=CgNpbWcQAzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECAAQHjoECAAQGDoLCAAQgAQQsQMQgwE6CAgAELEDEIMBOggIABCABBCxAzoECAAQQ1DLDVjQImCeJWgAcAB4AIABhQGIAaYEkgEDNy4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=JeUbY-vGJZeAur4PwJSSoAg&bih=1315&biw=2560&hl=en_GB",
+         "image": "clearance4.jpg",
+         "image1": "clearance4-1.jpg",
+         "image2": "clearance4-2.jpg",
+         "weight": 1.2,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 31,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401522",
+         "name": "Nintendo Switch (Neon Red/Neon Blue) 2 Year full Warranty",
+         "description": "Nintendo Switch Console Red/Blue Joy-Con Controllers Switch Docking Station Undock for portable gaming",
+         "price": 249.99,
+         "discount": 219.99,
+         "category": 3,
+         "image_url": "https://www.google.com/search?q=nintendo+switch+(neon+red%2Fneon+blue)&tbm=isch&ved=2ahUKEwj0pZHCh4n6AhUUw4UKHQWcAlUQ2-cCegQIABAA&oq=nin&gs_lcp=CgNpbWcQARgAMgQIIxAnMgcIABCxAxBDMgQIABBDMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyCwgAEIAEELEDEIMBMggIABCABBCxAzoFCAAQgAQ6CAgAELEDEIMBULELWLkPYPAgaABwAHgAgAFjiAH-AZIBATSYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=ZOYbY_TjI5SGlwSFuIqoBQ&bih=1315&biw=2560&hl=en_GB",
+         "image": "clearance5.jpg",
+         "image1": "clearance5-1.jpg",
+         "image2": "clearance5-2.jpg",
+         "weight": 0.300,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 32,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401523",
+         "name": "Xbox Series S 512GB Digital Console 1 Year Warranty",
+         "description": "Custom 512GB SSD Internal Storage Native 1440p Resolution Gaming up to 120fps Digital Edition",
+         "price": 299.99,
+         "discount": 249.99,
+         "category": 3,
+         "image_url": "https://www.google.com/search?q=x+box+series+s&tbm=isch&ved=2ahUKEwiY6LCmiIn6AhWCg84BHYQLByoQ2-cCegQIABAA&oq=x+box+series+s&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEB4QCDIGCAAQHhAIMgYIABAeEAgyBggAEB4QCDIGCAAQHhAIMgYIABAeEAg6BAgjECc6BAgAEB46CwgAEIAEELEDEIMBOggIABCABBCxAzoICAAQsQMQgwE6BwgAELEDEEM6BAgAEENQvA5Y-zNgnTZoAHAAeACAAb8BiAGPB5IBBDE0LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=NucbY5j1MYKHur4PhJec0AI&bih=1315&biw=2560&hl=en_GB",
+         "image": "clearance6.jpg",
+         "image1": "clearance6-1.jpg",
+         "image2": "clearance6-2.jpg",
+         "weight": 3.1,
+         "dimension": "N/A"
+      }
+   },
+   {
+      "pk": 33,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401524",
+         "name": "Google Nest Hub 2nd Gen Charcoal 1 Year Warranty",
+         "description": "Listen From Room to Room Connects with Your Favorite Streaming Services Control Your Home",
+         "price": 74.99,
+         "discount": 49.99,
+         "category": 3,
+         "image_url": "https://www.google.com/search?q=google+nest+hub+2nd+gen+charcoal&tbm=isch&ved=2ahUKEwj-jfP_iIn6AhVC3RoKHRpjBksQ2-cCegQIABAA&oq=google+nest+hub&gs_lcp=CgNpbWcQARgAMgQIIxAnMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgYIABAeEAg6CAgAELEDEIMBOggIABCABBCxAzoECAAQQzoHCAAQsQMQQzoKCAAQsQMQgwEQQ1C_CliiMWCkP2gAcAB4AIABZogBsQeSAQQxNS4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=8ucbY_7MIcK6a5rGmdgE&bih=1315&biw=2560&hl=en_GB",
+         "image": "clearance7.jpg",
+         "image1": "clearance7-1.jpg",
+         "image2": "clearance7-2.jpg",
+         "weight": 0.558,
+         "dimension": "17.74 cm x 6.95 cm x 12.04 cm"
+      }
+   }, {
+      "pk": 34,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401525",
+         "name": "Epson Ecotank ET-2810 Multifunction Colour A4 Inkjet Printer",
+         "description": "Function: Print, Copy, Fax Print Speed: Up to 33ppm Interface: USB, Wireless & Wi-Fi Direct Duplex: Manual",
+         "price": 199.99,
+         "discount": 149.99,
+         "category": 3,
+         "image_url": "https://www.google.com/search?q=Epson+Ecotank+ET-2810+Multifunction+Colour+A4+Inkjet+Printer&tbm=isch&ved=2ahUKEwjz0sbZiYn6AhUFWBoKHfF3B58Q2-cCegQIABAA&oq=Epson+Ecotank+ET-2810+Multifunction+Colour+A4+Inkjet+Printer&gs_lcp=CgNpbWcQAzIECAAQGDoECCMQJ1C6DVi6DWCZFGgAcAB4AIABcYgBqwGSAQMxLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=rugbY_PDIoWwafHvnfgJ&bih=1315&biw=2560&hl=en_GB",
+         "image": "clearance8.jpg",
+         "image1": "clearance8-1.jpg",
+         "image2": "clearance8-2.jpg",
+         "weight": 3.9,
+         "dimension": "37.5 cm x 34.7 cm x 17.9 cm"
+      }
+   }, {
+      "pk": 35,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401526",
+         "name": "AlphaSync AMD Ryzen 5 3600 Asus PRIME X570-P RTX 3050",
+         "description": "AMD Ryzen 5 3600 Asus PRIME X570-P AM4 ATX 16GB Corsair Vengeance LPX 3200MHz ",
+         "price": 799.99,
+         "discount": 749.99,
+         "category": 4,
+         "image_url": "https://www.google.com/search?q=AlphaSync+AMD+Ryzen+5+3600+Asus+PRIME+X570-P&client=firefox-b-d&sxsrf=ALiCzsYZOsqTgepFUFXGH_WBw_kvdpBTPw:1662775173811&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj86M2ckIn6AhXSS8AKHXATAF8Q_AUoA3oECAEQBQ&biw=2549&bih=1309&dpr=1",
+         "image": "deal1-motherboard.jpg",
+         "image1": "deal1-motherboard1.jpg",
+         "image2": "deal1-motherboard2.jpg",
+         "weight": 4.1,
+         "dimension": "N/A"
+      }
+   }, {
+      "pk": 36,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401527",
+         "name": "Startech 4-Port USB PCIe Card - 10Gbps USB 3.1/3.2 Gen 2 Type-A PCI ",
+         "description": "USB 3.2 Gen 2 (10 Gbps) PCI-Express 3.0 PCIe x4 Slot USB Type-A, 1 Year Warranty",
+         "price": 89.99,
+         "discount": 69.99,
+         "category": 4,
+         "image_url": "https://www.google.com/search?q=Startech+4-Port+USB+PCIe+Card+-+10Gbps+USB+3.1%2F3.2+Gen+2+Type-A+PCI+Express&tbm=isch&ved=2ahUKEwiIkKGekIn6AhUG_RoKHSPPDLoQ2-cCegQIABAA&oq=Startech+4-Port+USB+PCIe+Card+-+10Gbps+USB+3.1%2F3.2+Gen+2+Type-A+PCI+Express&gs_lcp=CgNpbWcQAzoECCMQJ1DyD1jyD2CbFWgAcAB4AIABa4gBrgGSAQMxLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=ie8bY8inEIb6a6Oes9AL&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "deal2-motherboard.jpg",
+         "image1": "deal2-motherboard1.jpg",
+         "image2": "deal2-motherboard2.jpg",
+         "weight": 0.79,
+         "dimension": "2 cm x 12.5 cm x 8.5 cm"
+      }
+   }, {
+      "pk": 37,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401528",
+         "name": "Thermaltake Toughpower GF 850 Watt 80+ Gold Fully Modular Power Supply",
+         "description": "850W 80+ Gold Fully Modular SLI/CrossFire 140mm Fan, ATX,",
+         "price": 99.99,
+         "discount": 79.99,
+         "category": 4,
+         "image_url": "https://www.google.com/search?q=Thermaltake+Toughpower+GF+850+Watt+80%2B+Gold+Fully+Modular+Power+Supply&tbm=isch&ved=2ahUKEwiumYGskYn6AhUGaRoKHTRMCNIQ2-cCegQIABAA&oq=Thermaltake+Toughpower+GF+850+Watt+80%2B+Gold+Fully+Modular+Power+Supply&gs_lcp=CgNpbWcQAzIECAAQGFC8C1i8C2CnEGgAcAB4AIABfIgB6gGSAQMwLjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=svAbY674IIbSabSYoZAN&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "deal3-motherboard.jpg",
+         "image1": "deal3-motherboard1.jpg",
+         "image2": "deal3-motherboard2.jpg",
+         "weight": 2.79,
+         "dimension": "N/A"
+      }
+   }, {
+      "pk": 38,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401529",
+         "name": "Asus X570 ROG CROSSHAIR VIII HERO AM4 DDR4 ATX Motherboard",
+         "description": "Socket AM4 RYZEN 9 Support 4x DIMM DDR4 ATX Form Factor, 1 Year full Warranty",
+         "price": 199.99,
+         "discount": 179.99,
+         "category": 4,
+         "image_url": "https://www.google.com/search?q=Asus+X570+ROG+CROSSHAIR+VIII+HERO+AM4+DDR4+ATX+Motherboard&tbm=isch&ved=2ahUKEwjdyZKYkon6AhUV44UKHZ3XDyoQ2-cCegQIABAA&oq=Asus+X570+ROG+CROSSHAIR+VIII+HERO+AM4+DDR4+ATX+Motherboard&gs_lcp=CgNpbWcQAzoECCMQJ1C8Cli8CmC0D2gAcAB4AIABYYgBmwGSAQEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=lfEbY52rE5XGlwSdr7_QAg&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "deal4-motherboard.jpg",
+         "image1": "deal4-motherboard1.jpg",
+         "image2": "deal4-motherboard2.jpg",
+         "weight": 1,
+         "dimension": "Width 30.5 cm x Depth 24.4 cm"
+      }
+   }, {
+      "pk": 39,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401530",
+         "name": "MSI Vigor GK30 RGB Gaming Keyboard",
+         "description": "Mechanical-like plunger switches for a crisp typing experience Stunning RGB lighting effects",
+         "price": 49.99,
+         "discount": 39.99,
+         "category": 4,
+         "image_url": "https://www.google.com/search?q=MSI+Vigor+GK30+RGB+Gaming+Keyboard&tbm=isch&ved=2ahUKEwi7v5uPk4n6AhVQ0oUKHVb2AWUQ2-cCegQIABAA&oq=MSI+Vigor+GK30+RGB+Gaming+Keyboard&gs_lcp=CgNpbWcQAzIFCAAQgAQyBAgAEBg6BAgjECdQtglYtglgqQ5oAHAAeACAAVyIAZUBkgEBMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=j_IbY_u7AdCklwTW7IeoBg&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "deal5-motherboard.jpg",
+         "image1": "deal5-motherboard1.jpg",
+         "image2": "deal5-motherboard2.jpg",
+         "weight": 1.2,
+         "dimension": "N/A"
+      }
+   }, {
+      "pk": 40,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401531",
+         "name": "Logitech G PRO Wireless Gaming Mouse 1 Year Warranty",
+         "description": "16000 Max DPI 1 Ms Report Rate 80 G - Ultra Lightweight 4-8 Programmable Buttons Lightspeed Wireless",
+         "price": 98.99,
+         "discount": 74.99,
+         "category": 4,
+         "image_url": "https://www.google.com/search?q=Logitech+G+PRO+Wireless+Gaming+Mouse&tbm=isch&ved=2ahUKEwjhopH9k4n6AhUTaRoKHd6OCgQQ2-cCegQIABAA&oq=Logitech+G+PRO+Wireless+Gaming+Mouse&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQHhAIMgYIABAeEAgyBggAEB4QCDIGCAAQHhAIOgQIIxAnOgQIABAYUNUJWNUJYNYOaABwAHgAgAFIiAGNAZIBATKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=dfMbY6GUIZPSad6dqiA&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "deal6-motherboard.jpg",
+         "image1": "deal6-motherboard1.jpg",
+         "image2": "deal6-motherboard2.jpg",
+         "weight": 0.80,
+         "dimension": "Width 6.35 cm x Depth 12.5 cm x Height 4 cm"
+      }
+   }, {
+      "pk": 41,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401532",
+         "name": "Sony DualSense PS5 Wireless Controller - Cosmic Red",
+         "description": "Haptic feedback Adaptive triggers Built-in microphone and headset jack Built-in battery",
+         "price": 59.99,
+         "discount": 49.99,
+         "category": 4,
+         "image_url": "https://www.google.com/search?q=Sony+DualSense+PS5+Wireless+Controller+-+Cosmic+Red&tbm=isch&ved=2ahUKEwiWkrTalIn6AhVRzYUKHaSbCZAQ2-cCegQIABAA&oq=Sony+DualSense+PS5+Wireless+Controller+-+Cosmic+Red&gs_lcp=CgNpbWcQAzIECAAQGDoECCMQJzoFCAAQgAQ6BggAEB4QCFDxCFjxCGDbDWgAcAB4AIABc4gBtAGSAQMxLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=OfQbY9aRCdGalwSkt6aACQ&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "deal7-motherboard.jpg",
+         "image1": "deal7-motherboard1.jpg",
+         "image2": "deal7-motherboard2.jpg",
+         "weight": 0.280,
+         "dimension": "Width 16 cm x Depth 10.6 cm x Height 6.6 cm"
+      }
+   }, {
+      "pk": 42,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401533",
+         "name": "Elgato Wave:3 PREMIUM MICROPHONE & DIGITAL MIXING SOLUTION",
+         "description": "Tight cardioid polar pattern captures speech with precision Up to 24-bit / 96kHz analog to digital conversion",
+         "price": 184.99,
+         "discount": null,
+         "category": 2,
+         "image_url": "https://www.google.com/search?q=Elgato+Wave%3A3+PREMIUM+MICROPHONE+%26+DIGITAL+MIXING+SOLUTION&tbm=isch&ved=2ahUKEwj7wozBlYn6AhUXgM4BHUCKBIQQ2-cCegQIABAA&oq=Elgato+Wave%3A3+PREMIUM+MICROPHONE+%26+DIGITAL+MIXING+SOLUTION&gs_lcp=CgNpbWcQAzoECAAQGFC-Cli-CmCsD2gAcAB4AIABX4gBkwGSAQEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=EPUbY_v6HpeAur4PwJSSoAg&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "wave-3-mic.webp",
+         "image1": "wave-3-mic1.webp",
+         "image2": "wave-3-mic2.webp",
+         "weight": 0.280,
+         "dimension": "Width 6.6 cm x Depth 4 cm x Height 15.3 cm"
+      }
+   }, {
+      "pk": 43,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401534",
+         "name": "Razer Wolverine V2 Chroma - Xbox Series X|S Controller",
+         "description": "Interchangeable Thumbstick Caps For Greater Accuracy (6 Additional Multi-Functional Buttons)",
+         "price": 134.99,
+         "discount": null,
+         "category": 2,
+         "image_url": "https://www.google.com/search?q=Razer+Wolverine+V2+Chroma+-+Xbox+Series+X%7CS+Controller+with+Razer+Chroma+(6+Additional+Multi-Functional+Buttons%2C+&tbm=isch&ved=2ahUKEwjE1ce_l4n6AhUI7xoKHUOcB4IQ2-cCegQIABAA&oq=Razer+Wolverine+V2+Chroma+-+Xbox+Series+X%7CS+Controller+with+Razer+Chroma+(6+Additional+Multi-Functional+Buttons%2C+&gs_lcp=CgNpbWcQA1CmDFimDGDqEWgAcAB4AIABPIgBPJIBATGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=JvcbY8SqCYjea8O4npAI&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "razer-controller-parts.jpg",
+         "image1": "razer-controller1-parts.jpg",
+         "image2": "razer-controller2-parts.jpg",
+         "weight": 0.274,
+         "dimension": "Width 16.15 cm x Depth 10.68 cm x Height 6.5 cm"
+      }
+   }, {
+      "pk": 44,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401535",
+         "name": "Corsair Vengeance RGB White PRO 16GB (2 x 8GB) DDR4 2666MHz",
+         "description": "Dynamic Multi-Zone Lighting Next Generation Software Maximum Bandwidth and Tight Response Times",
+         "price": 64.99,
+         "discount": null,
+         "category": 2,
+         "image_url": "https://www.google.com/search?q=Corsair+Vengeance+RGB+White+PRO+16GB+(2+x+8GB)+DDR4+2666MHz&tbm=isch&ved=2ahUKEwiGtMnomIn6AhUS3RoKHR4LC5AQ2-cCegQIABAA&oq=Corsair+Vengeance+RGB+White+PRO+16GB+(2+x+8GB)+DDR4+2666MHz&gs_lcp=CgNpbWcQA1AAWABgogVoAHAAeACAAWaIAWaSAQMwLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=iPgbY4bQJJK6a56WrIAJ&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "componenet4.jpg",
+         "image1": "componenet4-1.jpg",
+         "image2": "componenet4-2.jpg",
+         "weight": 0.114,
+         "dimension": "N/A"
+      }
+   }, {
+      "pk": 45,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401536",
+         "name": "Intel Core i9 12900K 12th Gen Alder Lake 16 Core Processor",
+         "description": "12th Gen Alder Lake i9 12900K Socket 1700 16 Cores 24 Threads Up to 5.2GHz 1 Year Warranty",
+         "price": 609.99,
+         "discount": null,
+         "category": 2,
+         "image_url": "https://www.google.com/search?q=Intel+Core+i9+12900K+12th+Gen+Alder+Lake+16+Core+Processor&tbm=isch&ved=2ahUKEwjGoNHwmYn6AhUV_RoKHSDRB74Q2-cCegQIABAA&oq=Intel+Core+i9+12900K+12th+Gen+Alder+Lake+16+Core+Processor&gs_lcp=CgNpbWcQA1CnC1inC2CaEGgAcAB4AIABZYgBogGSAQMxLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=pfkbY4a6OZX6a6Cin_AL&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "componenet5.jpg",
+         "image1": "componenet5-1.jpg",
+         "image2": "componenet5-2.jpg",
+         "weight": 0.50,
+         "dimension": "N/A"
+      }
+   }, {
+      "pk": 46,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401537",
+         "name": "AMD Ryzen 9 5900X AM4 Processor 1 Year full Warranty",
+         "description": "Ryzen 9 5900X 12 Cores, 24 Threads Boost Clock 4.8GHz Base clock 3.70GHz, TDP 105W",
+         "price": 399.99,
+         "discount": null,
+         "category": 2,
+         "image_url": "https://www.google.com/search?q=AMD+Ryzen+9+5900X+AM4+Processor&tbm=isch&ved=2ahUKEwjrmpbdmon6AhUQg84BHZTyATQQ2-cCegQIABAA&oq=AMD+Ryzen+9+5900X+AM4+Processor&gs_lcp=CgNpbWcQAzIECAAQGDoECCMQJ1DACVjACWCpDmgAcAB4AIABX4gBogGSAQEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=ifobY6uyIpCGur4PlOWHoAM&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "componenet6.jpg",
+         "image1": "componenet6-1.jpg",
+         "image2": "componenet6-2.jpg",
+         "weight": 0.50,
+         "dimension": "N/A"
+      }
+   }, {
+      "pk": 47,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401538",
+         "name": "Corsair 4000D AIRFLOW Mid-Tower Case - White",
+         "description": "High-airflow optimized steel front panel RapidRoute cable management system Two included",
+         "price": 74.99,
+         "discount": null,
+         "category": 2,
+         "image_url": "https://www.google.com/search?q=Corsair+4000D+AIRFLOW+Mid-Tower+Case+-+White&tbm=isch&ved=2ahUKEwiT5JOem4n6AhVkhHMKHXl-CIkQ2-cCegQIABAA&oq=Corsair+4000D+AIRFLOW+Mid-Tower+Case+-+White&gs_lcp=CgNpbWcQAzoECCMQJ1D01QpY9NUKYLLaCmgCcAB4AIABRogBhgGSAQEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=EfsbY9OXM-SIzgP5_KHICA&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "componenet7.jpg",
+         "image1": "componenet7-1.jpg",
+         "image2": "componenet7-2.jpg",
+         "weight": 7.8,
+         "dimension": "Width 23 cm x Depth 45.3 cm x Height 46.6 cm"
+      }
+   }, {
+      "pk": 48,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401539",
+         "name": "Belkin 8 Way Surge Protection Strip - 2m - BSV804AF2M",
+         "description": "8-Outlet Surge Protection Strip 2 USB Ports Ideal for TV's, stereo's, cable boxes, and other",
+         "price": 34.99,
+         "discount": null,
+         "category": 2,
+         "image_url": "https://www.google.com/search?q=Belkin+8+Way+Surge+Protection+Strip+-+2m+-+BSV804AF2M&tbm=isch&ved=2ahUKEwiomsaBnIn6AhVFgRoKHX8hB7MQ2-cCegQIABAA&oq=Belkin+8+Way+Surge+Protection+Strip+-+2m+-+BSV804AF2M&gs_lcp=CgNpbWcQA1CRDFiRDGDZEWgAcAB4AIABZYgBoAGSAQMxLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=4vsbY6ihEcWCav_CnJgL&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "componenet8.jpg",
+         "image1": "componenet8-1.jpg",
+         "image2": "componenet8-2.jpg",
+         "weight": 1.8,
          "dimension": "N/A"
       }
    }

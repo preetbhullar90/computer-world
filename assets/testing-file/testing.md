@@ -112,6 +112,7 @@ From here, if the user clicks `product management`, they are taken to the produc
 - When the admin superuser logged in, they can delete any product by clicking the `delete` button under every product image.
 
 ![](/assets/testing-file/edit-product-image.PNG)
+![](/assets/testing-file/delete-products.PNG)
 
 - Products can also be managed via the Django Administration page. This can be accessed using a specified superuser account. An admin user can access the /admin URL and login, where they will then be taken to the 'Django Administration' page:
 
