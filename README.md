@@ -209,13 +209,14 @@ To further enhance sales there is also a computer world Facebook page, which wil
 ### 3. **Home Page**
 ### 4. **Products Page**
 ### 5. **Detail Page**
-### 6. **Basket Page**
-### 7. **Checkout Page**
-### 8. **Product Management**
-### 9. **Profile Page**
-### 10. **About Page**
-### 11. **Contact Page**
-### 12. **Error Page**
+### 6. **Product Review Page**
+### 7. **Basket Page**
+### 8. **Checkout Page**
+### 9. **Product Management**
+### 10. **Profile Page**
+### 11. **About Page**
+### 12. **Contact Page**
+### 13. **Error Page**
 
 [Go Top](#Computer-World)
 
@@ -244,8 +245,13 @@ The details page has a banner on the top where users can see “free shipping ov
 - ### **Product Review Page**
 The product review page allows users to view, and submit reviews for a selected product. Users that have logged in are able to add, edit, or delete any reviews that they have submitted. Admin users can delete any review, regardless of ownership. The product reviews can only be seen under the 'review' tab which is in the product details page.
 
+### **Add Review Page**
 ![](/assets/readme-file/review-page.PNG)
+
+### **Update Review Page**
 ![](/assets/readme-file/review-edit-page.PNG)
+
+### **Delete Review Page**
 ![](/assets/readme-file/review-delete-page.PNG)
 
 - ### **Basket Page**
