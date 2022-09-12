@@ -151,11 +151,13 @@ With the ‘OrderLineItem’, the customer will be able to retrieve all the info
 
 
 ### **Products**
-In the products app, I created two models named Products & Category. This app controls the products that are displayed in the online shop.
+In the products app, I created three models named Products, Category, and Review. This app controls the products that are displayed in the online shop, as well as the reviews relating to them.
 
-Products enables individual products to be added to the database for the customer to be buy through online shop. Only admin users can add, edit, and delete products from the front end and the admin page, but the normal user can see and buy the products. The ‘Category’ model connects to the products through the foreign key.
+The Products model enables individual products to be added to the database, so that customers are able to view them. Only admin users can add, edit, and delete products from the front end and the admin page, but the normal user can see and buy the products. The ‘Category’ model connects to the products through the foreign key.
 
 Category stores various types of categories like monitors, graphics card, components, laptops etc. This category allows to users to find a specific product from the website.
+
+The Review model contains all the reviews submitted by users with an account. Users can submit, edit and delete their own reviews whilst logged in to their accounts. These reviews can be seen when on a product's details page, under the reviews tab. Both 'Product' and 'User' connects to the Review model by the foreign key.
 
 ### **Profiles**
 The Profile app allows users to save their information, so that when they are logged in and they want to purchase any product, they will get a prefilled form to save their time. The `UserProfile` model has a one-to-one field that is linked to the Django All AUTH user account, and upon logging in the model method `create_or_update_user_profile` creates the profile if it isn't already present in the model.
@@ -238,6 +240,13 @@ The products page displays all products. On the left side of the page, users can
 The details page has a banner on the top where users can see “free shipping over £200”. Under this banner,In the middle, users can see a bigger image when they click on the three smaller images, or they can also click the left and right arrows on big image to change image. Users can also download the image by clicking on one the white arrow on the top of the right corner of the big image. On the right side of the big image, users can see the product’s name, price, description so on. Under the description users can change the quantity of the product by clicking the plus or minus buttons. On the right side of the quantity button, there is a green button to add the product to the basket. To the bottom of this button, there is a button if the user wants to do more shopping. Under these buttons, users can see more additional information like product weight, height, reviews so on.
 
 ![](/assets/readme-file/detail-page.PNG)
+
+- ### **Product Review Page**
+The product review page allows users to view, and submit reviews for a selected product. Users that have logged in are able to add, edit, or delete any reviews that they have submitted. Admin users can delete any review, regardless of ownership. The product reviews can only be seen under the 'review' tab which is in the product details page.
+
+![](/assets/readme-file/review-page.PNG)
+![](/assets/readme-file/review-edit-page.PNG)
+![](/assets/readme-file/review-delete-page.PNG)
 
 - ### **Basket Page**
 The basket page has an overview of all the items added by the user. The information is displayed in a table that has product name, image, quantity, price, and subtotal. The user can change the quantity of each product and remove it while on this page, and below there are two buttons to proceed to the checkout or to keep shopping.
@@ -539,7 +548,9 @@ To deploy this project on Heroku I used followed these steps:
 ## **Credit**
 ### **Content**
 
-Products images, heading and descriptions were taken from [Ebuyer](https://www.ebuyer.com/), [Razer](https://www.razer.com/gb-en) and [Corsair](https://www.corsair.com/uk/en/) website.
+- Products images, heading and descriptions were taken from [Ebuyer](https://www.ebuyer.com/), [Razer](https://www.razer.com/gb-en) and [Corsair](https://www.corsair.com/uk/en/) website.
+
+- I used the YouTube video by [Rathan Kumar](https://www.youtube.com/watch?v=3KCBN7WJXMY) to help me create the reviews page for my website.
 
 
 ### **Code**
