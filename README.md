@@ -215,8 +215,9 @@ To further enhance sales there is also a computer world Facebook page, which wil
 ### 9. **Product Management**
 ### 10. **Profile Page**
 ### 11. **About Page**
-### 12. **Contact Page**
-### 13. **Error Page**
+### 12. **Privacy Policy Page**
+### 13. **Contact Page**
+### 14. **Error Page**
 
 [Go Top](#Computer-World)
 
@@ -282,6 +283,13 @@ The about page has a background image, which shows quality of the products we su
 
 ![](/assets/readme-file/about-page.PNG)
 
+- ### **Privacy Policy Page**
+This is the privacy policy page. It was created using the [GDPR Privacy Policy Generator](https://www.privacypolicygenerator.info/). Added link to the footer.
+
+![](/assets/readme-file/privacy_policy.PNG)
+
+### **Privacy Policy Link In The Footer**
+![](/assets/readme-file/privacy_policy1.PNG)
 
 - ### **Contact Us Page**
 The Contact Us page has a background image, which shows quality of the company. Under this image, there is form on the left side where customers can send any feedback or any problems, via email to the company. On the right side of this form, customers can see the company address, phone number, and email. Under these sections, there is a map showing where company is situated. Under this map, there is a footer, which contains all the pages links, sitemap, and subscribe/unsubscribe buttons.
@@ -557,6 +565,8 @@ To deploy this project on Heroku I used followed these steps:
 - Products images, heading and descriptions were taken from [Ebuyer](https://www.ebuyer.com/), [Razer](https://www.razer.com/gb-en) and [Corsair](https://www.corsair.com/uk/en/) website.
 
 - I used the YouTube video by [Rathan Kumar](https://www.youtube.com/watch?v=3KCBN7WJXMY) to help me create the reviews page for my website.
+
+- [GDPR Privacy Policy Generator](https://www.privacypolicygenerator.info/) was used to generate the Privacy Policy.
 
 
 ### **Code**
