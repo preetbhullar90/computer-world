@@ -38,8 +38,7 @@ def newsletter_signup(request):
             email = request.POST.get('email')
             html_message = render_to_string(
                 'aboutus/confirmation_emails/'
-                'newsletter_subscribe_confirmation.html',
-                {'name': request.user.first_name})
+                'newsletter_subscribe_confirmation.html')
             plain_message = strip_tags(html_message)
 
             send_mail(
@@ -69,8 +68,7 @@ def newsletter_unsubscribe(request):
             email = request.POST.get('email')
             html_message = render_to_string(
                 'aboutus/confirmation_emails/'
-                'newsletter_unsubscribe_confirmation.html',
-                {'name': request.user.first_name})
+                'newsletter_unsubscribe_confirmation.html')
             plain_message = strip_tags(html_message)
 
             send_mail(

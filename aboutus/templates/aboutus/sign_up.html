@@ -15,7 +15,9 @@
                         </div>
                         <div class="subscribe-text col-lg-5 col-xl-6 d-flex flex-column my-xl-auto p-0">
                             <h2 class="m-b-20 text-uppercase">SUBSCRIBE TO OUR NEWSLETTER</h2>
-                            <p>Join our newsletter for exclusive information about our Events, Promotions and Offers.
+                            <p>Join our newsletter for exclusive information about our Events, Promotions and Offers.To
+                                <ul><a class="text-secondary" href="{% url 'newsletter_unsubscribe' %}">Unsubscribe <i
+                                            class="fa fa-envelope"></i></a></ul>
                             </p>
                             <ck-newsletter class="custom-element ck-newsletter p-t-20" data-qa=component ck-newsletter>
                                 <form action="{% url 'newsletter_signup' %}" method="POST">
