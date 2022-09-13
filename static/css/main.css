@@ -1941,6 +1941,12 @@ button.mfp-close {
     height: 2px;
 }
 
+/* Privacy Policy */
+
+.privacy-page-line-height {
+    line-height: 1.5;
+}
+
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {

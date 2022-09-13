@@ -15,6 +15,11 @@ def aboutus(request):
     return render(request, 'aboutus/aboutus.html')
 
 
+def privacy_policy(request):
+    """View to return shipping and returns info page"""
+    return render(request, 'aboutus/privacy_policy.html')
+
+
 def sitemap(request):
     """ A view to return the index page """
 
