@@ -10,6 +10,7 @@ class TestAboutusViews(TestCase):
         self.sitemap_url = reverse('sitemap')
         self.newsletter_signup_url = reverse('newsletter_signup')
         self.newsletter_unsubscribe_url = reverse('newsletter_unsubscribe')
+        self.privacy_policy_url = reverse('privacy_policy')
 
     def test_aboutus_GET(self):
         response = self.client.get(self.aboutus_url)
@@ -50,3 +51,8 @@ class TestAboutusViews(TestCase):
         self.assertEquals(response.status_code, 200)
         self.assertEqual(len(mail.outbox), 1)
         self.assertEqual(mail.outbox[0].subject, 'Subject here')
+
+    def test_privacy_policy_GET(self):
+        response = self.client.get(self.privacy_policy_url)
+        self.assertEquals(response.status_code, 200)
+        self.assertTemplateUsed(response, 'aboutus/privacy_policy.html')
