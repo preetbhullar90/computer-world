@@ -847,5 +847,142 @@
          "weight": 1.8,
          "dimension": "N/A"
       }
+   },
+   {
+      "pk": 49,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401540",
+         "name": "Belkin 8 Way Surge Protection Strip - 2m - BSV804AF2M",
+         "description": "8-Outlet Surge Protection Strip 2 USB Ports Ideal for TV's, stereo's, cable boxes, and other",
+         "price": 34.99,
+         "discount": null,
+         "category": 7,
+         "image_url": "https://www.google.com/search?q=Belkin+8+Way+Surge+Protection+Strip+-+2m+-+BSV804AF2M&tbm=isch&ved=2ahUKEwiomsaBnIn6AhVFgRoKHX8hB7MQ2-cCegQIABAA&oq=Belkin+8+Way+Surge+Protection+Strip+-+2m+-+BSV804AF2M&gs_lcp=CgNpbWcQA1CRDFiRDGDZEWgAcAB4AIABZYgBoAGSAQMxLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=4vsbY6ihEcWCav_CnJgL&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "componenet8.jpg",
+         "image1": "componenet8-1.jpg",
+         "image2": "componenet8-2.jpg",
+         "weight": 1.8,
+         "dimension": "N/A"
+      }
+   }, {
+      "pk": 50,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401541",
+         "name": "Sony DualSense PS5 Wireless Controller - Cosmic Red",
+         "description": "Haptic feedback Adaptive triggers Built-in microphone and headset jack Built-in battery",
+         "price": 59.99,
+         "discount": null,
+         "category": 7,
+         "image_url": "https://www.google.com/search?q=Sony+DualSense+PS5+Wireless+Controller+-+Cosmic+Red&tbm=isch&ved=2ahUKEwiWkrTalIn6AhVRzYUKHaSbCZAQ2-cCegQIABAA&oq=Sony+DualSense+PS5+Wireless+Controller+-+Cosmic+Red&gs_lcp=CgNpbWcQAzIECAAQGDoECCMQJzoFCAAQgAQ6BggAEB4QCFDxCFjxCGDbDWgAcAB4AIABc4gBtAGSAQMxLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=OfQbY9aRCdGalwSkt6aACQ&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "deal7-motherboard.jpg",
+         "image1": "deal7-motherboard1.jpg",
+         "image2": "deal7-motherboard2.jpg",
+         "weight": 0.280,
+         "dimension": "Width 16 cm x Depth 10.6 cm x Height 6.6 cm"
+      }
+   }, {
+      "pk": 51,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401542",
+         "name": "Logitech G PRO Wireless Gaming Mouse 1 Year Warranty",
+         "description": "16000 Max DPI 1 Ms Report Rate 80 G - Ultra Lightweight 4-8 Programmable Buttons Lightspeed Wireless",
+         "price": 98.99,
+         "discount": null,
+         "category": 7,
+         "image_url": "https://www.google.com/search?q=Logitech+G+PRO+Wireless+Gaming+Mouse&tbm=isch&ved=2ahUKEwjhopH9k4n6AhUTaRoKHd6OCgQQ2-cCegQIABAA&oq=Logitech+G+PRO+Wireless+Gaming+Mouse&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQHhAIMgYIABAeEAgyBggAEB4QCDIGCAAQHhAIOgQIIxAnOgQIABAYUNUJWNUJYNYOaABwAHgAgAFIiAGNAZIBATKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=dfMbY6GUIZPSad6dqiA&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "deal6-motherboard.jpg",
+         "image1": "deal6-motherboard1.jpg",
+         "image2": "deal6-motherboard2.jpg",
+         "weight": 0.80,
+         "dimension": "Width 6.35 cm x Depth 12.5 cm x Height 4 cm"
+      }
+   }, {
+      "pk": 52,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401543",
+         "name": "MSI Vigor GK30 RGB Gaming Keyboard",
+         "description": "Mechanical-like plunger switches for a crisp typing experience Stunning RGB lighting effects",
+         "price": 49.99,
+         "discount": null,
+         "category": 7,
+         "image_url": "https://www.google.com/search?q=MSI+Vigor+GK30+RGB+Gaming+Keyboard&tbm=isch&ved=2ahUKEwi7v5uPk4n6AhVQ0oUKHVb2AWUQ2-cCegQIABAA&oq=MSI+Vigor+GK30+RGB+Gaming+Keyboard&gs_lcp=CgNpbWcQAzIFCAAQgAQyBAgAEBg6BAgjECdQtglYtglgqQ5oAHAAeACAAVyIAZUBkgEBMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=j_IbY_u7AdCklwTW7IeoBg&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "deal5-motherboard.jpg",
+         "image1": "deal5-motherboard1.jpg",
+         "image2": "deal5-motherboard2.jpg",
+         "weight": 1.2,
+         "dimension": "N/A"
+      }
+   }, {
+      "pk": 53,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401544",
+         "name": "Corsair Gaming MM800 RGB POLARIS Mouse Pad",
+         "description": "True PWM lighting technology Built-in USB pass-through port 350mm x 260mm x 5mm surface area",
+         "price": 64.99,
+         "discount": null,
+         "category": 7,
+         "image_url": "https://www.google.com/search?q=Corsair+Gaming+MM800+RGB+POLARIS+Mouse+Pad&tbm=isch&ved=2ahUKEwjA_o6ziJr6AhWWhM4BHfCeCl4Q2-cCegQIABAA&oq=Corsair+Gaming+MM800+RGB+POLARIS+Mouse+Pad&gs_lcp=CgNpbWcQAzoECCMQJzoGCAAQHhAIUIENWIENYLERaABwAHgAgAGxAogB_AKSAQUxLjMtMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=BdEkY4DoBJaJur4P8L2q8AU&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "corsair-mousemat.jpg",
+         "image1": "corsair-mousemat1.jpg",
+         "image2": "corsair-mousemat2.jpg",
+         "weight": 0.200,
+         "dimension": "Width 35cm x Depth 26cm x Height 0.5cm"
+      }
+   }, {
+      "pk": 54,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401545",
+         "name": "Corsair Virtuoso Wired/Wireless RGB Gaming Headset",
+         "description": "Up to 20 Hours Battery last Micro-perforation RGB lighting on each ear cup 1 Year Warranty",
+         "price": 161.99,
+         "discount": null,
+         "category": 7,
+         "image_url": "https://www.google.com/search?q=Corsair+Virtuoso+Special+Ed.+7.1+Gunmetal+Wired%2FWireless+RGB+Gaming+Headset&tbm=isch&ved=2ahUKEwj937fThZr6AhUKWxoKHToMDGQQ2-cCegQIABAA&oq=Corsair+Virtuoso+Special+Ed.+7.1+Gunmetal+Wired%2FWireless+RGB+Gaming+Headset&gs_lcp=CgNpbWcQAzIECAAQGFCwC1iwC2DwD2gAcAB4AIABe4gBtwGSAQMxLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=I84kY73CIYq2abqYsKAG&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "corsair-headphone.jpg",
+         "image1": "corsair-headphone1.jpg",
+         "image2": "corsair-headphone2.jpg",
+         "weight": 0.380,
+         "dimension": "Width 17cm x Depth 10cm x Height 19.5cm"
+      }
+   }, {
+      "pk": 55,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401546",
+         "name": "ASUS PRIME B560-PLUS ATX Motherboardeadset",
+         "description": "Socket LGA 1200 11th Generation Intel DDR4 Support ATX Form Factor 1 Year full Warranty",
+         "price": 99.99,
+         "discount": null,
+         "category": 2,
+         "image_url": "https://www.google.com/search?q=ASUS+PRIME+B560-PLUS+ATX+Motherboard&tbm=isch&ved=2ahUKEwj71ruIh5r6AhURKxoKHWvpAEcQ2-cCegQIABAA&oq=ASUS+PRIME+B560-PLUS+ATX+Motherboard&gs_lcp=CgNpbWcQAzIGCAAQHhAIMgQIABAYOgQIIxAnUNAJWNAJYJYOaABwAHgAgAFXiAGfAZIBATKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=n88kY7uLDJHWaOvSg7gE&bih=1315&biw=2560&client=firefox-b-d",
+         "image": "component7.jpg",
+         "image1": "component7-1.jpg",
+         "image2": "component7-2.jpg",
+         "weight": 0.380,
+         "dimension": "Width 17cm x Depth 10cm x Height 19.5cm"
+      }
+   }, {
+      "pk": 56,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp50013401547",
+         "name": "Thermaltake Toughpower GF 850 Watt 80+ Gold Fully Modular Power Supply",
+         "description": "850W 80+ Gold Fully Modular SLI/CrossFire 140mm Fan, ATX,",
+         "price": 99.99,
+         "discount": null,
+         "category": 2,
+         "image_url": "https://www.google.com/search?q=Thermaltake+Toughpower+GF+850+Watt+80%2B+Gold+Fully+Modular+Power+Supply&tbm=isch&ved=2ahUKEwiumYGskYn6AhUGaRoKHTRMCNIQ2-cCegQIABAA&oq=Thermaltake+Toughpower+GF+850+Watt+80%2B+Gold+Fully+Modular+Power+Supply&gs_lcp=CgNpbWcQAzIECAAQGFC8C1i8C2CnEGgAcAB4AIABfIgB6gGSAQMwLjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=svAbY674IIbSabSYoZAN&bih=1309&biw=2549&client=firefox-b-d",
+         "image": "deal3-motherboard.jpg",
+         "image1": "deal3-motherboard1.jpg",
+         "image2": "deal3-motherboard2.jpg",
+         "weight": 2.79,
+         "dimension": "N/A"
+      }
    }
 ]
