@@ -2,6 +2,7 @@ from django.db import models
 
 
 class NewsletterUsers(models.Model):
+    """Newsletter Model"""
 
     class Meta:
         verbose_name_plural = 'NewsletterUsers'

@@ -20,6 +20,8 @@
                 <form action="{% url 'send_email' %}" method="POST">
                     {% csrf_token %}
                     <h4 class="mtext-105 cl2 txt-center p-b-30">
+
+                        <!-- Heading -->
                         Send Us A Message
                     </h4>
 
@@ -35,15 +37,10 @@
 
                     <div class="bor8 m-b-20 how-pos4-parent">
                         <div class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30">
-
-
-
                             {{form.name}}
                         </div>
                         <img class="how-pos4 pointer-none" src="{% static 'images/icons/user.jpg' %}" alt="ICON">
                     </div>
-
-
 
                     <div class="bor8 m-b-20 how-pos4-parent ">
                         <div class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30 ">
@@ -53,14 +50,11 @@
                         </div>
                     </div>
 
-
-
                     <div class="bor8 m-b-30">
                         <div class="stext-111 cl2 plh3 size-120 p-l-28 p-t-25">
                             {{form.message}}
                         </div>
                     </div>
-
 
                     <button type="submit"
                         class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer">

@@ -1,3 +1,5 @@
+<!-- Add New product by Superuser -->
+
 {% extends "base.html" %}
 {% load static %}
 
@@ -24,6 +26,8 @@
     <div class="row">
         <div class="col-12 col-md-6">
             <form method="POST" action="{% url 'add_product' %}" class="form mb-2" enctype="multipart/form-data">
+
+                <!-- Product detail section-->
                 {% csrf_token %}
                 {% for field in form %}
                 {% if field.name != 'image' %}

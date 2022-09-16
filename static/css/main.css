@@ -60,12 +60,7 @@
 }
 
 
-/*//////////////////////////////////////////////////////////////////
-  [ RS PLUGIN ]*/
-
-/*------------------------------------------------------------------
-  [ Bootstrap ]*/
-.container {
+[ Bootstrap]*/ .container {
     max-width: 1380px;
 
 }
@@ -92,8 +87,6 @@
         text-align: center;
         margin-bottom: 10rem;
     }
-
-
 }
 
 /*------------------------------------------------------------------
@@ -101,9 +94,6 @@
 .slick-slide {
     outline: none !important;
 }
-
-
-
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -727,8 +717,6 @@ a.category-badge>span.badge {
 .header-v4 .fix-menu-desktop.container-menu-desktop {
     height: 110px;
 }
-
-
 
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -1441,7 +1429,6 @@ a.category-badge>span.badge {
 }
 
 
-
 .arrow-slick1 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1728,7 +1715,6 @@ a.category-badge>span.badge {
 .slick3-dots .slick-active .slick3-dot-overlay {
     border-color: #ccc;
 }
-
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -2838,9 +2824,6 @@ input.num-product::-webkit-inner-spin-button {
     line-height: 1.2857;
 }
 
-
-
-
 /*==================================================================
       SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE 
   ==================================================================*/
@@ -3156,8 +3139,6 @@ input.num-product::-webkit-inner-spin-button {
 .bg-img1>h2 {
     color: #fff;
 }
-
-
 
 
 /*==================================================================
@@ -3497,7 +3478,6 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 
-
 /*---------------------------------------------*/
 .how-itemcart1 {
     width: 60px;
@@ -3574,8 +3554,6 @@ input.num-product::-webkit-inner-spin-button {
     bottom: -21px;
     right: -21px;
 }
-
-
 
 /*==================================================================
         PSEUDO PSEUDO PSEUDO PSEUDO PSEUDO PSEUDO PSEUDO PSEUDO PSEUDO
@@ -3822,9 +3800,6 @@ input.num-product::-webkit-inner-spin-button {
 .hov3:hover {
     opacity: 1;
 }
-
-
-
 
 /*==================================================================
     RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE

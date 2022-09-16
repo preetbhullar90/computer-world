@@ -11,6 +11,7 @@ from profiles.models import UserProfile
 
 
 class Order(models.Model):
+    """Order Model for User information"""
     order_number = models.CharField(max_length=32, null=False, editable=False)
     user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL,
                                      null=True, blank=True, related_name='orders')
@@ -63,6 +64,7 @@ class Order(models.Model):
 
 
 class OrderLineItem(models.Model):
+    """Product Quantity, Size and price Model"""
     order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')
     product = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
     product_size = models.CharField(max_length=2, null=True, blank=True)  # 24, 27, 28, 32,

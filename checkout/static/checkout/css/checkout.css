@@ -1,3 +1,4 @@
+/* Checkout form Style */
 .StripeElement,
 .stripe-style-input {
     box-sizing: border-box;
@@ -57,6 +58,7 @@ select option[value=""] {
     z-index: 9999;
 }
 
+/* Checkout loading Spinner */
 .loading-spinner {
     display: flex;
     align-items: center;
