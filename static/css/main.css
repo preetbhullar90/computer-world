@@ -60,7 +60,8 @@
 }
 
 
-[ Bootstrap]*/ .container {
+/*[ Bootstrap]*/
+.container {
     max-width: 1380px;
 
 }
