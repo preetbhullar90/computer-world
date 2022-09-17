@@ -74,40 +74,40 @@ Please find all my defined user stories & their acceptance criteria [here](https
 
 ### **1. Sort and Searching products:**
 
-- As a **shopper** I can **sort the list of all the products** so that I can **easily find the best price, high rate and sorted by product category.**
-- As a **shopper** I can **sort product by specific categories** so that **I can sort product by specific category and find best price and best rates.**
-- As a **shopper** I can **search a product by name or description** so that **I can easily find a specific product by name which I’d like to purchase.**
-- As a **shopper** I can **see what I’ve searched for and the number of results** so that **I can easily decide whether the product I want is available.**
+- **[US#10](https://github.com/preetbhullar90/computer-world/issues/10)** As a **shopper** I can **sort the list of all the products** so that I can **easily find the best price, high rate and sorted by product category.**
+- **[US#11](https://github.com/preetbhullar90/computer-world/issues/11)** As a **shopper** I can **sort product by specific categories** so that **I can sort product by specific category and find best price and best rates.**
+- **[US#12](https://github.com/preetbhullar90/computer-world/issues/12)** As a **shopper** I can **search a product by name or description** so that **I can easily find a specific product by name which I’d like to purchase.**
+- **[US#13](https://github.com/preetbhullar90/computer-world/issues/13)** As a **shopper** I can **see what I’ve searched for and the number of results** so that **I can easily decide whether the product I want is available.**
 
 ### **2. Viewing and Navigation Functionality:**
 
-- As a **shopper** I can **view all the products** so that **I can select some products to purchase.**
-- As a **shopper** I can **see individual product details** so that **I can see product description, price, image, and sizes.**
-- As a **shopper** I can **identify deals and special offers** so that **I can take advantage of special savings some money on a product.**
-- As a **shopper** I can **see grand total of money and all product which I selected** so that **I can save lot of time.**
+- **[US#6](https://github.com/preetbhullar90/computer-world/issues/6)** As a **shopper** I can **view all the products** so that **I can select some products to purchase.**
+- **[US#7](https://github.com/preetbhullar90/computer-world/issues/7)** As a **shopper** I can **see individual product details** so that **I can see product description, price, image, and sizes.**
+- **[US#8](https://github.com/preetbhullar90/computer-world/issues/8)** As a **shopper** I can **identify deals and special offers** so that **I can take advantage of special savings some money on a product.**
+- **[US#9](https://github.com/preetbhullar90/computer-world/issues/9)** As a **shopper** I can **see grand total of money and all product which I selected** so that **I can save lot of time.**
 
 ### **3. Purchase and checkout products:**
 
-- As a **shopper** I can **easily select a size and quantity of product** so that **I can select right size and quantity of a product when I buy it.**
-- As a **shopper** I can **easily view items in my bag** so that **I can identify the total cost of purchase.**
-- As a **shopper** I can **adjust the quantity of my bag** so that **I can make any changes before buy.**
-- As a **shopper** I can **add my personal payment information safe and secure** so that **I can confidently provide the information to make a purchase.**
-- As a **shopper** I can **view my order confirmation after checkout** so that **I can easily see that I didn't make any mistake.**
-- As a **shopper** I can **receive confirmation email after checkout** so that **I can keep that email as a proof what I have brought from store.**
+- **[US#14](https://github.com/preetbhullar90/computer-world/issues/14)** As a **shopper** I can **easily select a size and quantity of product** so that **I can select right size and quantity of a product when I buy it.**
+- **[US#15](https://github.com/preetbhullar90/computer-world/issues/15)** As a **shopper** I can **easily view items in my bag** so that **I can identify the total cost of purchase.**
+- **[US#16](https://github.com/preetbhullar90/computer-world/issues/16)** As a **shopper** I can **adjust the quantity of my bag** so that **I can make any changes before buy.**
+- **[US#17](https://github.com/preetbhullar90/computer-world/issues/17)** As a **shopper** I can **add my personal payment information safe and secure** so that **I can confidently provide the information to make a purchase.**
+- **[US#18](https://github.com/preetbhullar90/computer-world/issues/18)** As a **shopper** I can **view my order confirmation after checkout** so that **I can easily see that I didn't make any mistake.**
+- **[US#19](https://github.com/preetbhullar90/computer-world/issues/19)** As a **shopper** I can **receive confirmation email after checkout** so that **I can keep that email as a proof what I have brought from store.**
 
 ### **4. Admin and Store management:**
 
-- As a **shop owner** I can **add new product** so that **I can add new items to my store.**
-- As a **shop owner** I can **easily Edit and Update a product** so that **I can update images prices and other criteria.**
-- As a **shop owner** I can **easily delete a discontinued product** so that **I can Remove items from store site.**
+- **[US#20](https://github.com/preetbhullar90/computer-world/issues/20)** As a **shop owner** I can **add new product** so that **I can add new items to my store.**
+- **[US#21](https://github.com/preetbhullar90/computer-world/issues/21)** As a **shop owner** I can **easily Edit and Update a product** so that **I can update images prices and other criteria.**
+- **[US#22](https://github.com/preetbhullar90/computer-world/issues/22)** As a **shop owner** I can **easily delete a discontinued product** so that **I can Remove items from store site.**
 
 ### **5. User Authentication:**
 
-- As a **user** I can **create a personal user profile** so that **I can view my personal order and save my payment information.**
-- As a **user** I can **receive a confirmation email after registering an account** so that **I can verify that my account registration was successfully.**
-- As a **user** I can **recover my password in case I forget it** so that **I can recover access to my account.**
-- As a **User** I can **login or logout my account** so that **I can access my personal account information.**
-- As a **user** I can **create a personal account** so that **I can view my profile.**
+- **[US#5](https://github.com/preetbhullar90/computer-world/issues/5)** As a **user** I can **create a personal user profile** so that **I can view my personal order and save my payment information.**
+- **[US#4](https://github.com/preetbhullar90/computer-world/issues/4)** As a **user** I can **receive a confirmation email after registering an account** so that **I can verify that my account registration was successfully.**
+- **[US#3](https://github.com/preetbhullar90/computer-world/issues/3)** As a **user** I can **recover my password in case I forget it** so that **I can recover access to my account.**
+- **[US#2](https://github.com/preetbhullar90/computer-world/issues/2)** As a **User** I can **login or logout my account** so that **I can access my personal account information.**
+- **[US#1](https://github.com/preetbhullar90/computer-world/issues/1)** As a **user** I can **create a personal account** so that **I can view my profile.**
 
 [Go Top](#Computer-World)
 
