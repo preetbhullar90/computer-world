@@ -16,7 +16,6 @@ class ProductForm(forms.ModelForm):
     image2 = forms.ImageField(label='',
                               required=False, widget=CustomClearableFileInput)
     price = forms.CharField(required=False)
-    discount = forms.CharField(required=False)
 
     def clean_price(self, *args, **kwargs):
         """ Validate Price field  """
@@ -28,17 +27,6 @@ class ProductForm(forms.ModelForm):
             raise forms.ValidationError(
                 "Price should not have special characters.")
         return price
-
-    def clean_discount(self, *args, **kwargs):
-        """ Validate Discount field  """
-
-        discount = self.cleaned_data.get("discount")
-        if len(discount) == '' or len(discount) < 1:
-            raise forms.ValidationError("Discount field is required.")
-        if '@' in discount or '-' in discount or '|' in discount or '*' in discount:
-            raise forms.ValidationError(
-                "Discount should not have special characters.")
-        return discount
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
