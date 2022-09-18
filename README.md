@@ -41,9 +41,11 @@
 
 15. [**Make a clone**](#Make-a-clone)
 
-16. [**Credit**](#Credit)
+16. [**Future Improvements**](#Future-Improvements)
 
-17. [**Acknowledgements**](#Acknowledgements)
+17. [**Credit**](#Credit)
+
+18. [**Acknowledgements**](#Acknowledgements)
 
 ## **Introduction**
 
@@ -206,6 +208,8 @@ To further enhance sales and brand recognition there is also a computer world Fa
 ![](/assets/readme-file/facebook-page.PNG)
 
 ## **Page-by-Page Breakdown**
+
+I used [Figma](https://www.figma.com/file/xGZ1gadhIzf7MHrQTEKplK/Computer-world?node-id=0%3A1 "Link to Figma homepage") Wireframe to show the different pages in the website breakdown.
 
 ### 1. **Header**
 ### 2. **Home Page**
@@ -560,6 +564,18 @@ To deploy this project on Heroku I used followed these steps:
 ![](/assets/readme-file/heroku-image.PNG)
 
 [Go Top](#Computer-World)
+
+## **Future Improvements**
+
+There are few features that I would like to implement into future revisions of the website:
+
+- Implement a "Wish List" Basket for registered users.
+- The ability to create new categories from the front-end, allowing admins to actively update the product stack.
+- The ability to display an average rating for products, based off the average rating of individual user review.
+- Actively update stock numbers in the back-end whenever a purchase is made.
+- Registering users via social medias e.g. Google or Facebook
+
+These features would compliment the current user experience from both a consumer and admin point of view, and would create a better user environment as a whole.
 
 ## **Credit**
 ### **Content**
