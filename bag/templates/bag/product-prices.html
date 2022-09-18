@@ -1,6 +1,6 @@
 <!-- Show Product Discount price If product has discount -->
 {% if item.product.discount %}
-<p class="my-0">Price Each: ${{ item.product.discount }}</p>
+<p class="my-0">Price Each: £{{ item.product.discount }}</p>
 {% else %}
-<p class="my-0">Price Each: ${{ item.product.price }}</p>
+<p class="my-0">Price Each: £{{ item.product.price }}</p>
 {% endif %}

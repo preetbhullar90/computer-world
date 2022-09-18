@@ -52,9 +52,9 @@
                         <!-- Bag Subtotal -->
                         {% include "bag/product-prices.html" %}
                         {% if item.product.discount|default_if_none:'' %}
-                        <p><strong>Subtotal: </strong>${{ item.product.discount | calc_subtotal:item.quantity }}</p>
+                        <p><strong>Subtotal: </strong>£{{ item.product.discount | calc_subtotal:item.quantity }}</p>
                         {% else %}
-                        <p><strong>Subtotal: </strong>${{ item.product.price | calc_subtotal:item.quantity }}</p>
+                        <p><strong>Subtotal: </strong>£{{ item.product.price | calc_subtotal:item.quantity }}</p>
                         {% endif %}
                     </div>
                     <div class="col-12 col-sm-6">
@@ -97,9 +97,9 @@
                         </td>
                         <td class="py-3 border-0">
                             {% if item.product.discount %}
-                            <p class="my-0">${{ item.product.discount|calc_subtotal:item.quantity  }}</p>
+                            <p class="my-0">£{{ item.product.discount|calc_subtotal:item.quantity  }}</p>
                             {% else %}
-                            <p class="my-0">${{ item.product.price|calc_subtotal:item.quantity  }}</p>
+                            <p class="my-0">£{{ item.product.price|calc_subtotal:item.quantity  }}</p>
                             {% endif %}
                         </td>
                     </tr>

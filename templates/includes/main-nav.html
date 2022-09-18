@@ -15,7 +15,7 @@
                 <li><a href="{% url 'products' %}?sort=price&direction=asc">By Price</a></li>
                 <li><a href="{% url 'products' %}?sort=review&direction=desc">By Rating</a></li>
                 <li><a href="{% url 'products' %}?sort=category&direction=asc">By Category</a></li>
-                <li><a href="{% url 'products' %}?category=monitors">All Products</a></li>
+                <li><a href="{% url 'products' %}">All Products</a></li>
             </ul>
             <span class="arrow-main-menu-m">
                 <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -26,7 +26,7 @@
         <li>
             <a href="{% url 'products' %}">COMPUTING</a>
             <ul class="sub-menu-m">
-                <li><a href="{% url 'products' %}?category=pc">Pc</a></li>
+                <li><a href="{% url 'products' %}?category=pc">PC</a></li>
                 <li><a href="{% url 'products' %}?category=components">Components</a></li>
                 <li><a href="{% url 'products' %}?category=Peripherals">Peripherals</a></li>
                 <li><a href="{% url 'products' %}?category=laptops">Laptops</a></li>
@@ -60,7 +60,7 @@
 
     <li>
         <div class="right-top-bar flex-w h-full">
-            Free shipping for standard order over ${{free_delivery_threshold}}
+            Free shipping for standard order over £{{free_delivery_threshold}}
         </div>
     </li>
 </ul>

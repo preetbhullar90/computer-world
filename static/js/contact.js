@@ -7,7 +7,7 @@ function contactform() {
     let form_field3 = document.getElementById('id_message');
 
     if (form_field1 !== null) {
-        form_field1.placeholder = 'Your Name', form_field1.className += ' text-dark shadow-none';
+        form_field1.placeholder = 'Name', form_field1.className += ' text-dark shadow-none';
 
         form_field1.style.width = '100%';
         form_field1.style.height = '50px';

@@ -140,10 +140,10 @@ def delete_product(request, product_id):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
-    review = get_object_or_404(Product, pk=product_id)
+    product_delete = get_object_or_404(Product, pk=product_id)
 
     if request.method == 'POST':
-        review.delete()
+        product_delete.delete()
         messages.success(request, 'Your Product has been deleted!')
         return redirect(reverse('products'))
 
