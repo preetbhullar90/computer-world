@@ -19,33 +19,35 @@
 
 5. [**Marketing**](#Marketing)
 
-6. [**Bugs**](#Bugs)
+6. [**Page-by-Page Breakdown**](#Page-by-Page-Breakdown)
 
-7. [**Other Features**](#Other-Features)
+7. [**Bugs**](#Bugs)
 
-8. [**Technologies Used**](#Technologies-Used)
+8. [**Other Features**](#Other-Features)
 
-9. [**Frameworks Libraries and Programs Used**](#Frameworks-Libraries-and-Programs-Used)
+9. [**Technologies Used**](#Technologies-Used)
 
-10. [**Testing**](#Testing)
+10. [**Frameworks Libraries and Programs Used**](#Frameworks-Libraries-and-Programs-Used)
+
+11. [**Testing**](#Testing)
 
     - [**Testings.md**](assets/testing-file/testing.md)
 
-11. [**User Feedback**](#User-Feedback)
+12. [**User Feedback**](#User-Feedback)
 
-12. [**Search Engine Optimisation**](#Search-Engine-Optimisation)
+13. [**Search Engine Optimisation**](#Search-Engine-Optimisation)
 
-13. [**Deployment**](#Deployment)
+14. [**Deployment**](#Deployment)
 
-14. [**Make a clone**](#Make-a-clone)
+15. [**Make a clone**](#Make-a-clone)
 
-15. [**Credit**](#Credit)
+16. [**Credit**](#Credit)
 
-16. [**Acknowledgements**](#Acknowledgements)
+17. [**Acknowledgements**](#Acknowledgements)
 
 ## **Introduction**
 
-This is my 5th and final portfolio project at code institute. This project is designed to be an Online Computer Retailer, which allows the customer to buy computer products and components. This project is a computer shop website designed to advertise the shop and to allow the customer to buy products and components. On the website, customers can buy any product as a guest as they don’t need to register to buy any product. But if they want to save their information then they must register. This website has been deployed on Heroku.
+This is my 5th and final portfolio project at code institute. This project is designed to be an Online Computer Retailer, which allows the customer to buy computer products and components. This project is a computer shop website designed to advertise the shop and to allow the customer to buy products and components. On the website, customers can buy products by either searching for a specific product using the search bar, or by browsing through the different categories found in the navigation bar. Customers can also purchase products as a guest, but can save their delivery details if they do create an account. Registered users can also submit reviews for products, including a rating from 1-5 stars. CRUD funcitonality is also present for authorised users, such as website administrators and registered users, to an extent. This website has been deployed on Heroku.
 
 [View the live project here](https://preet-computer-world.herokuapp.com/)
 
@@ -60,6 +62,7 @@ The target audience for 'Computer World' are:
 
 - Computer Enthusiasts.
 - IT Professionals.
+- Streamers or Casual Gamers
 
 These users will be looking for:
 
@@ -67,6 +70,12 @@ These users will be looking for:
 - All the products price, description, and new product up to date every day.
 - User account functionality to view past orders and store billing information.
 - Sign up newsletter for see deals, new products everyday.
+
+### **Business Plan**
+
+Computer-World website is a business to consumer e-commerce platform, built and designed to sell products and services directly between a business and consumers. Before beginning this project I wrote a marketing plan which discusses the background of the business. The document can be found here:
+
+[Marketing plan](/assets/documents/Computer-World-Business-Models.pdf)
 
 ### **User Stories**
 
@@ -192,32 +201,25 @@ The Profile app allows users to save their information, so that when they are lo
 
 ## **Marketing**
 
-### **Plan**
-
-Computer-World website is a business to consumer e-commerce platform, built and designed to sell products and services directly between a business and consumers. Before beginning this project I wrote a marketing plan which can be found here:
-
-[Marketing plan](/assets/documents/Computer-World-Business-Models.pdf)
-
-To further enhance sales there is also a computer world Facebook page, which will display all products that are for sale:
+To further enhance sales and brand recognition there is also a computer world Facebook page, which will display all products that are for sale:
 
 ![](/assets/readme-file/facebook-page.PNG)
 
+## **Page-by-Page Breakdown**
 
-
-### 1. **Features**
-### 2. **Header**
-### 3. **Home Page**
-### 4. **Products Page**
-### 5. **Detail Page**
-### 6. **Product Review Page**
-### 7. **Basket Page**
-### 8. **Checkout Page**
-### 9. **Product Management**
-### 10. **Profile Page**
-### 11. **About Page**
-### 12. **Privacy Policy Page**
-### 13. **Contact Page**
-### 14. **Error Page**
+### 1. **Header**
+### 2. **Home Page**
+### 3. **Products Page**
+### 4. **Detail Page**
+### 5. **Product Review Page**
+### 6. **Basket Page**
+### 7. **Checkout Page**
+### 8. **Product Management**
+### 9. **Profile Page**
+### 10. **About Page**
+### 11. **Privacy Policy Page**
+### 12. **Contact Page**
+### 13. **Error Page**
 
 [Go Top](#Computer-World)
 
