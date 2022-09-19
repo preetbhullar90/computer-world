@@ -1,5 +1,5 @@
 from django import forms
-from .widgets import CustomClearableFileInput
+from .widgets import CustomClearableFileInputImage, CustomClearableFileInputImage1, CustomClearableFileInputImage2
 from .models import Product, Category, Review
 
 
@@ -10,11 +10,11 @@ class ProductForm(forms.ModelForm):
         fields = '__all__'
 
     image = forms.ImageField(label='Image',
-                             required=False, widget=CustomClearableFileInput)
-    image1 = forms.ImageField(label='',
-                              required=False, widget=CustomClearableFileInput)
-    image2 = forms.ImageField(label='',
-                              required=False, widget=CustomClearableFileInput)
+                             required=False, widget=CustomClearableFileInputImage)
+    image1 = forms.ImageField(label='Image1',
+                              required=False, widget=CustomClearableFileInputImage1)
+    image2 = forms.ImageField(label='Image2',
+                              required=False, widget=CustomClearableFileInputImage2)
     price = forms.CharField(required=False)
 
     def clean_price(self, *args, **kwargs):

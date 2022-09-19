@@ -30,7 +30,7 @@
                 <!-- Update product Section -->
                 {% csrf_token %}
                 {% for field in form %}
-                {% if field.name != 'image' %}
+                {% if field.name != 'image' and field.name != 'image1' and field.name != 'image2'%}
                 {{ field | as_crispy_field }}
                 {% else %}
                 {{ field }}
@@ -51,7 +51,17 @@
 <script type="text/javascript">
     $('#new-image').change(function () {
         var file = $('#new-image')[0].files[0];
-        $('#filename').text(`Image will be set to: ${file.name}`);
+        $('#filename').text(`Image 1 will be set to: ${file.name}`);
+    });
+
+    $('#new-image1').change(function () {
+        var file1 = $('#new-image1')[0].files[0];
+        $('#filename1').text(`Image 2 will be set to: ${file1.name}`);
+    });
+
+    $('#new-image2').change(function () {
+        var file2 = $('#new-image2')[0].files[0];
+        $('#filename2').text(`Image 3 will be set to: ${file2.name}`);
     });
 </script>
 {% endblock %}
