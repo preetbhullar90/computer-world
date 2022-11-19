@@ -2,7 +2,7 @@
 
 ![**Computer World Images**](assets/testing-file/am-i-responsive.PNG)
 
-[**View the live project here**](https://preet-computer-world.herokuapp.com/)
+[**View the live project here**](https://computer-world.onrender.com/)
 
 ## **Contents**
 1. [**Introduction**](#Introduction)
@@ -51,7 +51,7 @@
 
 This is my 5th and final portfolio project at code institute. This project is designed to be an Online Computer Retailer, which allows the customer to buy computer products and components. This project is a computer shop website designed to advertise the shop and to allow the customer to buy products and components. On the website, customers can buy products by either searching for a specific product using the search bar, or by browsing through the different categories found in the navigation bar. Customers can also purchase products as a guest, but can save their delivery details if they do create an account. Registered users can also submit reviews for products, including a rating from 1-5 stars. CRUD funcitonality is also present for authorised users, such as website administrators and registered users, to an extent. This website has been deployed on Heroku.
 
-[View the live project here](https://preet-computer-world.herokuapp.com/)
+[View the live project here](https://computer-world.onrender.com/)
 
 [Go Top](#Computer-World)
 

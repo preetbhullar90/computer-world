@@ -2,7 +2,7 @@
 
 [**README.md file**](/README.md)
 
-[**View live project**](https://preet-computer-world.herokuapp.com/)
+[**View live project**](https://computer-world.onrender.com/)
 
 ## Table of contents
 1. [**Testing User Stories**](#Testing-User-Stories)
