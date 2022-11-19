@@ -1,1 +1,0 @@
-web: gunicorn computer_world.wsgi:application
