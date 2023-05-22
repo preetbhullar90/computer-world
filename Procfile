@@ -1,1 +1,1 @@
-web: gunicorn preet-computer-world.wsgi:application
+web: gunicorn computer-world.wsgi:application
