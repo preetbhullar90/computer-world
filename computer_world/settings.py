@@ -35,6 +35,7 @@ ALLOWED_HOSTS = ['preet-computer-world.herokuapp.com', 'localhost']
 #     ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
