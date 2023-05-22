@@ -27,7 +27,6 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-
 ALLOWED_HOSTS = ['preet-computer-world.herokuapp.com', 'localhost']
 
 # Add Render.com URL to allowed hosts
